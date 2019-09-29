@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import upanishadJSON from '../../../../assets/data/scriptures/upanishad.json';
 
 @Component({
   selector: 'app-upanishad',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UpanishadComponent implements OnInit {
 
-  constructor() { }
+  upanishad: any[];
 
-  ngOnInit() {
+  constructor() {
+    this.upanishad = upanishadJSON.upanishad;
   }
+
+  ngOnInit() { }
 
 }

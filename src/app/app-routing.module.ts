@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
 import { HomeComponent } from './pages/home/home.component';
 import { LibraryComponent } from './pages/library/library.component';
 import { LinksComponent } from './pages/links/links.component';
@@ -16,7 +18,8 @@ const routes: Routes = [
   { path: 'library/links', component: LinksComponent },
   { path: 'prayers', component: PrayersComponent },
   { path: 'bhajans', component: BhajansComponent },
-  { path: 'sanskaara', component: SanskaaraComponent }
+  { path: 'sanskaara', component: SanskaaraComponent },
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

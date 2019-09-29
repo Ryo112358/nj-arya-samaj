@@ -1,1 +1,36 @@
-<p>upanishad works!</p>
+<div class="row">
+    <div class="col-auto">
+
+        <h2 class="text-center">Upanishad</h2>
+        <div class="table-responsive-md">
+            <table class="table text-center">
+                <caption>Scriptures translated, interpreted, and explained by Pandit Sanjay</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Section</th>
+                        <th scope="col">Mantras</th>
+                        <th scope="col">Explanation</th>
+                        <th scope="col">Audio</th>
+                        <th scope="col">Synopsis</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let section of upanishad">
+                        <td class="align-middle">{{ section.title }}</td>
+                        <td class="align-middle">{{ section.mantras }}</td>
+                        <td class="align-middle">
+                            <a [href]="section.document" class="anchor anchor-icon" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                        </td>
+                        <td class="align-middle">
+                            <a [href]="section.audio" class="anchor anchor-icon" target="_blank"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a>
+                        </td>
+                        <td class="text-left">
+                            <p *ngFor="let paragraph of section.summary">{{ paragraph }}</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

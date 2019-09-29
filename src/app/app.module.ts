@@ -9,6 +9,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { ScripturesModule } from './scriptures/scriptures.module';
 
 import { AppComponent } from './app.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
 import { FooterComponent } from './footer/footer.component';
 
@@ -23,7 +24,7 @@ import { SanskaaraComponent } from './pages/sanskaara/sanskaara.component';
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, FooterComponent, NavigationBarComponent, LibraryComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent],
+  declarations: [AppComponent, HomeComponent, FooterComponent, NavigationBarComponent, LibraryComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent, PageNotFoundComponent],
   imports: [
     BrowserModule,
     FormsModule,

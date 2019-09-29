@@ -12,6 +12,10 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #E54158;
 }
 
+.anchor-icon {
+    font-size: 2rem;
+}
+
 .spacer-vertical {
     height: 3rem;
 }

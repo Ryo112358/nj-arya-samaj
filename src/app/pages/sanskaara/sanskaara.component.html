@@ -16,10 +16,10 @@
                         <td>{{ sanskaara.name }}</td>
                         <td>{{ sanskaara.description }}</td>
                         <td class="text-center">
-                            <a href="" class="anchor"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                            <a [href]="sanskaara.document" class="anchor anchor-icon" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                         </td>
                         <td class="text-center">
-                            <a href="" class="anchor"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a>
+                            <a [href]="sanskaara.audio" class="anchor anchor-icon" target="_blank"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a>
                         </td>
                     </tr>
                 </tbody>
