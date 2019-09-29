@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col text-center">
+        <br>
+        <h3>Collection of Links on Vaidik Literature</h3>
+        <ul class="list-group list-group-flush">
+            <li *ngFor="let link of links" class="list-group-item">
+                <a [href]="link.href" class="anchor" target="_blank">
+                    {{ link.name }}
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,34 @@
+{
+    "events": [
+        {
+            "name": "Guru Poornima",
+            "date": "July 21st",
+            "time": "9:00 - 11:30 AM",
+            "year": 2019
+        },
+        {
+            "name": "Rakshaa Bandhan",
+            "date": "August 18th",
+            "time": "9:00 - 11:30 AM",
+            "year": 2019
+        },
+        {
+            "name": "Janmaashtami",
+            "date": "August 25th",
+            "time": "9:00 - 11:30 AM",
+            "year": 2019
+        },
+        {
+            "name": "Dashaharaa",
+            "date": "October 13th",
+            "time": "9:00 - 11:30 AM",
+            "year": 2019
+        },
+        {
+            "name": "Diwali",
+            "date": "October 27th",
+            "time": "9:00 - 11:30 AM",
+            "year": 2019
+        }
+    ]
+}

@@ -1,1 +1,37 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.anchor {
+    cursor: pointer;
+    color: inherit;
+}
+
+.anchor:hover {
+    color: #E54158;
+}
+
+.spacer-vertical {
+    height: 3rem;
+}
+
+.bg1 {
+    background-color: crimson;
+}
+
+.bg2 {
+    background-color: purple;
+}
+
+.bg3 {
+    background-color: forestgreen;
+}
+
+.bg4 {
+    background-color: chocolate;
+}
+
+.bg5 {
+    background-color: olivedrab;
+}

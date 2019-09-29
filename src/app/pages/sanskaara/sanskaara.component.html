@@ -1,0 +1,29 @@
+<div class="row justify-content-center">
+        <div class="col-auto">
+    
+            <h2 class="text-center">Sanskaaras</h2><br>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Sanskaara</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Document</th>
+                        <th scope="col">Audio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let sanskaara of sanskaaras">
+                        <td>{{ sanskaara.name }}</td>
+                        <td>{{ sanskaara.description }}</td>
+                        <td class="text-center">
+                            <a href="" class="anchor"><i class="fa fa-file-text" aria-hidden="true"></i></a>
+                        </td>
+                        <td class="text-center">
+                            <a href="" class="anchor"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+    
+        </div>
+    </div>

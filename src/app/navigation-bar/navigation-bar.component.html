@@ -18,25 +18,28 @@
                     Scriptures
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">Bhagawad Geetaa</a>
-                    <a class="dropdown-item" href="#">Rig Veda</a>
-                    <a class="dropdown-item" href="#">Yajur Veda</a>
-                    <a class="dropdown-item" href="#">Saama Veda</a>
-                    <a class="dropdown-item" href="#">Atharva Veda</a>
-                    <a class="dropdown-item" href="#">Upanishad</a>
+                    <a class="dropdown-item" [routerLink]="['scriptures', 'bhagavad-geetaa']">Bhagavad Geetaa</a>
+                    <div class="dropdown-divider"></div>
+                    <span class="dropdown-item-text font-weight-bold">Vedas</span>
+                    <a class="dropdown-item" [routerLink]="['scriptures', 'veda-rig']">Rig Veda</a>
+                    <a class="dropdown-item" [routerLink]="['scriptures', 'veda-yajur']">Yajur Veda</a>
+                    <a class="dropdown-item" [routerLink]="['scriptures', 'veda-saama']">Saama Veda</a>
+                    <a class="dropdown-item" [routerLink]="['scriptures', 'veda-atharva']">Atharva Veda</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" [routerLink]="['scriptures', 'upanishad']">Upanishad</a>
                 </div>
             </li>
         </ul>
 
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" routerLinkActive="active">Bhajans</a>
+                <a class="nav-link" [routerLink]="['bhajans']" routerLinkActive="active">Bhajans</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLinkActive="active">Prayers</a>
+                <a class="nav-link" [routerLink]="['prayers']" routerLinkActive="active">Prayers</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" routerLinkActive="active">Sanskaara</a>
+                <a class="nav-link" [routerLink]="['sanskaara']" routerLinkActive="active">Sanskaara</a>
             </li>
         </ul>
     </div>

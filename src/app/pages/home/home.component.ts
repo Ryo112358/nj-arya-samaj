@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import temple_events from '../../assets/docs/temple-events.json';
+import mandir_events from '../../../assets/data/mandir-events.json';
 
 @Component({
   selector: 'app-home',
@@ -9,10 +9,10 @@ import temple_events from '../../assets/docs/temple-events.json';
 })
 export class HomeComponent implements OnInit {
 
-  events: any[] = null;
+  events: any[];
 
   constructor() {
-    this.events = temple_events.events;
+    this.events = mandir_events.events;
   }
 
   ngOnInit() {

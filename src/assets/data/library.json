@@ -1,0 +1,142 @@
+{
+    "articles": [
+     {
+       "name": "Poetic Meters Used in Vedas",
+       "path": "./docs/Chhanda.pdf"
+     },
+     {
+       "name": "Acts of Cleansing prior to Sandhya and Havan",
+       "path": "./docs/Shuddhi.pdf"
+     },
+     {
+       "name": "Article in Propakaaree May 2019",
+       "path": "./docs/ShuddhiPropkari.pdf"
+     },
+     {
+       "name": "Did Hanumaan set Lankaa on fire? by Sardaar Yashavantasinh Varmaa",
+       "path": "./docs/HanumaanaLankaaFire.pdf"
+     },
+     {
+       "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan - Hindi Translation",
+       "path": "./docs/HanumaanHindi.pdf"
+     },
+     {
+       "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan - English Translation",
+       "path": "./docs/HanumaanEnglish.pdf"
+     },
+     {
+       "name": "Be Fearless",
+       "path": "./docs/AbhayaSanket.pdf"
+     },
+     {
+       "name": "Article in Propakaaree December 2018",
+       "path": "./docs/AbhayaSanketParopakarini.pdf"
+     },
+     {
+       "name": "Chanting Rules",
+       "path": "./docs/ChantingRules.pdf"
+     },
+     {
+       "name": "Issues with Om Jai Jagadeesh Hare",
+       "path": "./docs/OmJaiJagadeesh.pdf"
+     },
+     {
+       "name": "Mandukya Upanishad",
+       "path": "./docs/mandukya.pdf"
+     },
+     {
+       "name": "Om Explained",
+       "path": "./docs/OmExplained.pdf"
+     },
+     {
+       "name": "Gaayatree Mantra Explained",
+       "path": "./docs/GaayatreeMantra.pdf"
+     },
+     {
+       "name": "Idol Worship: Cause of social ills",
+       "path": "./docs/moortipooja.pdf"
+     },
+     {
+       "name": "Article in Propakaaree June 2018",
+       "path": "./docs/201806Propkari.pdf"
+     },
+     {
+       "name": "Who is an Arya",
+       "path": "./docs/whoisanarya.pdf"
+     },
+     {
+       "name": "How many Gods do Hindus have?",
+       "path": "./docs/hindugods.pdf"
+     },
+     {
+       "name": "Importance of giving",
+       "path": "./docs/giving.pdf"
+     },
+     {
+       "name": "16 Sanskars",
+       "path": "./docs/Sanskars.pdf"
+     },
+     {
+       "name": "Avoid negative news media in favor of your mental peace",
+       "path": "./docs/AvoidNews.pdf"
+     },
+     {
+       "name": "Sankrit Grammar (In Progress)",
+       "path": "./docs/SanskritGrammar.pdf"
+     }
+    ],
+    "links": [
+      {
+        "name": "Ayurvedum",
+        "href": "https://www.ayurvedum.com/"
+      },
+      {
+        "name": "Vaidik Books",
+        "href": "http://elibrary.thearyasamaj.org/"
+      },
+      {
+        "name": "Vedic Maths",
+        "href": "http://vedicmaths.org/resources/books/free"
+      },
+      {
+        "name": "Arya Samaj Magazines",
+        "href": "http://www.thearyasamaj.org/magazines"
+      },
+      {
+        "name": "Satyarth Prakash Nyas",
+        "href": "http://satyarthprakashnyas.org/index.php/books-download/"
+      },
+      {
+        "name": "Paropkarini Patrika",
+        "href": "http://www.paropkarinisabha.com/news_all.php?cat_id=2058&cat_parent_id=833"
+      },
+      {
+        "name": "Arya Pratinidhi Sabha America",
+        "href": "http://aryasamaj.com/?page_id=257"
+      },
+      {
+        "name": "Hindi Literature Downloads",
+        "href": "https://epustakalay.com"
+      },
+      {
+        "name": "Sanskrit Dictionary",
+        "href": "http://sanskritdictionary.com"
+      },
+      {
+        "name": "Devanagari Editor",
+        "href": "https://www.lexilogos.com/keyboard/sanskrit_devanagari.htm"
+      },
+      {
+        "name": "Free Books and Media Download",
+        "href": "https://archive.org/"
+      },
+      {
+        "name": "Arya Samaj Houston",
+        "href": "http://www.aryasamajhouston.org/resources"
+      },
+      {
+        "name": "Arya Samaj Downloads",
+        "href": "http://www.thearyasamaj.org/download"
+      }
+    ]
+  }
