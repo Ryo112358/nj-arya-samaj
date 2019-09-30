@@ -1,0 +1,28 @@
+{
+    "bhajans": [
+      {
+        "name": "Jaaoon Tore Charan Kamal Par Vaaree",
+        "document": "./docs/JaaoonTore.pdf",
+        "audio": "./audio/JaaoonTore.mp3"
+      },
+      {
+        "name": "Jasodaa Hari Paalanain Jhulaavai",
+        "document": "./docs/JasodaaHariPaalanainJhulaavai.pdf",
+        "audio": "./audio/JasodaaHariPaalanainJhulaavai.mp3"
+      },{
+        "name": "Meree Duniyaa hai Maa",
+        "document": "./docs/Maa.pdf",
+        "audio": "./audio/Maa.mp3"
+      },
+      {
+        "name": "Prabhujee Tumhee Ho Mere Naath",
+        "document": "./docs/prabhuji.pdf",
+        "audio": "./audio/prabhuji.mp3"
+      },
+      {
+        "name": "Sarv Mangal Daataa He",
+        "document": "./docs/SarvMangalDaataa.pdf",
+        "audio": "./audio/SarvMangalDaataa.mp3"
+      }
+    ]
+  }
