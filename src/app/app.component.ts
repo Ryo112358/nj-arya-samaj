@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
+
+
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nj-arya-samaj';
+
+  prefShowBanner: boolean;
+
+  constructor()  {
+    this.prefShowBanner = true;
+  }
+
+  toggleBannerHandler() {
+    this.prefShowBanner = !this.prefShowBanner;
+  }
 }

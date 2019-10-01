@@ -1,11 +1,12 @@
 <div class="container-fluid">
     <app-navigation-bar></app-navigation-bar>
     
-    <div class="banner-image">
+    <div *ngIf="prefShowBanner" class="banner-image">
         <img src="assets/images/arya-samaj-banner.png" class="img-fluid">
     </div>
+    <div *ngIf="!prefShowBanner" class="navbar-bypass"></div>
     
     <router-outlet></router-outlet>
     
-    <app-footer></app-footer>
+    <app-footer (bannerPrefChanged)="toggleBannerHandler()"></app-footer>
 </div>
