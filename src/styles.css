@@ -16,7 +16,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-size: 2rem;
 }
 
-.spacer-vertical {
+.spacer-vertical-2 {
+    height: 2rem;
+}
+
+.spacer-vertical-3, .spacer-vertical {
     height: 3rem;
 }
 
