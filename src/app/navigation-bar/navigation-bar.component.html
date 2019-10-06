@@ -4,17 +4,22 @@
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+
     <div class="collapse navbar-collapse" id="navbarCollapse">
+
+        <!-- Navbar - Left Side Links -->
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item" routerLinkActive="active">
+            <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" [routerLink]="['home']">Home</a>
             </li>
-            <li class="nav-item" routerLinkActive="active">
+            <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" [routerLink]="['library']">Library</a>
             </li>
-            <li class="nav-item dropdown">
+
+            <!-- Scriptures Dropdown -->
+            <li class="nav-item dropdown" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" routerLinkActive="active">
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Scriptures
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -31,16 +36,18 @@
             </li>
         </ul>
 
+        <!-- Navbar - Right Side Links -->
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" [routerLink]="['bhajans']" routerLinkActive="active">Bhajans</a>
+            <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" [routerLink]="['bhajans']">Bhajans</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" [routerLink]="['prayers']" routerLinkActive="active">Prayers</a>
+            <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" [routerLink]="['prayers']">Prayers</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" [routerLink]="['sanskaara']" routerLinkActive="active">Sanskaara</a>
+            <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link" [routerLink]="['sanskaara']">Sanskaara</a>
             </li>
         </ul>
+
     </div>
 </nav>

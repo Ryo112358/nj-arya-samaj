@@ -3,7 +3,7 @@ import upanishadJSON from '../../../../assets/data/scriptures/upanishad.json';
 
 @Component({
   selector: 'app-upanishad',
-  templateUrl: './upanishad_v2.component.html',
+  templateUrl: './upanishad.component.html',
   styleUrls: ['./upanishad.component.css']
 })
 export class UpanishadComponent implements OnInit {
