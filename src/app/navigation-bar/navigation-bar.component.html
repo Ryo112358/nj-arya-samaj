@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">NJ Arya Samaj Mandir Inc.</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
         aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,8 +12,18 @@
             <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
                 <a class="nav-link" [routerLink]="['home']">Home</a>
             </li>
-            <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                <a class="nav-link" [routerLink]="['library']">Library</a>
+
+            <!-- Library Dropdown -->
+            <li class="nav-item dropdown" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                <a class="nav-link dropdown-toggle" [routerLink]="['library']" id="navbarDropdownMenuLink" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Library
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" [routerLink]="['library', 'bhajans']">Bhajans</a>
+                    <a class="dropdown-item" [routerLink]="['library', 'prayers']">Prayers</a>
+                    <a class="dropdown-item" [routerLink]="['library', 'sanskaara']">Sanskaara</a>
+                </div>
             </li>
 
             <!-- Scriptures Dropdown -->
@@ -39,13 +49,13 @@
         <!-- Navbar - Right Side Links -->
         <ul class="navbar-nav ml-auto">
             <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                <a class="nav-link" [routerLink]="['bhajans']">Bhajans</a>
+                <a class="nav-link" [routerLink]="['humanitarian-work']">Humanitarian Work</a>
             </li>
             <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                <a class="nav-link" [routerLink]="['prayers']">Prayers</a>
+                <a class="nav-link" [routerLink]="['future-plans']">Future Plans</a>
             </li>
             <li class="nav-item" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                <a class="nav-link" [routerLink]="['sanskaara']">Sanskaara</a>
+                <a class="nav-link" [routerLink]="['executive-body']">Executive Body</a>
             </li>
         </ul>
 

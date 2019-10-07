@@ -20,11 +20,14 @@ import { LinksComponent } from './pages/links/links.component';
 import { PrayersComponent } from './pages/prayers/prayers.component';
 import { BhajansComponent } from './pages/bhajans/bhajans.component';
 import { SanskaaraComponent } from './pages/sanskaara/sanskaara.component';
+import { ExecutiveBodyComponent } from './pages/executive-body/executive-body.component';
+import { FuturePlansComponent } from './pages/future-plans/future-plans.component';
+import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitarian-work.component';
 
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, FooterComponent, NavigationBarComponent, LibraryComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent, PageNotFoundComponent],
+  declarations: [AppComponent, HomeComponent, FooterComponent, NavigationBarComponent, LibraryComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent, PageNotFoundComponent, ExecutiveBodyComponent, FuturePlansComponent, HumanitarianWorkComponent],
   imports: [
     BrowserModule,
     FormsModule,
