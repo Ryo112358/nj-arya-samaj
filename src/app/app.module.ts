@@ -1,17 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
-
+/* -------------------------- Custom Modules -------------------------- */
 import { AppRoutingModule } from './app-routing.module';
-import { ScripturesModule } from './scriptures/scriptures.module';
+import { SharedModule } from './shared';
+import { ScripturesModule } from './scriptures';
 
+/* -------------------------- Root Component -------------------------- */
 import { AppComponent } from './app.component';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { NavigationBarComponent } from './navigation-bar/navigation-bar.component';
-import { FooterComponent } from './footer/footer.component';
 
 /* -------------------------- Pages -------------------------- */
 import { HomeComponent } from './pages/home/home.component';
@@ -27,14 +23,12 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, FooterComponent, NavigationBarComponent, LibraryComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent, PageNotFoundComponent, ExecutiveBodyComponent, FuturePlansComponent, HumanitarianWorkComponent],
+  declarations: [AppComponent, HomeComponent, LibraryComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent, ExecutiveBodyComponent, FuturePlansComponent, HumanitarianWorkComponent],
   imports: [
     BrowserModule,
-    FormsModule,
-    BrowserAnimationsModule,
-    MatSliderModule,
+    SharedModule,
     ScripturesModule,
-    AppRoutingModule
+    AppRoutingModule  // App Routing Module should be imported after any feature modules
   ],
   providers: [],
   bootstrap: [AppComponent]

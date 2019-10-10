@@ -1,0 +1,9 @@
+export { HomeComponent } from './home/home.component';
+export { LibraryComponent } from './library/library.component';
+export { LinksComponent } from './links/links.component';
+export { PrayersComponent } from './prayers/prayers.component';
+export { BhajansComponent } from './bhajans/bhajans.component';
+export { SanskaaraComponent } from './sanskaara/sanskaara.component';
+export { ExecutiveBodyComponent } from './executive-body/executive-body.component';
+export { FuturePlansComponent } from './future-plans/future-plans.component';
+export { HumanitarianWorkComponent } from './humanitarian-work/humanitarian-work.component';
