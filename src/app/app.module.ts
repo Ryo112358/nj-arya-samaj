@@ -27,7 +27,6 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
   imports: [
     BrowserModule,
     SharedModule,
-    ScripturesModule,
     AppRoutingModule  // App Routing Module should be imported after any feature modules
   ],
   providers: [],

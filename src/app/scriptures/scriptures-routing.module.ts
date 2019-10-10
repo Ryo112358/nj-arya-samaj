@@ -9,14 +9,12 @@ import { VedaSaamaComponent } from './pages/veda-saama/veda-saama.component';
 import { VedaAtharvaComponent } from './pages/veda-atharva/veda-atharva.component';
 
 const routes: Routes = [
-    { path: 'scriptures', children: [
-        { path: 'bhagavad-geetaa', component: BhagavadGeetaaComponent },
-        { path: 'upanishad', component: UpanishadComponent },
-        { path: 'veda-rig', component: VedaRigComponent },
-        { path: 'veda-yajur', component: VedaYajurComponent },
-        { path: 'veda-saama', component: VedaSaamaComponent },
-        { path: 'veda-atharva', component: VedaAtharvaComponent }
-    ]}
+    { path: 'bhagavad-geetaa', component: BhagavadGeetaaComponent },
+    { path: 'upanishad', component: UpanishadComponent },
+    { path: 'veda-rig', component: VedaRigComponent },
+    { path: 'veda-yajur', component: VedaYajurComponent },
+    { path: 'veda-saama', component: VedaSaamaComponent },
+    { path: 'veda-atharva', component: VedaAtharvaComponent }
 ];
 
 @NgModule({
