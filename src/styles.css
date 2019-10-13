@@ -24,6 +24,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 3rem;
 }
 
+/* -------------- Debugging Classes -------------- */
 .bg1 {
     background-color: crimson;
 }

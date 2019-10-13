@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import prayersJSON from '../../../assets/data/prayers.json';
 
 @Component({
   selector: 'app-prayers',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrayersComponent implements OnInit {
 
-  constructor() { }
+  prayers: any[];
+
+  constructor() {
+    this.prayers = prayersJSON.prayers;
+  }
 
   ngOnInit() {
   }

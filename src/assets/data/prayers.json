@@ -1,0 +1,18 @@
+{
+    "prayers": [
+      {
+        "name": "Morning Prayers",
+        "description": "Early morning prayers",
+        "document": "./docs/MorningPrayers.pdf",
+        "audioLabels": [""],
+        "audioPaths": []
+      },
+      {
+        "name": "Hawan and Sandhya Booklet",
+        "description": "Daily prayers including Hawan and Sandhya",
+        "document": "./docs/hawansandhya.pdf",
+        "audioLabels": ["1", "2", "3"],
+        "audioPaths": []
+      }
+    ]
+  }
