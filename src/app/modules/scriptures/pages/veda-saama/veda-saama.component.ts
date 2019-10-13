@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import saamaJSON from '../../../../../assets/data/scriptures/veda-saama.json';
 
 @Component({
   selector: 'app-veda-saama',
@@ -10,7 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VedaSaamaComponent implements OnInit {
 
-  constructor() { }
+  saama: any[];
+
+  constructor() {
+    this.saama = saamaJSON.scripture;
+  }
 
   ngOnInit() {
   }

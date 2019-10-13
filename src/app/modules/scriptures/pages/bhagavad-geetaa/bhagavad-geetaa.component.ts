@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import geetaaJSON from '../../../../assets/data/scriptures/geetaa.json';
+import geetaaJSON from '../../../../../assets/data/scriptures/geetaa.json';
 
 @Component({
   selector: 'app-bhagavad-geetaa',

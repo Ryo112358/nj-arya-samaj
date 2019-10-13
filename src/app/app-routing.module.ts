@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'humanitarian-work', component: HumanitarianWorkComponent },
   { path: 'future-plans', component: FuturePlansComponent },
   { path: 'executive-body', component: ExecutiveBodyComponent },
-  { path: 'scriptures', loadChildren:'./scriptures/scriptures.module#ScripturesModule' },
+  { path: 'scriptures', loadChildren:'./modules/scriptures/scriptures.module#ScripturesModule' },
   { path: '**', component: PageNotFoundComponent }
 ];
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import upanishadJSON from '../../../../assets/data/scriptures/upanishad.json';
+import upanishadJSON from '../../../../../assets/data/scriptures/upanishad.json';
 
 @Component({
   selector: 'app-upanishad',

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import yajurJSON from '../../../../../assets/data/scriptures/veda-yajur.json';
 
 @Component({
   selector: 'app-veda-yajur',
@@ -10,7 +11,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VedaYajurComponent implements OnInit {
 
-  constructor() { }
+  yajur: any[];
+
+  constructor() {
+    this.yajur = yajurJSON.scripture;
+  }
 
   ngOnInit() {
   }

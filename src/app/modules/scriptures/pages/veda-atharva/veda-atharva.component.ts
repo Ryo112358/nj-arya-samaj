@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import atharvaJSON from '../../../../assets/data/scriptures/veda-atharva.json';
+import atharvaJSON from '../../../../../assets/data/scriptures/veda-atharva.json';
 
 @Component({
   selector: 'app-veda-atharva',
