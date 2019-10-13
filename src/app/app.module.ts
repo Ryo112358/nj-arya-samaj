@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 /* -------------------------- Custom Modules -------------------------- */
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared';
-import { ScripturesModule } from './scriptures';
 
 /* -------------------------- Root Component -------------------------- */
 import { AppComponent } from './app.component';

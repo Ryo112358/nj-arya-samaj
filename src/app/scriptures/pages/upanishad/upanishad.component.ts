@@ -4,14 +4,17 @@ import upanishadJSON from '../../../../assets/data/scriptures/upanishad.json';
 @Component({
   selector: 'app-upanishad',
   templateUrl: './upanishad.component.html',
-  styleUrls: ['./upanishad.component.css']
+  styleUrls: [
+    '../../scriptures.module.css',
+    './upanishad.component.css'
+  ]
 })
 export class UpanishadComponent implements OnInit {
 
   upanishad: any[];
 
   constructor() {
-    this.upanishad = upanishadJSON.upanishad;
+    this.upanishad = upanishadJSON.scripture;
   }
 
   ngOnInit() { }
