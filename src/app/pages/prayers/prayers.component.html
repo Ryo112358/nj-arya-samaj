@@ -1,27 +1,31 @@
 <div class="row justify-content-center">
-        <div class="col-auto">
-    
-            <h2 class="text-center">Prayers</h2>
-            <div class="table-responsive-md">
-                <table class="table">
-                    <thead class="text-center">
-                        <tr>
-                            <th scope="col">Document</th>
-                            <th scope="col">Comment</th>
-                            <th scope="col">Audio</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr *ngFor="let prayer of prayers">
-                            <td class="align-middle">{{ prayer.name }}</td>
-                            <td class="align-middle">{{ prayer.description }}</td>
-                            <td class="align-middle text-center">
-                                <p *ngFor="let audio of prayer.audioLabels">{{ audio }}</p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-    
+    <div class="col-auto">
+
+        <h2 class="text-center">Prayers</h2>
+        <div class="table-responsive-md">
+            <table class="table table-bordered">
+                <thead class="text-center">
+                    <tr>
+                        <th scope="col">Document</th>
+                        <th scope="col">Comment</th>
+                        <th scope="col">Audio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let prayer of prayers">
+                        <td class="align-middle">
+                            <a class="anchor" [href]="prayer.document" target="_blank">{{ prayer.name }}</a>
+                        </td>
+                        <td class="align-middle">{{ prayer.description }}</td>
+                        <td class="align-middle">
+                            <p *ngFor="let audio of prayer.audios">
+                                <a class="anchor" [href]="audio.path" target="_blank">{{ audio.label }}</a>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
+
     </div>
+</div>
