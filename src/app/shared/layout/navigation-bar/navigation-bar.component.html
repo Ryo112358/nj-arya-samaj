@@ -15,11 +15,12 @@
 
             <!-- Library Dropdown -->
             <li class="nav-item dropdown" routerLinkActive="active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                <a class="nav-link dropdown-toggle" [routerLink]="['library']" id="navbarDropdownMenuLink" role="button"
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Library
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" [routerLink]="['library', 'main']">Articles</a>
                     <a class="dropdown-item" [routerLink]="['library', 'bhajans']">Bhajans</a>
                     <a class="dropdown-item" [routerLink]="['library', 'prayers']">Prayers</a>
                     <a class="dropdown-item" [routerLink]="['library', 'sanskaara']">Sanskaara</a>
