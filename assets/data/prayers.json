@@ -3,13 +3,19 @@
     {
       "name": "Morning Prayers",
       "description": "Early morning prayers",
-      "document": "./docs/MorningPrayers.pdf",
+      "document": "assets/docs/MorningPrayers.pdf",
       "audios": []
     },
     {
       "name": "Hawan and Sandhya Booklet",
       "description": "Daily prayers including Hawan and Sandhya",
       "document": "./docs/hawansandhya.pdf",
+      "audios": []
+    },
+    {
+      "name": "Devanaagaree Transliteration Guide",
+      "description": "Guide to various symbols used while romanizing various Sanskrit and Hindi texts",
+      "document": "./docs/Transliteration.pdf",
       "audios": []
     },
     {
@@ -154,12 +160,6 @@
           "path": "./audio/OmJaiJagadeesh.mp3"
         }
       ]
-    },
-    {
-      "name": "Devanaagaree Transliteration Guide",
-      "description": "Guide to various symbols used while romanizing various Sanskrit and Hindi texts",
-      "document": "./docs/Transliteration.pdf",
-      "audios": []
     }
   ]
 }
