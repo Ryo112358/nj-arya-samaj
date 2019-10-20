@@ -1,14 +1,17 @@
 <div class="row justify-content-center">
     <div class="col-auto">
+
         <h3 class="text-center">Rig Veda</h3><br>
 
         <ul class="nav nav-pills">
             <li class="nav-item" *ngFor="let mandala of mandalas; let i = index">
-                <a class="nav-link" (click)="updateMandala(i+1)"
-                routerLink="." [ngClass]="{'active': showMandalaAsActive(i+1) }">{{ i+1 }}</a>
+                <a class="nav-link"
+                    [routerLink]="['mandala', i+1]" routerLinkActive="active">{{ i+1 }}</a>
             </li>
         </ul>
+        
     </div>
 </div>
 
-<mandala [mandalaInfo]="mandalas[userSelection-1]"></mandala>
+<!-- <mandala [mandalaInfo]="mandalas[userSelection-1]"></mandala> -->
+<router-outlet></router-outlet>
