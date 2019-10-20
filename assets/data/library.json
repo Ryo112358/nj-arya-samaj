@@ -2,87 +2,87 @@
     "articles": [
      {
        "name": "Poetic Meters Used in Vedas",
-       "path": "./docs/Chhanda.pdf"
+       "path": "assets/docs/Chhanda.pdf"
      },
      {
        "name": "Acts of Cleansing prior to Sandhya and Havan",
-       "path": "./docs/Shuddhi.pdf"
+       "path": "assets/docs/Shuddhi.pdf"
      },
      {
        "name": "Article in Propakaaree May 2019",
-       "path": "./docs/ShuddhiPropkari.pdf"
+       "path": "assets/docs/ShuddhiPropkari.pdf"
      },
      {
        "name": "Did Hanumaan set Lankaa on fire? by Sardaar Yashavantasinh Varmaa",
-       "path": "./docs/HanumaanaLankaaFire.pdf"
+       "path": "assets/docs/HanumaanaLankaaFire.pdf"
      },
      {
        "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan - Hindi Translation",
-       "path": "./docs/HanumaanHindi.pdf"
+       "path": "assets/docs/HanumaanHindi.pdf"
      },
      {
        "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan - English Translation",
-       "path": "./docs/HanumaanEnglish.pdf"
+       "path": "assets/docs/HanumaanEnglish.pdf"
      },
      {
        "name": "Be Fearless",
-       "path": "./docs/AbhayaSanket.pdf"
+       "path": "assets/docs/AbhayaSanket.pdf"
      },
      {
        "name": "Article in Propakaaree December 2018",
-       "path": "./docs/AbhayaSanketParopakarini.pdf"
+       "path": "assets/docs/AbhayaSanketParopakarini.pdf"
      },
      {
        "name": "Chanting Rules",
-       "path": "./docs/ChantingRules.pdf"
+       "path": "assets/docs/ChantingRules.pdf"
      },
      {
        "name": "Issues with Om Jai Jagadeesh Hare",
-       "path": "./docs/OmJaiJagadeesh.pdf"
+       "path": "assets/docs/OmJaiJagadeesh.pdf"
      },
      {
        "name": "Mandukya Upanishad",
-       "path": "./docs/mandukya.pdf"
+       "path": "assets/docs/mandukya.pdf"
      },
      {
        "name": "Om Explained",
-       "path": "./docs/OmExplained.pdf"
+       "path": "assets/docs/OmExplained.pdf"
      },
      {
        "name": "Gaayatree Mantra Explained",
-       "path": "./docs/GaayatreeMantra.pdf"
+       "path": "assets/docs/GaayatreeMantra.pdf"
      },
      {
        "name": "Idol Worship: Cause of social ills",
-       "path": "./docs/moortipooja.pdf"
+       "path": "assets/docs/moortipooja.pdf"
      },
      {
        "name": "Article in Propakaaree June 2018",
-       "path": "./docs/201806Propkari.pdf"
+       "path": "assets/docs/201806Propkari.pdf"
      },
      {
        "name": "Who is an Arya",
-       "path": "./docs/whoisanarya.pdf"
+       "path": "assets/docs/whoisanarya.pdf"
      },
      {
        "name": "How many Gods do Hindus have?",
-       "path": "./docs/hindugods.pdf"
+       "path": "assets/docs/hindugods.pdf"
      },
      {
        "name": "Importance of giving",
-       "path": "./docs/giving.pdf"
+       "path": "assets/docs/giving.pdf"
      },
      {
        "name": "16 Sanskars",
-       "path": "./docs/Sanskars.pdf"
+       "path": "assets/docs/Sanskars.pdf"
      },
      {
        "name": "Avoid negative news media in favor of your mental peace",
-       "path": "./docs/AvoidNews.pdf"
+       "path": "assets/docs/AvoidNews.pdf"
      },
      {
        "name": "Sankrit Grammar (In Progress)",
-       "path": "./docs/SanskritGrammar.pdf"
+       "path": "assets/docs/SanskritGrammar.pdf"
      }
     ],
     "links": [

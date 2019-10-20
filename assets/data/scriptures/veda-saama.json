@@ -6,8 +6,8 @@
             "rishi": "",
             "devataa": "",
             "chhanda": "",
-            "document": "",
-            "audio": "./audio/Saamaveda01.01.01.mp3",
+            "document": "assets/docs/document.pdf",
+            "audio": "assets/audio/Saamaveda01.01.01.mp3",
             "summary": [
                 "Coming Soon"
             ]
