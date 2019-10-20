@@ -17,4 +17,9 @@ export class BhajansComponent implements OnInit {
   ngOnInit() {
   }
 
+  disableResourceIcon(path: string): boolean {
+    // Disable if matches empty path (i.e. DNE)
+    return path === "";
+  }
+
 }

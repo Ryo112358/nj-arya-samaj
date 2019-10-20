@@ -24,14 +24,9 @@ export class VedaAtharvaComponent implements OnInit {
     return section["kaanda"] + "." + section["sukta"];
   }
 
-  disableDocumentIcon(path: string): boolean {
-    // Disable if matches default path (i.e. DNE)
-    return path === "assets/docs/document.pdf";
-  }
-
-  disableAudioIcon(path: string): boolean {
-    // Disable if matches default path (i.e. DNE)
-    return path === "assets/audio/recording.mp3";
+  disableResourceIcon(path: string): boolean {
+    // Disable if matches empty path (i.e. DNE)
+    return path === "";
   }
 
 }
