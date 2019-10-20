@@ -1,0 +1,244 @@
+{
+    "mandalas": [
+        {
+            "id": 1,
+            "overview": "Mandala 1 Rig Veda | 169 Suktas | 1976 Mantras",
+            "suktas": [
+                {
+                    "sukta": 1,
+                    "mantras": 9,
+                    "rishi": "Madhuchchhanda",
+                    "devataa": "Agni",
+                    "chhanda": "Gaayatree",
+                    "document": "assets/docs/Rigveda01.001.pdf",
+                    "audio": "assets/audio/Rigveda01.001.mp3",
+                    "summary": [
+                        "Agni Sukta. This composition identifies Agni the radiant fire as a manifestation of God, the Universal Father, who sustains this universe, provides illumination in form of best of the best universal knowledge in order to help us perform noble deeds and attain righteous wealth, prosperity and bliss."
+                    ]
+                },
+                {
+                    "sukta": 2,
+                    "mantras": 9,
+                    "rishi": "Madhuchchhanda",
+                    "devataa": "Vayu",
+                    "chhanda": "Nichridgaayatree",
+                    "document": "assets/docs/Rigveda01.002.pdf",
+                    "audio": "assets/audio/Rigveda01.001.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                },
+                {
+                    "sukta": 3,
+                    "mantras": 12,
+                    "rishi": "Madhuchchhanda",
+                    "devataa": "Ashvinau",
+                    "chhanda": "Nichridgaayatree",
+                    "document": "assets/docs/Rigveda01.003.pdf",
+                    "audio": "assets/audio/Rigveda01.001.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "overview": "Mandala 2 Rig Veda | 43 Suktas | 429 Mantras",
+            "suktas": [
+                {
+                    "sukta": 1,
+                    "mantras": 16,
+                    "rishi": "Aangirasah, Shaunahotro, Bhaargavo, Gritsamada",
+                    "devataa": "Agni",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda02.001.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "overview": "Mandala 3 Rig Veda | 62 Suktas | 617 Mantras",
+            "suktas": [
+                {
+                    "sukta": 1,
+                    "mantras": 23,
+                    "rishi": "Gaathino Vishvaamitra",
+                    "devataa": "Agni",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda03.001.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "overview": "Mandala 4 Rig Veda | 58 Suktas | 589 Mantras",
+            "suktas": [
+                {
+                    "sukta": 1,
+                    "mantras": 20,
+                    "rishi": "Vaamadeva",
+                    "devataa": "Agni",
+                    "chhanda": "Various",
+                    "document": "assets/docs/assets/docs/Rigveda04.001.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "overview": "Mandala 5 Rig Veda | 87 Suktas | 727 Mantras",
+            "suktas": [
+                {
+                    "sukta": 51,
+                    "mantras": 15,
+                    "rishi": "Svastyaatreya",
+                    "devataa": "Vishvedevaa",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda05.051.pdf",
+                    "audio": "assets/audio/Rigveda05.051.mp3",
+                    "summary": [
+                        "This composition describes the methods of attaining happiness and prosperity. Every being should seek the company of the wise and virtuous scholars, prayerfully perform yajna, consume only righteous food and herbs, choose noble people for government, learn the sciences of energy and perform only noble actions all the time."
+                    ]
+                },
+                {
+                    "sukta": 78,
+                    "mantras": 9,
+                    "rishi": "Saptavadhriraatreya",
+                    "devataa": "Ashvinau",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda05.078.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "overview": "Mandala 6 Rig Veda | 75 Suktas | 765 Mantras",
+            "suktas": [
+                {
+                    "sukta": 1,
+                    "mantras": 13,
+                    "rishi": "Bharadvaajo, Baarhaspatya",
+                    "devataa": "Agni",
+                    "chhanda": "Gaayatree",
+                    "document": "assets/docs/Rigveda06.001.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "overview": "Mandala 7 Rig Veda | 104 Suktas | 841 Mantras",
+            "suktas": [
+                {
+                    "sukta": 35,
+                    "mantras": 15,
+                    "rishi": "Vashishtha",
+                    "devataa": "Vishvedevaa",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda07.035.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                },
+                {
+                    "sukta": 41,
+                    "mantras": 15,
+                    "rishi": "Vashishtha",
+                    "devataa": "Vishvedevaa",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda07.041.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "This composition directs our attention to our morning routine and the desirable attitude as we prepare for our day. Shedding all laziness, one should wake up before dawn and after ablutions, quickly get engaged in a righteous behavior with positive mental attitude and humility. The goal of our activities should be to earn righteous wealth that can sustain and nourish us and the society as a whole as well."
+                    ]
+                },
+                {
+                    "sukta": 54,
+                    "mantras": 3,
+                    "rishi": "Vashishtha",
+                    "devataa": "Vaastoshpati",
+                    "chhanda": "Nichrittrishtup, Viraattrishtup",
+                    "document": "assets/docs/Rigveda07.054.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Vaastu sukta touches on the subject of qualities of an ideal home and kind of behavior a householder is supposed to engage in while residing there. The word vaastoshpati can have two meanings in this context. Vaastoshpati can be referred to as God himself, thereby this composition becomes a prayer to God for granting us a good home and for helping us in engaging in righteous behavior while residing there. In the second meaning vaastoshpati can mean the householder residing in the house, thereby making this composition a directive for choosing a good home and engaging in righteous behavior."
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "overview": "Mandala 8 Rig Veda | 103 Suktas | 1726 Mantras",
+            "suktas": [
+                {
+                    "sukta": 1,
+                    "mantras": 34,
+                    "rishi": "Various",
+                    "devataa": "Various",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda08.001.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "overview": "Mandala 9 Rig Veda | 114 Suktas | 1097 Mantras",
+            "suktas": [
+                {
+                    "sukta": 1,
+                    "mantras": 13,
+                    "rishi": "Madhuchchhadaa",
+                    "devataa": "Pavamaanah Somah",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda09.001.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "overview": "Mandala 10 Rig Veda | 191 Suktas | 1754 Mantras",
+            "suktas": [
+                {
+                    "sukta": 63,
+                    "mantras": 17,
+                    "rishi": "Gayah Plaatah",
+                    "devataa": "Vishvedevaa, Pathyaa Svasti",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.063.pdf",
+                    "audio": "assets/audio/recording.mp3",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                }
+            ]
+        }
+    ]
+}

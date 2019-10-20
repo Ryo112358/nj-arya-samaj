@@ -20,4 +20,14 @@ export class BhagavadGeetaaComponent implements OnInit {
   ngOnInit() {
   }
 
+  disableDocumentIcon(path: string): boolean {
+    // Disable if matches default path (i.e. DNE)
+    return path === "assets/docs/document.pdf";
+  }
+
+  disableAudioIcon(path: string): boolean {
+    // Disable if matches default path (i.e. DNE)
+    return path === "assets/audio/recording.mp3";
+  }
+
 }

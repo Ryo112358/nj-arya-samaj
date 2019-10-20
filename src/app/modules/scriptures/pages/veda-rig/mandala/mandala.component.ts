@@ -1,23 +1,25 @@
-import { Component, OnInit } from '@angular/core';
-import yajurJSON from '../../../../../assets/data/scriptures/veda-yajur.json';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-veda-yajur',
-  templateUrl: './veda-yajur.component.html',
+  selector: 'mandala',
+  templateUrl: './mandala.component.html',
   styleUrls: [
-    '../../scriptures.module.css',
-    './veda-yajur.component.css'
+    '../../../scriptures.module.css',
+    './mandala.component.css'
   ]
 })
-export class VedaYajurComponent implements OnInit {
+export class MandalaComponent implements OnInit {
 
-  yajur: any[];
+  @Input('mandalaInfo') mandala;
 
   constructor() {
-    this.yajur = yajurJSON.scripture;
   }
 
   ngOnInit() {
+  }
+
+  generateTitle(section) {
+    return this.mandala["id"] + "." + section["sukta"];
   }
 
   disableDocumentIcon(path: string): boolean {

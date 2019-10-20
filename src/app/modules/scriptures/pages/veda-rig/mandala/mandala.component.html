@@ -1,13 +1,13 @@
 <div class="row justify-content-center">
     <div class="col-auto">
 
-        <h2 class="text-center">Saama Veda</h2>
         <div class="table-responsive-md">
             <table class="table text-center">
                 <caption>Scriptures translated, interpreted, and explained by Pandit Sanjay</caption>
                 <thead>
+                    <tr><th colspan=8>{{ mandala.overview }}</th></tr>
                     <tr>
-                        <th scope="col">Kaanda/Khanda</th>
+                        <th scope="col">Mandala/Sukta</th>
                         <th scope="col">Mantras</th>
                         <th scope="col">Rishi</th>
                         <th scope="col">Devataa</th>
@@ -18,23 +18,24 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr *ngFor="let section of saama">
-                        <td class="align-middle">{{ section.kaanda }}</td>
-                        <td class="align-middle">{{ section.mantras }}</td>
-                        <td class="align-middle">{{ section.rishi }}</td>
-                        <td class="align-middle">{{ section.devataa }}</td>
-                        <td class="align-middle">{{ section.chhanda }}</td>
+                    <tr *ngFor="let sukta of mandala.suktas">
+                        <td class="align-middle">{{ generateTitle(sukta) }}</td>
+                        <td class="align-middle">{{ sukta.mantras }}</td>
+                        <td class="align-middle">{{ sukta.rishi }}</td>
+                        <td class="align-middle">{{ sukta.devataa }}</td>
+                        <td class="align-middle">{{ sukta.chhanda }}</td>
                         <td class="align-middle">
-                            <a [href]="'scriptures/veda-saama#' + section.kaanda" class="anchor anchor-icon"><i
-                                    class="fa fa-file-text" aria-hidden="true"></i></a>
+                            <a [href]="'scriptures/veda-rig#' + generateTitle(sukta)" class="anchor anchor-icon">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                            </a>
                         </td>
                         <td class="align-middle">
-                            <a [href]="section.document" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableDocumentIcon(section.document) }" target="_blank">
+                            <a [href]="sukta.document" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableDocumentIcon(sukta.document) }" target="_blank">
                                 <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                             </a>
                         </td>
                         <td class="align-middle">
-                            <a [href]="section.audio" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableAudioIcon(section.audio) }" target="_blank">
+                            <a [href]="sukta.audio" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableAudioIcon(sukta.audio) }" target="_blank">
                                 <i class="fa fa-file-audio-o" aria-hidden="true"></i>
                             </a>
                         </td>
@@ -47,15 +48,16 @@
 </div>
 
 <div class="row">
-    <div class="col-auto">
+    <div class="col">
 
         <h2>Synopses</h2>
 
-        <div *ngFor="let section of saama">
-            <a [name]="section.kaanda">
-                <h4>{{ section.kaanda }}</h4>
+        <div *ngFor="let sukta of mandala.suktas">
+            <a [name]="generateTitle(sukta)">
+                <h4>{{ generateTitle(sukta) }}</h4>
             </a>
-            <p *ngFor="let paragraph of section.summary">{{ paragraph }}</p>
+            <p *ngFor="let paragraph of sukta.summary">{{ paragraph }}</p>
         </div>
+
     </div>
 </div>

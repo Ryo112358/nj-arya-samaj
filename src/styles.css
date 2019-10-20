@@ -16,6 +16,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     font-size: 2rem;
 }
 
+.anchor-disabled {
+    pointer-events: none;
+    opacity: 0.65;
+}
+
 .spacer-vertical-2 {
     height: 2rem;
 }

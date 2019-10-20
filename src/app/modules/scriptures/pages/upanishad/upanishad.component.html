@@ -22,10 +22,14 @@
                             <a [href]="'scriptures/upanishad#' + section.title" class="anchor anchor-icon"><i class="fa fa-file-text" aria-hidden="true"></i></a>
                         </td>
                         <td class="align-middle">
-                            <a [href]="section.document" class="anchor anchor-icon" target="_blank"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+                            <a [href]="section.document" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableDocumentIcon(section.document) }" target="_blank">
+                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+                            </a>
                         </td>
                         <td class="align-middle">
-                            <a [href]="section.audio" class="anchor anchor-icon" target="_blank"><i class="fa fa-file-audio-o" aria-hidden="true"></i></a>
+                            <a [href]="section.audio" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableAudioIcon(section.audio) }" target="_blank">
+                                <i class="fa fa-file-audio-o" aria-hidden="true"></i>
+                            </a>
                         </td>
                     </tr>
                 </tbody>

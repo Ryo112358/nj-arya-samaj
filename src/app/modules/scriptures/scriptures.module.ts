@@ -9,11 +9,12 @@ import { VedaRigComponent } from './pages/veda-rig/veda-rig.component';
 import { VedaYajurComponent } from './pages/veda-yajur/veda-yajur.component';
 import { VedaSaamaComponent } from './pages/veda-saama/veda-saama.component';
 import { VedaAtharvaComponent } from './pages/veda-atharva/veda-atharva.component';
+import { MandalaComponent } from './pages/veda-rig/mandala/mandala.component';
 
 
 
 @NgModule({
-  declarations: [BhagavadGeetaaComponent, UpanishadComponent, VedaRigComponent, VedaYajurComponent, VedaSaamaComponent, VedaAtharvaComponent],
+  declarations: [BhagavadGeetaaComponent, UpanishadComponent, VedaRigComponent, VedaYajurComponent, VedaSaamaComponent, VedaAtharvaComponent, MandalaComponent],
   imports: [
     CommonModule,
     ScripturesRoutingModule

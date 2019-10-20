@@ -3,38 +3,38 @@
       {
         "name": "Antayeshti",
         "description": "Prayers and procedures for the last rites and creamation.",
-        "document": "./docs/antayeshti.pdf",
-        "audio": ""
+        "document": "assets/docs/antayeshti.pdf",
+        "audio": "assets/audio/recording.mp3"
       },
       {
         "name": "Garbhaadhaana Sanskaara",
         "description": "Prayers and procedures for conception of a child.",
-        "document": "./docs/garbhaadhaana.pdf",
-        "audio": ""
+        "document": "assets/docs/garbhaadhaana.pdf",
+        "audio": "assets/audio/recording.mp3"
       },
       {
         "name": "Griha Pravesha",
         "description": "Prayers and procedures for entering a new home.",
-        "document": "./docs/GrihPravesh.pdf",
-        "audio": ""
+        "document": "assets/docs/GrihPravesh.pdf",
+        "audio": "assets/audio/recording.mp3"
       },
       {
         "name": "Naamakarana Sanskaara",
         "description": "Prayers and procedures for naming a new born.",
-        "document": "./docs/naamakarana.pdf",
-        "audio": ""
+        "document": "assets/docs/naamakarana.pdf",
+        "audio": "assets/audio/recording.mp3"
       },
       {
         "name": "Vivaaha Sanskaara",
         "description": "Prayers and procedures for marriage ceremony.",
-        "document": "./docs/vivaaha.pdf",
-        "audio": ""
+        "document": "assets/docs/vivaaha.pdf",
+        "audio": "assets/audio/recording.mp3"
       },
       {
         "name": "Vivaaha Sanskaara - Uttara Vidhi",
         "description": "Prayers and procedures after the marriage ceremony.",
-        "document": "./docs/vivaaha2.pdf",
-        "audio": ""
+        "document": "assets/docs/vivaaha2.pdf",
+        "audio": "assets/audio/recording.mp3"
       }
     ]
   }
