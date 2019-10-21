@@ -18,7 +18,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .anchor-disabled {
     pointer-events: none;
-    opacity: 0.65;
+    opacity: 0;
 }
 
 .spacer-vertical-2 {
