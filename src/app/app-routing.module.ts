@@ -15,8 +15,8 @@ const routes: Routes = [
   { path: 'humanitarian-work', component: HumanitarianWorkComponent },
   { path: 'future-plans', component: FuturePlansComponent },
   { path: 'executive-body', component: ExecutiveBodyComponent },
-  { path: 'library', loadChildren:'./modules/library/library.module#LibraryModule' },
-  { path: 'scriptures', loadChildren:'./modules/scriptures/scriptures.module#ScripturesModule' },
+  { path: 'library', loadChildren: () => import('./modules/library/library.module').then(m => m.LibraryModule) },
+  { path: 'scriptures', loadChildren: () => import('./modules/scriptures/scriptures.module').then(m => m.ScripturesModule) },
   { path: '**', component: PageNotFoundComponent }
 ];
 
