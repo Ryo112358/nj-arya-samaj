@@ -9,11 +9,12 @@ import { LinksComponent } from './pages/links/links.component';
 import { PrayersComponent } from './pages/prayers/prayers.component';
 import { BhajansComponent } from './pages/bhajans/bhajans.component';
 import { SanskaaraComponent } from './pages/sanskaara/sanskaara.component';
+import { ArticlesComponent } from './pages/articles/articles.component';
 
 
 
 @NgModule({
-  declarations: [ LibraryHomeComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent ],
+  declarations: [ LibraryHomeComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent, ArticlesComponent ],
   imports: [
     CommonModule,
     LibraryRoutingModule

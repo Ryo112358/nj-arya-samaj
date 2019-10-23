@@ -2,87 +2,123 @@
     "articles": [
      {
        "name": "Poetic Meters Used in Vedas",
-       "path": "assets/docs/Chhanda.pdf"
+       "english": "assets/docs/Chhanda.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Acts of Cleansing prior to Sandhya and Havan",
-       "path": "assets/docs/Shuddhi.pdf"
+       "english": "assets/docs/Shuddhi.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Article in Propakaaree May 2019",
-       "path": "assets/docs/ShuddhiPropkari.pdf"
+       "english": "assets/docs/ShuddhiPropkari.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Did Hanumaan set Lankaa on fire? by Sardaar Yashavantasinh Varmaa",
-       "path": "assets/docs/HanumaanaLankaaFire.pdf"
+       "english": "assets/docs/HanumaanaLankaaFire.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
-       "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan - Hindi Translation",
-       "path": "assets/docs/HanumaanHindi.pdf"
-     },
-     {
-       "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan - English Translation",
-       "path": "assets/docs/HanumaanEnglish.pdf"
+       "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan",
+       "english": "assets/docs/HanumaanEnglish.pdf",
+       "hindi": "assets/docs/HanumaanHindi.pdf",
+       "original": "assets/sample.pdf"
      },
      {
        "name": "Be Fearless",
-       "path": "assets/docs/AbhayaSanket.pdf"
+       "english": "assets/docs/AbhayaSanket.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Article in Propakaaree December 2018",
-       "path": "assets/docs/AbhayaSanketParopakarini.pdf"
+       "english": "assets/docs/AbhayaSanketParopakarini.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Chanting Rules",
-       "path": "assets/docs/ChantingRules.pdf"
+       "english": "assets/docs/ChantingRules.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Issues with Om Jai Jagadeesh Hare",
-       "path": "assets/docs/OmJaiJagadeesh.pdf"
+       "english": "assets/docs/OmJaiJagadeesh.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Mandukya Upanishad",
-       "path": "assets/docs/mandukya.pdf"
+       "english": "assets/docs/mandukya.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Om Explained",
-       "path": "assets/docs/OmExplained.pdf"
+       "english": "assets/docs/OmExplained.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Gaayatree Mantra Explained",
-       "path": "assets/docs/GaayatreeMantra.pdf"
+       "english": "assets/docs/GaayatreeMantra.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Idol Worship: Cause of social ills",
-       "path": "assets/docs/moortipooja.pdf"
+       "english": "assets/docs/moortipooja.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Article in Propakaaree June 2018",
-       "path": "assets/docs/201806Propkari.pdf"
+       "english": "assets/docs/201806Propkari.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Who is an Arya",
-       "path": "assets/docs/whoisanarya.pdf"
+       "english": "assets/docs/whoisanarya.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "How many Gods do Hindus have?",
-       "path": "assets/docs/hindugods.pdf"
+       "english": "assets/docs/hindugods.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Importance of giving",
-       "path": "assets/docs/giving.pdf"
+       "english": "assets/docs/giving.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "16 Sanskars",
-       "path": "assets/docs/Sanskars.pdf"
+       "english": "assets/docs/Sanskars.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Avoid negative news media in favor of your mental peace",
-       "path": "assets/docs/AvoidNews.pdf"
+       "english": "assets/docs/AvoidNews.pdf",
+       "hindi": "",
+       "original": ""
      },
      {
        "name": "Sankrit Grammar (In Progress)",
-       "path": "assets/docs/SanskritGrammar.pdf"
+       "english": "assets/docs/SanskritGrammar.pdf",
+       "hindi": "",
+       "original": ""
      }
     ],
     "links": [

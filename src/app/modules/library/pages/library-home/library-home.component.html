@@ -13,9 +13,7 @@
 
         <p><a [routerLink]="['../links']" class="anchor">You can also read/download Vaidik Literature from these websites.</a></p>
         <br>
-        <h3>Articles on Vaidik Philosophy</h3>
-        <ul class="list-group list-group-flush">
-            <li *ngFor="let article of articles" class="list-group-item">{{ article.name }}</li>
-        </ul>
     </div>
 </div>
+
+<app-articles></app-articles>
