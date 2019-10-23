@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { MatSliderModule } from '@angular/material/slider';
 
 import { NavigationBarComponent, FooterComponent, PageNotFoundComponent } from './layout';
+import { DonateViaPaypalComponent } from './layout/donate-via-paypal/donate-via-paypal.component';
 
 @NgModule({
-  declarations: [ NavigationBarComponent, FooterComponent, PageNotFoundComponent ],
+  declarations: [ NavigationBarComponent, FooterComponent, PageNotFoundComponent, DonateViaPaypalComponent ],
   imports: [
     CommonModule,
     FormsModule,
