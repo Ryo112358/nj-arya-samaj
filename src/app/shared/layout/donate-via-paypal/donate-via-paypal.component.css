@@ -1,0 +1,17 @@
+.paypal-button {
+    margin: 2rem 0 2rem 0;
+    padding: 0.6rem 2rem;
+    border: #002F83 solid 1px;
+    border-radius: 1.5rem;
+    background-color: #002F83;
+    color: whitesmoke;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.75);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    /* font-style: oblique 4deg; */
+}
+
+.paypal-button:hover {
+    text-decoration: none;
+    background-color:rgb(0, 39, 107);
+}

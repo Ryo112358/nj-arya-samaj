@@ -1,31 +1,32 @@
 <div class="row justify-content-center footer-top">
 
     <!-- Social Media Column -->
-    <div class="col-auto text-center">
+    <div class="col-auto text-center footer-container">
         <h4>Join and support us!</h4>
-        <a href="https://smile.amazon.com/ch/22-2945150" target="_blank">
-            <img src="assets/images/amazonsmile.png" width="200px" style="margin-bottom: 1.2rem;">
-        </a>
         <a class="footer-icon" href="https://www.facebook.com/njaryasamaj.mandir.9" target="_blank">
             <i class="fa fa-facebook-square"></i>
         </a>
         <a class="footer-icon" href="https://www.instagram.com/njaryasamaj/" target="_blank">
             <i class="fa fa-instagram"></i>
         </a>
+        <a class="footer-icon" id="amazon-icon" href="https://smile.amazon.com/ch/22-2945150" target="_blank">
+            <i class="fa fa-amazon" aria-hidden="true"></i>
+            <!-- <img src="assets/images/amazonsmile.png" width="200px" style="margin-bottom: 1.2rem;"> -->
+        </a>
     </div>
 
     <!-- Paypal Button -->
-    <div class="col-auto">
+    <div class="col-auto d-flex justify-content-center align-items-center footer-container">
         <app-donate-via-paypal></app-donate-via-paypal>
     </div>
 
     <!-- Preferences Column -->
-    <div class="col-auto offset-1">
-        <fieldset class="form-group">
+    <div class="col-auto d-flex justify-content-center footer-container">
+        <fieldset class="form-group text-center">
             <h4>Site Preferences</h4>
             <div class="form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" type="checkbox" (click)="toggleBanner()">
+                    <input class="form-check-input" type="checkbox" (click)="toggleBanner()" />
                     Hide Banner
                 </label>
             </div>

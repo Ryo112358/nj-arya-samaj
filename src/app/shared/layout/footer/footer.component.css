@@ -1,8 +1,13 @@
 .footer-top {
     margin: 2rem 0 0 0;
-    padding: 3rem 0 0 0;
+    /* padding: 1rem 0 0 0; */
     border: solid #E54158;
     border-width: 0.5rem 0 0 0;
+}
+
+.footer-container {
+    min-height: 5rem;
+    padding-top: 3rem;
 }
 
 .footer-icon {
@@ -13,4 +18,8 @@
 
 .footer-icon:hover {
     color: #E54158;
+}
+
+#amazon-icon {
+    font-size: 2.2rem;
 }
