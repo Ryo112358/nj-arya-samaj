@@ -11,7 +11,13 @@ export class FooterComponent implements OnInit {
 
   @Output() bannerPrefChanged: EventEmitter<boolean> = new EventEmitter();
 
-  constructor() { }
+  location: string;
+  locationFull: string;
+
+  constructor() {
+    this.location = "https://www.google.com/maps/place/191+Woodlawn+Ave,+Jersey+City,+NJ+07305";
+    this.locationFull = "https://www.google.com/maps/place/191+Woodlawn+Ave,+Jersey+City,+NJ+07305/@40.7041371,-74.090188,17z";
+  }
 
   ngOnInit() {
   }

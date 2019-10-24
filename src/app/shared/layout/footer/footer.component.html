@@ -14,14 +14,36 @@
             <i class="fa fa-amazon" aria-hidden="true"></i>
             <!-- <img src="assets/images/amazonsmile.png" width="200px" style="margin-bottom: 1.2rem;"> -->
         </a>
-    </div>
-
-    <div class="w-100 d-md-none"></div>
-
-    <!-- Paypal Button -->
-    <div class="col-auto d-flex justify-content-center align-items-center footer-container">
+        <br><br>
         <app-donate-via-paypal></app-donate-via-paypal>
     </div>
+
+    <!-- Contact Information -->
+    <div class="col-auto footer-container">
+        <h4 class="text-center">Contact Details</h4><br>
+        <div class="contact-card">
+            <div class="footer-icon-container">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+            </div>
+            <p>+1 (973) 348-9843</p>
+        </div>
+        <div class="contact-card">
+            <div class="footer-icon-container">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+            </div>
+            <p>njarayasamajmandir@gmail.com</p>
+        </div>
+        <div class="contact-card">
+            <div class="footer-icon-container">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+            </div>
+            <a [href]="location" target="_blank">
+                <p>191-193 Woodlawn Avenue <br> Jersey City, New Jersey</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- <div class="w-100 d-lg-none"></div> -->
 
     <!-- Preferences Column -->
     <div class="col-auto d-flex justify-content-center footer-container">
@@ -38,11 +60,4 @@
 </div>
 
 <!-- Bottom Footer -->
-<div class="row text-left footer-bottom">
-    <div class="col-md-4 text-md-left">
-        <p>&copy; NJ Arya Samaj Mandir, Inc. 2017-2019</p>
-    </div>
-    <div class="col-md-4 offset-md-4 text-md-right">
-        <p>Application developed by Pulkit Mittal</p>
-    </div>
-</div>
+<app-sub-footer></app-sub-footer>

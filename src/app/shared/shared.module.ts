@@ -8,9 +8,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NavigationBarComponent, FooterComponent, PageNotFoundComponent } from './layout';
 import { DonateViaPaypalComponent } from './layout/donate-via-paypal/donate-via-paypal.component';
+import { SubFooterComponent } from './layout/footer/sub-footer/sub-footer.component';
 
 @NgModule({
-  declarations: [ NavigationBarComponent, FooterComponent, PageNotFoundComponent, DonateViaPaypalComponent ],
+  declarations: [ NavigationBarComponent, FooterComponent, PageNotFoundComponent, DonateViaPaypalComponent, SubFooterComponent ],
   imports: [
     CommonModule,
     FormsModule,

@@ -24,9 +24,31 @@
     font-size: 2.2rem;
 }
 
-.footer-bottom {
-    padding-top: 1rem;
-    background-color: #FAFBFC;
-    color: #586069;
-    font-size: 0.8rem;
+.contact-card {
+    display: flex;
+}
+
+.contact-card a {
+    color: inherit
+}
+
+.contact-card p {
+    font-size: 1.2rem;
+}
+
+.footer-icon-container {
+    width: 5rem;
+    text-align: center;
+}
+
+.footer-icon-container i.fa-phone {
+    font-size: 2.4rem;
+}
+
+.footer-icon-container i.fa-envelope {
+    font-size: 2rem;
+}
+
+.footer-icon-container i.fa-map-marker {
+    font-size: 2.5rem;
 }
