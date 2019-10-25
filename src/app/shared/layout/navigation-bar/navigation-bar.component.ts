@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavigationBarComponent implements OnInit {
 
-  constructor() { }
+  paypalDonationURL: string;
+
+  constructor() {
+    this.paypalDonationURL = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=89L2EXPC4UBMC&source=url";
+  }
 
   ngOnInit() {
   }
