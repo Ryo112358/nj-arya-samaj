@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 /* -------------------------- Custom Modules -------------------------- */
+import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared';
 import { AppRoutingModule } from './app-routing.module';
 
@@ -20,8 +21,9 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
   declarations: [AppComponent, HomeComponent, ExecutiveBodyComponent, FuturePlansComponent, HumanitarianWorkComponent],
   imports: [
     BrowserModule,
+    CoreModule,
     SharedModule,
-    AppRoutingModule  // App Routing Module should be imported after any feature modules
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
