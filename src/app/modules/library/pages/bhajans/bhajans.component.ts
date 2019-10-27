@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import bhajansJSON from '../../../../../assets/data/bhajans.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
+
 
 @Component({
   selector: 'app-bhajans',
@@ -8,13 +11,18 @@ import bhajansJSON from '../../../../../assets/data/bhajans.json';
 })
 export class BhajansComponent implements OnInit {
 
+  json: string = 'bhajans.json';
+
   bhajans: any[];
 
-  constructor() {
-    this.bhajans = bhajansJSON.bhajans;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
+    const jsonPath = environment.siteDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.bhajans = data["bhajans"];
+    });
   }
 
   disableResourceIcon(path: string): boolean {

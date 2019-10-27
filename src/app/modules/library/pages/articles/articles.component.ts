@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-
-import { JsonLoaderService } from 'app/core/services/json-loader.service';
 import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
+
 
 @Component({
   selector: 'app-articles',
@@ -14,15 +15,15 @@ export class ArticlesComponent implements OnInit {
   
   articles: any[];
 
-  constructor(private jsonLoaderService: JsonLoaderService) {
+  constructor(private jsonLoaderService: JsonLoaderService) {}
+
+  ngOnInit() {
     const jsonPath = environment.siteDataPath + this.json;
 
     this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
       this.articles = data["articles"];
     });
   }
-
-  ngOnInit() {}
 
   disableResourceIcon(path: string): boolean {
     return path === "";

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import prayersJSON from '../../../../../assets/data/prayers.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-prayers',
@@ -7,14 +9,19 @@ import prayersJSON from '../../../../../assets/data/prayers.json';
   styleUrls: ['./prayers.component.css']
 })
 export class PrayersComponent implements OnInit {
+  
+  json: string = 'prayers.json';
 
   prayers: any[];
 
-  constructor() {
-    this.prayers = prayersJSON.prayers;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
+    const jsonPath = environment.siteDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.prayers = data["prayers"];
+    });
   }
 
 }

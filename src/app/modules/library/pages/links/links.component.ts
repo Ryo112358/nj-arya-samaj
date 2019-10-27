@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import libraryJSON from '../../../../../assets/data/library.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-links',
@@ -7,14 +9,20 @@ import libraryJSON from '../../../../../assets/data/library.json';
   styleUrls: ['./links.component.css']
 })
 export class LinksComponent implements OnInit {
+  
+  json: string = 'library.json';
 
   links: any[];
 
-  constructor() {
-    this.links = libraryJSON.links;
+  constructor(private jsonLoaderService: JsonLoaderService) {
   }
 
   ngOnInit() {
+    const jsonPath = environment.siteDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.links = data["links"];
+    });
   }
 
 }
