@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'environments/environment';
 
-import mandir_events from '../../../assets/data/mandir-events.json';
+import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-home',
@@ -8,14 +9,19 @@ import mandir_events from '../../../assets/data/mandir-events.json';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  
+  json: string = 'mandir-events.json';
 
   events: any[];
 
-  constructor() {
-    this.events = mandir_events.events;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
+    const jsonPath = environment.siteDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.events = data["events"];
+    });
   }
 
 }

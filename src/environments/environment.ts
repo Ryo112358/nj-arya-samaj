@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  siteDataPath: 'assets/data/'
+  siteDataPath: 'assets/data/',
+  scripturesDataPath: 'assets/data/scriptures/'
 };
 
 /*

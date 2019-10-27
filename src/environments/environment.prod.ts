@@ -1,4 +1,5 @@
 export const environment = {
   production: true,
-  siteDataPath: 'assets/data/'
+  siteDataPath: 'assets/data/',
+  scripturesDataPath: 'assets/data/scriptures/'
 };
