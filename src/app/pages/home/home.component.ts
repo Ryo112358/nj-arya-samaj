@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
@@ -8,20 +9,26 @@ import { JsonLoaderService } from 'app/core/services';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
-  
-  json: string = 'mandir-events.json';
+export class HomeComponent implements OnInit, OnDestroy {
 
-  events: any[];
+  private $jsonObs: Subscription;
+  
+  private json: string = 'mandir-events.json';
+
+  private events: any[];
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
     const jsonPath = environment.siteDataPath + this.json;
 
-    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
       this.events = data["events"];
     });
+  }
+
+  ngOnDestroy() {
+    this.$jsonObs.unsubscribe();
   }
 
 }

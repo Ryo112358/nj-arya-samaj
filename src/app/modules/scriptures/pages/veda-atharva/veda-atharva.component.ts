@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
@@ -11,20 +12,26 @@ import { JsonLoaderService } from 'app/core/services';
     './veda-atharva.component.css'
   ]
 })
-export class VedaAtharvaComponent implements OnInit {
-  
-  json: string = 'veda-atharva.json';
+export class VedaAtharvaComponent implements OnInit, OnDestroy {
 
-  atharva: any[];
+  private $jsonObs: Subscription;
+  
+  private json: string = 'veda-atharva.json';
+
+  private atharva: any[];
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
     const jsonPath = environment.scripturesDataPath + this.json;
 
-    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
       this.atharva = data["scripture"];
     });
+  }
+
+  ngOnDestroy() {
+    this.$jsonObs.unsubscribe();
   }
 
   generateTitle(section) {

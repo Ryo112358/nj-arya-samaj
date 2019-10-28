@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
-// import upanishadJSON from '../../../../../assets/data/scriptures/upanishad.json';
 
 @Component({
   selector: 'app-upanishad',
@@ -12,20 +12,26 @@ import { JsonLoaderService } from 'app/core/services';
     './upanishad.component.css'
   ]
 })
-export class UpanishadComponent implements OnInit {
-  
-  json: string = 'upanishad.json';
+export class UpanishadComponent implements OnInit, OnDestroy {
 
-  upanishad: any[];
+  private $jsonObs: Subscription;
+  
+  private json: string = 'upanishad.json';
+
+  private upanishad: any[];
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
     const jsonPath = environment.scripturesDataPath + this.json;
 
-    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
       this.upanishad = data["scripture"];
     });
+  }
+
+  ngOnDestroy() {
+    this.$jsonObs.unsubscribe();
   }
 
   disableResourceIcon(path: string): boolean {

@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { environment } from 'environments/environment';
@@ -14,14 +14,14 @@ import { JsonLoaderService } from 'app/core/services';
     './mandala.component.css'
   ]
 })
-export class MandalaComponent implements OnInit {
+export class MandalaComponent implements OnInit, OnDestroy {
 
-  json: string = 'veda-rig.json';
+  private $route: Subscription;
+
+  private json: string = 'veda-rig.json';
 
   @Input('mandalaInfo') mandala: Object;
-  mandalaId: number;
-
-  routeSubscription: Subscription;
+  private mandalaId: number;
 
   constructor(
     private route: ActivatedRoute,
@@ -30,33 +30,18 @@ export class MandalaComponent implements OnInit {
 
   ngOnInit() {
 
-    this.route.data.subscribe(data => {
+    this.$route = this.route.data.subscribe(data => {
       this.mandala = data["mandala"];
     });
 
-    // console.log("Reached: ", this.mandala);
-
     // this.routeSubscription = this.route.params.subscribe(params => {
-    //   // this.mandalaId = +params['mandalaId'];
-    //   // this.mandala = rigJSON.mandalas[this.mandalaId-1];
-    //   // this.loadMandalaFromJSON(this.mandalaId);
-    //   // const jsonPath = environment.scripturesDataPath + this.json;
-
-    //   // this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-    //   //   this.mandala = data["mandalas"][this.mandalaId-1];
-
-    //   //   console.log(this.mandala);
-    //   // });
+    //   this.mandalaId = +params['mandalaId'];
+    //   this.loadMandalaFromJSON(this.mandalaId);
     // });
   }
 
-  loadMandalaFromJSON(mandalaId: number) {
-    const jsonPath = environment.scripturesDataPath + this.json;
-
-    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.mandala = data["mandalas"][mandalaId-1];
-      console.log(this.mandala);
-    });
+  ngOnDestroy() {
+    this.$route.unsubscribe();
   }
 
   generateTitle(section) {
@@ -68,8 +53,13 @@ export class MandalaComponent implements OnInit {
     return path === "";
   }
 
-  ngOnDestroy() {
-    // this.routeSubscription.unsubscribe();
+  loadMandalaFromJSON(mandalaId: number) {
+    const jsonPath = environment.scripturesDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.mandala = data["mandalas"][mandalaId-1];
+      console.log(this.mandala);
+    });
   }
 
 }

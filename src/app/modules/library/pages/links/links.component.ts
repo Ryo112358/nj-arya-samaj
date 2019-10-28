@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
@@ -8,11 +9,13 @@ import { JsonLoaderService } from 'app/core/services';
   templateUrl: './links.component.html',
   styleUrls: ['./links.component.css']
 })
-export class LinksComponent implements OnInit {
-  
-  json: string = 'library.json';
+export class LinksComponent implements OnInit, OnDestroy {
 
-  links: any[];
+  private $jsonObs: Subscription;
+  
+  private json: string = 'library.json';
+
+  private links: any[];
 
   constructor(private jsonLoaderService: JsonLoaderService) {
   }
@@ -20,9 +23,13 @@ export class LinksComponent implements OnInit {
   ngOnInit() {
     const jsonPath = environment.siteDataPath + this.json;
 
-    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
       this.links = data["links"];
     });
+  }
+
+  ngOnDestroy() {
+    this.$jsonObs.unsubscribe();
   }
 
 }

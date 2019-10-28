@@ -18,7 +18,6 @@ export class VedaRigComponent implements OnInit {
     this.mandalas = new Array(10);
   }
 
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
 }

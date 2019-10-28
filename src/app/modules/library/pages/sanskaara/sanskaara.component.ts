@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
@@ -8,20 +9,26 @@ import { JsonLoaderService } from 'app/core/services';
   templateUrl: './sanskaara.component.html',
   styleUrls: ['./sanskaara.component.css']
 })
-export class SanskaaraComponent implements OnInit {
-  
-  json: string = 'sanskaaras.json';
+export class SanskaaraComponent implements OnInit, OnDestroy {
 
-  sanskaaras: any[];
+  private $jsonObs: Subscription;
+  
+  private json: string = 'sanskaaras.json';
+
+  private sanskaaras: any[];
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
     const jsonPath = environment.siteDataPath + this.json;
 
-    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
       this.sanskaaras = data["sanskaaras"];
     });
+  }
+
+  ngOnDestroy() {
+    this.$jsonObs.unsubscribe();
   }
 
   disableResourceIcon(path: string): boolean {
