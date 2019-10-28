@@ -14,11 +14,10 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class UpanishadComponent implements OnInit, OnDestroy {
 
-  private $jsonObs: Subscription;
-  
-  private json: string = 'upanishad.json';
+  upanishad: any[];
 
-  private upanishad: any[];
+  private $jsonObs: Subscription;
+  private json: string = 'upanishad.json';
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 

@@ -16,12 +16,11 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class MandalaComponent implements OnInit, OnDestroy {
 
-  private $route: Subscription;
-
-  private json: string = 'veda-rig.json';
-
-  @Input('mandalaInfo') mandala: Object;
+  @Input('mandalaInfo') mandala: any;
   private mandalaId: number;
+
+  private $route: Subscription;
+  private json: string = 'veda-rig.json';
 
   constructor(
     private route: ActivatedRoute,
@@ -30,10 +29,12 @@ export class MandalaComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
 
+    // Load Mandala data from ActivatedRoute
     this.$route = this.route.data.subscribe(data => {
       this.mandala = data["mandala"];
     });
 
+    // Legacy method of loading Mandala; deprecated because template would try to read unfetched data
     // this.routeSubscription = this.route.params.subscribe(params => {
     //   this.mandalaId = +params['mandalaId'];
     //   this.loadMandalaFromJSON(this.mandalaId);
@@ -53,13 +54,13 @@ export class MandalaComponent implements OnInit, OnDestroy {
     return path === "";
   }
 
-  loadMandalaFromJSON(mandalaId: number) {
-    const jsonPath = environment.scripturesDataPath + this.json;
+  // loadMandalaFromJSON(mandalaId: number) {
+  //   const jsonPath = environment.scripturesDataPath + this.json;
 
-    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.mandala = data["mandalas"][mandalaId-1];
-      console.log(this.mandala);
-    });
-  }
+  //   this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+  //     this.mandala = data["mandalas"][mandalaId-1];
+  //     console.log(this.mandala);
+  //   });
+  // }
 
 }

@@ -11,11 +11,10 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class BhajansComponent implements OnInit, OnDestroy {
 
+  bhajans: any[];
+
   private $jsonObs: Subscription;
-
   private json: string = 'bhajans.json';
-
-  private bhajans: any[];
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 

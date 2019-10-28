@@ -14,11 +14,10 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class VedaAtharvaComponent implements OnInit, OnDestroy {
 
-  private $jsonObs: Subscription;
-  
-  private json: string = 'veda-atharva.json';
+  atharva: any[];
 
-  private atharva: any[];
+  private $jsonObs: Subscription;
+  private json: string = 'veda-atharva.json';
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 

@@ -10,12 +10,11 @@ import { JsonLoaderService } from 'app/core/services';
   styleUrls: ['./articles.component.css']
 })
 export class ArticlesComponent implements OnInit, OnDestroy {
+  
+  articles: any[];
 
   private $jsonObs: Subscription;
-  
   private json: string = 'library.json';
-  
-  private articles: any[];
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 

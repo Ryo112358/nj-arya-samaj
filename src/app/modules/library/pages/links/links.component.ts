@@ -11,11 +11,10 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class LinksComponent implements OnInit, OnDestroy {
 
-  private $jsonObs: Subscription;
-  
-  private json: string = 'library.json';
+  links: any[];
 
-  private links: any[];
+  private $jsonObs: Subscription;
+  private json: string = 'library.json';
 
   constructor(private jsonLoaderService: JsonLoaderService) {
   }

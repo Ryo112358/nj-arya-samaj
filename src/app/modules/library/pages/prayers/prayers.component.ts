@@ -11,11 +11,10 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class PrayersComponent implements OnInit, OnDestroy {
 
-  private $jsonObs: Subscription;
-  
-  private json: string = 'prayers.json';
+  prayers: any[];
 
-  private prayers: any[];
+  private $jsonObs: Subscription;
+  private json: string = 'prayers.json';
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 

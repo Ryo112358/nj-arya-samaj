@@ -23,7 +23,6 @@ export class MandalaResolve implements Resolve<any> {
     return this.jsonLoaderService.getJSON(jsonPath).toPromise().then(data => {
       if(data)
       {
-        // console.log(data["mandalas"][mandalaId-1]);
         return data["mandalas"][mandalaId-1];
       }
       else {

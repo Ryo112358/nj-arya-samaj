@@ -14,11 +14,10 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class VedaYajurComponent implements OnInit, OnDestroy {
 
-  private $jsonObs: Subscription;
-  
-  private json: string = 'veda-yajur.json';
+  yajur: any[];
 
-  private yajur: any[];
+  private $jsonObs: Subscription;
+  private json: string = 'veda-yajur.json';
 
   constructor(private jsonLoaderService: JsonLoaderService) {}
 
