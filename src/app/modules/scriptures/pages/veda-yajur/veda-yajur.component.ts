@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import yajurJSON from '../../../../../assets/data/scriptures/veda-yajur.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-veda-yajur',
@@ -10,14 +12,19 @@ import yajurJSON from '../../../../../assets/data/scriptures/veda-yajur.json';
   ]
 })
 export class VedaYajurComponent implements OnInit {
+  
+  json: string = 'veda-yajur.json';
 
   yajur: any[];
 
-  constructor() {
-    this.yajur = yajurJSON.scripture;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
+    const jsonPath = environment.scripturesDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.yajur = data["scripture"];
+    });
   }
 
   disableResourceIcon(path: string): boolean {

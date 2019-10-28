@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import upanishadJSON from '../../../../../assets/data/scriptures/upanishad.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
+// import upanishadJSON from '../../../../../assets/data/scriptures/upanishad.json';
 
 @Component({
   selector: 'app-upanishad',
@@ -10,14 +13,20 @@ import upanishadJSON from '../../../../../assets/data/scriptures/upanishad.json'
   ]
 })
 export class UpanishadComponent implements OnInit {
+  
+  json: string = 'upanishad.json';
 
   upanishad: any[];
 
-  constructor() {
-    this.upanishad = upanishadJSON.scripture;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
-  ngOnInit() { }
+  ngOnInit() {
+    const jsonPath = environment.scripturesDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.upanishad = data["scripture"];
+    });
+  }
 
   disableResourceIcon(path: string): boolean {
     // Disable if matches empty path (i.e. DNE)

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import saamaJSON from '../../../../../assets/data/scriptures/veda-saama.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-veda-saama',
@@ -10,14 +12,19 @@ import saamaJSON from '../../../../../assets/data/scriptures/veda-saama.json';
   ]
 })
 export class VedaSaamaComponent implements OnInit {
+  
+  json: string = 'veda-saama.json';
 
   saama: any[];
 
-  constructor() {
-    this.saama = saamaJSON.scripture;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
+    const jsonPath = environment.scripturesDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.saama = data["scripture"];
+    });
   }
 
   disableResourceIcon(path: string): boolean {

@@ -9,12 +9,18 @@ import { VedaAtharvaComponent } from './pages/veda-atharva/veda-atharva.componen
 import { VedaRigComponent } from './pages/veda-rig/veda-rig.component';
 import { MandalaComponent } from './pages/veda-rig/mandala/mandala.component';
 
+import { MandalaResolve } from './pages/veda-rig/mandala/mandala.resolve.service';
+
 const routes: Routes = [
     { path: 'bhagavad-geetaa', component: BhagavadGeetaaComponent },
     { path: 'upanishad', component: UpanishadComponent },
     { path: 'veda-rig', component: VedaRigComponent,
         children: [
-            { path: 'mandala/:mandalaId', component: MandalaComponent },
+            {
+                path: 'mandala/:mandalaId',
+                component: MandalaComponent,
+                resolve: { mandala: MandalaResolve}
+            },
             { path: '', redirectTo: 'mandala/1', pathMatch: 'full' }
         ]
     },
@@ -25,6 +31,7 @@ const routes: Routes = [
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
+    exports: [RouterModule],
+    providers: [MandalaResolve]
 })
 export class ScripturesRoutingModule { }

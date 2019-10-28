@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import geetaaJSON from '../../../../../assets/data/scriptures/geetaa.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-bhagavad-geetaa',
@@ -10,14 +12,19 @@ import geetaaJSON from '../../../../../assets/data/scriptures/geetaa.json';
   ]
 })
 export class BhagavadGeetaaComponent implements OnInit {
+  
+  json: string = 'geetaa.json';
 
   geetaa: any[];
 
-  constructor() {
-    this.geetaa = geetaaJSON.scripture;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
+    const jsonPath = environment.scripturesDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.geetaa = data["scripture"];
+    });
   }
 
   disableResourceIcon(path: string): boolean {

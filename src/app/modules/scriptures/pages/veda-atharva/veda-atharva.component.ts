@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import atharvaJSON from '../../../../../assets/data/scriptures/veda-atharva.json';
+import { environment } from 'environments/environment';
+
+import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-veda-atharva',
@@ -10,14 +12,19 @@ import atharvaJSON from '../../../../../assets/data/scriptures/veda-atharva.json
   ]
 })
 export class VedaAtharvaComponent implements OnInit {
+  
+  json: string = 'veda-atharva.json';
 
   atharva: any[];
 
-  constructor() {
-    this.atharva = atharvaJSON.scripture;
-  }
+  constructor(private jsonLoaderService: JsonLoaderService) {}
 
   ngOnInit() {
+    const jsonPath = environment.scripturesDataPath + this.json;
+
+    this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+      this.atharva = data["scripture"];
+    });
   }
 
   generateTitle(section) {
