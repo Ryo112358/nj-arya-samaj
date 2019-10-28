@@ -23,7 +23,7 @@
                     "devataa": "Vayu",
                     "chhanda": "Nichridgaayatree",
                     "document": "assets/docs/Rigveda01.002.pdf",
-                    "audio": "assets/audio/Rigveda01.001.mp3",
+                    "audio": "assets/audio/Rigveda01.002.mp3",
                     "summary": [
                         "Coming soon"
                     ]
@@ -35,7 +35,7 @@
                     "devataa": "Ashvinau",
                     "chhanda": "Nichridgaayatree",
                     "document": "assets/docs/Rigveda01.003.pdf",
-                    "audio": "assets/audio/Rigveda01.001.mp3",
+                    "audio": "",
                     "summary": [
                         "Coming soon"
                     ]
@@ -233,6 +233,90 @@
                     "devataa": "Vishvedevaa, Pathyaa Svasti",
                     "chhanda": "Various",
                     "document": "assets/docs/Rigveda10.063.pdf",
+                    "audio": "",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                },
+                {
+                    "sukta": 90,
+                    "mantras": 16,
+                    "rishi": "Naaraayana",
+                    "devataa": "Purusha",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.090.pdf",
+                    "audio": "",
+                    "summary": [
+                        "Purush Sukta"
+                    ]
+                },
+                {
+                    "sukta": 121,
+                    "mantras": 10,
+                    "rishi": "Praajaapatyo hiranyagarbhah",
+                    "devataa": "kah",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.121.pdf",
+                    "audio": "",
+                    "summary": [
+                        "Haranyagarbhah Sukta. This composition implores everyone to first identify God's qualities and then worship him with unshakeable faith, instead of a blind faith. Here God has been identified as the creator and sustainer of this entire universe and everything there is. He is the source of all energies and knowledge. He is responsible for maintaining the smooth motion of all heavenly bodies. He is the only one worthy of our prayers and no one else."
+                    ]
+                },
+                {
+                    "sukta": 129,
+                    "mantras": 7,
+                    "rishi": "Prajaapati Parameshthee",
+                    "devataa": "Bhaavavrittam",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.129.pdf",
+                    "audio": "",
+                    "summary": [
+                        "Coming soon"
+                    ]
+                },
+                {
+                    "sukta": 158,
+                    "mantras": 3,
+                    "rishi": "Sauryashchakshuh",
+                    "devataa": "Sooryaah",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.158.pdf",
+                    "audio": "",
+                    "summary": [
+                        "This composition contains prayers for our protection to the governing divinities of all three realms, especially for the protection of the sight in our eyes."
+                    ]
+                },
+                {
+                    "sukta": 184,
+                    "mantras": 3,
+                    "rishi": "Garbhakartaa Prajaapatyo Vishnurvaa",
+                    "devataa": "Lingoktaah",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.184.pdf",
+                    "audio": "",
+                    "summary": [
+                        "Garbha sukta contains prayers for protection and strengthening of the fetus."
+                    ]
+                },
+                {
+                    "sukta": 190,
+                    "mantras": 3,
+                    "rishi": "Aghamarshana",
+                    "devataa": "Bhaavavrittam",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.190.pdf",
+                    "audio": "",
+                    "summary": [
+                        "This composition clarifies the process of creation of this Universe. God destroys the old Universe to make way for the new. The remains of the old universe are brought together in a humungous cosmic soup. God then creates a plan for the new Universe. He also creates system for automated and smooth running of the universe. The plan is then put into life. We learn that the process of destruction and creation is cyclical and in future there will be more of these cycles."
+                    ]
+                },
+                {
+                    "sukta": 191,
+                    "mantras": 3,
+                    "rishi": "Samvanana",
+                    "devataa": "Agni, Sanjnaanam",
+                    "chhanda": "Various",
+                    "document": "assets/docs/Rigveda10.191.pdf",
                     "audio": "",
                     "summary": [
                         "Coming soon"
