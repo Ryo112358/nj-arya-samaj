@@ -17,7 +17,6 @@ import { JsonLoaderService } from 'app/core/services';
 export class MandalaComponent implements OnInit, OnDestroy {
 
   @Input('mandalaInfo') mandala: any;
-  mandalaId: number;
 
   private $route: Subscription;
   private json: string = 'veda-rig.json';
@@ -32,7 +31,6 @@ export class MandalaComponent implements OnInit, OnDestroy {
     // Load Mandala data from ActivatedRoute
     this.$route = this.route.data.subscribe(data => {
       this.mandala = data["mandala"];
-      this.mandalaId = this.mandala["id"];
     });
 
     // Legacy method of loading Mandala; deprecated because template would try to read unfetched data
