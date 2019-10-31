@@ -1,0 +1,15 @@
+#Fix Rewrite
+Options -Multiviews
+
+# Mod Rewrite
+<IfModule mod_rewrite.c>
+   Options Indexes FollowSymLinks
+   RewriteEngine On
+   RewriteCond %{SERVER_PORT} 80
+   RewriteCond %{HTTP_HOST} ^(www\.)?njaryasamaj\.org
+   RewriteRule ^(.*)$ https://njaryasamaj.org/$1 [R,L]
+   RewriteBase /
+   RewriteCond %{REQUEST_FILENAME} !-f
+   RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule . /index.html [L]
+</IfModule>
