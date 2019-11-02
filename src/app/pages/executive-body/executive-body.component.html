@@ -9,53 +9,45 @@
                 <tr class="text-center"><th scope="rowgroup" colspan="2">Executive Committee</th></tr>
                 <tr>
                     <th scope="row">President</th>
-                    <td>Parbatie Etwaroo</td>
+                    <td>{{ executiveBody.president }}</td>
                 </tr>
                 <tr>
                     <th scope="row">Vice President</th>
-                    <td>Jadubir Suchit</td>
+                    <td>{{ executiveBody.vicePresident }}</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <th scope="row">General Secretary</th>
-                    <td>Pt. Sanjay Mittal</td>
+                    <td>{{ executiveBody.secretary }}</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <th scope="row">Treasurer</th>
-                    <td>Ojaswini Suchit</td>
+                    <td>{{ executiveBody.treasurer }}</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <th scope="row">Public Relations Officer</th>
-                    <td>Harrychan Ramu</td>
+                    <td>{{ executiveBody.publicRelationsOfficer }}</td>
+                    <td></td>
                 </tr>
 
                 <!-- Trustees -->
                 <tr class="text-center"><th scope="rowgroup" colspan="2">Trustees</th></tr>
-                <tr>
-                    <td colspan="2">Jadubir Suchit (Chairman)</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Parbatie Etwaroo</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Pt. Sanjay Mittal</td>
+                <tr *ngFor="let trustee of executiveBody.trustees">
+                    <td colspan="2">{{ trustee }}</td>
                 </tr>
 
                 <!-- Purohits -->
                 <tr class="text-center"><th scope="rowgroup" colspan="2">Purohits</th></tr>
-                <tr>
-                    <td colspan="2">Pt. Siddhaartha Raamsaran</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Pt. Sanjay Mittal</td>
+                <tr *ngFor="let purohit of executiveBody.purohits">
+                    <td colspan="2">{{ purohit }}</td>
                 </tr>
 
                 <!-- Members -->
                 <tr class="text-center"><th scope="rowgroup" colspan="2">Members</th></tr>
-                <tr>
-                    <td colspan="2">Bomatie Suchit</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Manwattie Bedessie</td>
+                <tr *ngFor="let member of executiveBody.members">
+                    <td colspan="2">{{ member }}</td>
                 </tr>
             </tbody>
         </table>

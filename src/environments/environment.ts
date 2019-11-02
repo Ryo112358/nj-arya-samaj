@@ -5,7 +5,9 @@
 export const environment = {
   production: false,
   siteDataPath: 'assets/data/',
-  scripturesDataPath: 'assets/data/scriptures/'
+  scripturesDataPath: 'assets/data/scriptures/',
+  /* ------------------------------------------------ */
+  generalData: 'assets/data/general.json'
 };
 
 /*

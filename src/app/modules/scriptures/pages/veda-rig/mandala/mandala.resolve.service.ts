@@ -12,10 +12,10 @@ export class MandalaResolve implements Resolve<any> {
 
   constructor(
     private jsonLoaderService: JsonLoaderService,
-    private router: Router
+    private _router: Router
   ) { }
 
-  resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Promise<any> | boolean {
+  resolve(route: ActivatedRouteSnapshot, _state: RouterStateSnapshot): Promise<any> | boolean {
     let mandalaId = +route.params['mandalaId'];
 
     const jsonPath = environment.scripturesDataPath + this.json;

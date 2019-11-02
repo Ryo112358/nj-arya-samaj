@@ -22,8 +22,7 @@ export class MandalaComponent implements OnInit, OnDestroy {
   private json: string = 'veda-rig.json';
 
   constructor(
-    private route: ActivatedRoute,
-    private jsonLoaderService: JsonLoaderService
+    private route: ActivatedRoute
   ) {}
 
   ngOnInit() {

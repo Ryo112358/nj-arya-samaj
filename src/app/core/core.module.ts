@@ -1,11 +1,13 @@
 import { NgModule, Optional, SkipSelf } from '@angular/core';
-import { JsonLoaderService } from './services/json-loader.service';
+
+import { JsonLoaderService } from './services';
+import { GeneralService } from './services';
  
 @NgModule({
   declarations: [],
   imports: [],
   providers: [
-    JsonLoaderService
+    JsonLoaderService, GeneralService
   ]
 })
 export class CoreModule { 

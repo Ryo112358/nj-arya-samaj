@@ -1,0 +1,28 @@
+{
+    "executiveBody": {
+        "president": "Parbatie Etwaroo",
+        "vicePresident": "Jadubir Suchit",
+        "secretary": "Pt. Sanjay Mittal",
+        "treasurer": "Ojaswini Suchit",
+        "publicRelationsOfficer": "Harrychan Ramu",
+        "trustees": [
+            "Jadubir Suchit (Chairman)",
+            "Parbatie Etwaroo",
+            "Pt. Sanjay Mittal"
+        ],
+        "purohits": [
+            "Pt. Siddhaartha Raamsaran",
+            "Pt. Sanjay Mittal"
+        ],
+        "members": [
+            "Bomatie Suchit",
+            "Manwattie Bedessie"
+        ]
+    },
+    "humanitarianWork": {
+        "summary": [
+            "Parbatie Etwaroo leads the food drive, wherein canned food is collected and then delivered to community food pantries feeding the homeless and under-privileged.",
+            "Parbatie Etwaroo leads the clothing drive, wherein new & lightly used clothes are collected and then distributed to the homeless and under-privileged."
+        ]
+    }
+}
