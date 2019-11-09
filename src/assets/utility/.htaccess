@@ -4,6 +4,7 @@ Options -Multiviews
 # ----------------------------------------------------------------------
 # | Mod Rewrite                                                        |
 # ----------------------------------------------------------------------
+
 <IfModule mod_rewrite.c>
    Options Indexes FollowSymLinks
    RewriteEngine On
