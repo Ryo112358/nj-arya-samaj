@@ -66,6 +66,12 @@ MIT
 @angular/router
 MIT
 
+@ngx-loading-bar/core
+MIT
+
+@ngx-loading-bar/router
+MIT
+
 bootstrap
 MIT
 The MIT License (MIT)
