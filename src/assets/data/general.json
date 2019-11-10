@@ -1,23 +1,25 @@
 {
-    "executiveBody": {
-        "president": "Parbatie Etwaroo",
-        "vicePresident": "Jadubir Suchit",
-        "secretary": "Pt. Sanjay Mittal",
-        "treasurer": "Ojaswini Suchit",
-        "publicRelationsOfficer": "Harrychan Ramu",
-        "trustees": [
-            "Jadubir Suchit (Chairman)",
-            "Parbatie Etwaroo",
-            "Pt. Sanjay Mittal"
-        ],
-        "purohits": [
-            "Pt. Siddhaartha Raamsaran",
-            "Pt. Sanjay Mittal"
-        ],
-        "members": [
-            "Bomatie Suchit",
-            "Manwattie Bedessie"
-        ]
+    "aboutUs": {
+        "executiveBody": {
+            "president": "Parbatie Etwaroo",
+            "vicePresident": "Jadubir Suchit",
+            "secretary": "Pt. Sanjay Mittal",
+            "treasurer": "Ojaswini Suchit",
+            "publicRelationsOfficer": "Harrychan Ramu",
+            "trustees": [
+                "Jadubir Suchit (Chairman)",
+                "Parbatie Etwaroo",
+                "Pt. Sanjay Mittal"
+            ],
+            "purohits": [
+                "Pt. Siddhaartha Raamsaran",
+                "Pt. Sanjay Mittal"
+            ],
+            "members": [
+                "Bomatie Suchit",
+                "Manwattie Bedessie"
+            ]
+        }
     },
     "humanitarianWork": {
         "summary": [

@@ -26,7 +26,7 @@ export class ExecutiveBodyComponent implements OnInit, OnDestroy {
   ngOnInit() {
     
     this.$route = this.route.data.subscribe(data => {
-      this.executiveBody = data["executiveBody"];
+      this.executiveBody = data["resolvedData"];
     });
     
     // this.$jsonObs = this.generalService.getExecutiveBody().subscribe(data => {

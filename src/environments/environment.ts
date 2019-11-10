@@ -7,7 +7,8 @@ export const environment = {
   siteDataPath: 'assets/data/',
   scripturesDataPath: 'assets/data/scriptures/',
   /* ------------------------------------------------ */
-  generalData: 'assets/data/general.json'
+  generalData: 'assets/data/general.json',
+  eventsData: 'assets/data/mandir-events.json'
 };
 
 /*

@@ -13,9 +13,22 @@ export class GeneralService {
 
   constructor(private http: HttpClient) { }
 
-  public getExecutiveBody(): Observable<ExecutiveBody> {
-    return this.http.get<ExecutiveBody>(environment.generalData).pipe(
-      map(data => new ExecutiveBody().deserialize(data["executiveBody"]))
+  public getUpcomingEvents(): Observable<Object> {
+    return this.http.get<Object>(environment.eventsData).pipe(
+      map(data => data["events"])
     );
   }
+
+  public getHumanitarianWork(): Observable<Object> {
+    return this.http.get<Object>(environment.generalData).pipe(
+      map(data => data["humanitarianWork"])
+    );
+  }
+
+  public getExecutiveBody(): Observable<ExecutiveBody> {
+    return this.http.get<ExecutiveBody>(environment.generalData).pipe(
+      map(data => new ExecutiveBody().deserialize(data["aboutUs"]["executiveBody"]))
+    );
+  }
+
 }

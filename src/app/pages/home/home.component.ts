@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { environment } from 'environments/environment';
+// import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
 
@@ -13,21 +14,30 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   events: any[];
 
-  private $jsonObs: Subscription;
-  private json: string = 'mandir-events.json';
+  private $route: Subscription;
+  // private $jsonObs: Subscription;
+  // private json: string = 'mandir-events.json';
 
-  constructor(private jsonLoaderService: JsonLoaderService) {}
+  constructor(
+    private _jsonLoaderService: JsonLoaderService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit() {
-    const jsonPath = environment.siteDataPath + this.json;
-
-    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.events = data["events"];
+    
+    this.$route = this.route.data.subscribe(data => {
+      this.events = data["resolvedData"];
     });
+    // const jsonPath = environment.siteDataPath + this.json;
+
+    // this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+    //   this.events = data["events"];
+    // });
   }
 
   ngOnDestroy() {
-    this.$jsonObs.unsubscribe();
+    // this.$jsonObs.unsubscribe();
+    this.$route.unsubscribe();
   }
 
 }

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 
 /* -------------------------- Custom Modules -------------------------- */
 import { CoreModule } from './core/core.module';
@@ -23,7 +24,8 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
     BrowserModule,
     CoreModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+    LoadingBarRouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

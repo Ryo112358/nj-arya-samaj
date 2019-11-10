@@ -1,1 +1,0 @@
-export { AboutPageResolve } from './about-page.resolve.service';

@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { environment } from 'environments/environment';
+// import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
 
@@ -13,21 +14,30 @@ export class HumanitarianWorkComponent implements OnInit, OnDestroy {
 
   summary: String[];
 
-  private $jsonObs: Subscription;
-  private json: string = 'general.json';
+  private $route: Subscription;
+  // private $jsonObs: Subscription;
+  // private json: string = 'general.json';
 
-  constructor(private jsonLoaderService: JsonLoaderService) {}
+  constructor(
+    private _jsonLoaderService: JsonLoaderService,
+    private route: ActivatedRoute
+  ) {}
 
   ngOnInit() {
-    const jsonPath = environment.siteDataPath + this.json;
-
-    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.summary = data["humanitarianWork"]["summary"];
+    
+    this.$route = this.route.data.subscribe(data => {
+      this.summary = data["resolvedData"]["summary"];
     });
+    // const jsonPath = environment.siteDataPath + this.json;
+
+    // this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
+    //   this.summary = data["humanitarianWork"]["summary"];
+    // });
   }
 
   ngOnDestroy() {
-    this.$jsonObs.unsubscribe();
+    // this.$jsonObs.unsubscribe();
+    this.$route.unsubscribe();
   }
 
 }
