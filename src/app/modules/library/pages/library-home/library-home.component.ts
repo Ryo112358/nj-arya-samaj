@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import libraryJSON from '../../../../../assets/data/library.json';
 
 @Component({
   selector: 'app-library-home',
@@ -8,14 +7,9 @@ import libraryJSON from '../../../../../assets/data/library.json';
 })
 export class LibraryHomeComponent implements OnInit {
 
-  articles: any[];
+  constructor() {}
 
-  constructor() {
-    this.articles = libraryJSON.articles;
-  }
-
-  ngOnInit() {
-  }
+  ngOnInit() {}
 
   copyText(val: string){
     let selBox = document.createElement('textarea');

@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { LibraryRoutingModule } from './library-routing.module';
 
+import { LibraryService } from './services/library.service';
+
 /* -------------------------- Pages -------------------------- */
 import { LibraryHomeComponent } from './pages/library-home/library-home.component';
 import { LinksComponent } from './pages/links/links.component';
@@ -18,6 +20,7 @@ import { ArticlesComponent } from './pages/articles/articles.component';
   imports: [
     CommonModule,
     LibraryRoutingModule
-  ]
+  ],
+  providers: [ LibraryService ]
 })
 export class LibraryModule { }

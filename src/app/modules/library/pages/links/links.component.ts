@@ -1,8 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { environment } from 'environments/environment';
-
-import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-links',
@@ -10,25 +8,22 @@ import { JsonLoaderService } from 'app/core/services';
   styleUrls: ['./links.component.css']
 })
 export class LinksComponent implements OnInit, OnDestroy {
+  
+  private $route: Subscription;
 
   links: any[];
 
-  private $jsonObs: Subscription;
-  private json: string = 'library.json';
-
-  constructor(private jsonLoaderService: JsonLoaderService) {
+  constructor(private route: ActivatedRoute) {
   }
 
   ngOnInit() {
-    const jsonPath = environment.siteDataPath + this.json;
-
-    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.links = data["links"];
+    this.$route = this.route.data.subscribe(data => {
+      this.links = data["resolvedData"];
     });
   }
 
   ngOnDestroy() {
-    this.$jsonObs.unsubscribe();
+    this.$route.unsubscribe();
   }
 
 }

@@ -7,16 +7,44 @@ import { PrayersComponent } from './pages/prayers/prayers.component';
 import { BhajansComponent } from './pages/bhajans/bhajans.component';
 import { SanskaaraComponent } from './pages/sanskaara/sanskaara.component';
 
+import { ArticlesResolver } from './services/resolvers';
+import { PrayersResolver } from './services/resolvers';
+import { BhajansResolver } from './services/resolvers';
+import { SanskaarasResolver } from './services/resolvers';
+import { LinksResolver } from './services/resolvers';
+
 const routes: Routes = [
-    { path: 'main', component: LibraryHomeComponent},
-    { path: 'prayers', component: PrayersComponent },
-    { path: 'bhajans', component: BhajansComponent },
-    { path: 'sanskaara', component: SanskaaraComponent },
-    { path: 'links', component: LinksComponent }
+    {
+        path: 'main', component: LibraryHomeComponent,
+        resolve: { resolvedData: ArticlesResolver }
+    },
+    {
+        path: 'prayers', component: PrayersComponent,
+        resolve: { resolvedData: PrayersResolver }
+    },
+    {
+        path: 'bhajans', component: BhajansComponent,
+        resolve: { resolvedData: BhajansResolver }
+    },
+    {
+        path: 'sanskaara', component: SanskaaraComponent,
+        resolve: { resolvedData: SanskaarasResolver }
+    },
+    {
+        path: 'links', component: LinksComponent,
+        resolve: { resolvedData: LinksResolver }
+    }
 ];
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
-    exports: [RouterModule]
+    exports: [RouterModule],
+    providers: [
+        ArticlesResolver,
+        PrayersResolver,
+        BhajansResolver,
+        SanskaarasResolver,
+        LinksResolver
+    ]
 })
 export class LibraryRoutingModule { }

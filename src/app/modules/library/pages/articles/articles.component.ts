@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { environment } from 'environments/environment';
 
-import { JsonLoaderService } from 'app/core/services';
+
 
 @Component({
   selector: 'app-articles',
@@ -11,23 +11,20 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class ArticlesComponent implements OnInit, OnDestroy {
   
+  private $route: Subscription;
+  
   articles: any[];
 
-  private $jsonObs: Subscription;
-  private json: string = 'library.json';
-
-  constructor(private jsonLoaderService: JsonLoaderService) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    const jsonPath = environment.siteDataPath + this.json;
-
-    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.articles = data["articles"];
+    this.$route = this.route.data.subscribe(data => {
+      this.articles = data["resolvedData"];
     });
   }
 
   ngOnDestroy() {
-    this.$jsonObs.unsubscribe();
+    this.$route.unsubscribe();
   }
 
   disableResourceIcon(path: string): boolean {
