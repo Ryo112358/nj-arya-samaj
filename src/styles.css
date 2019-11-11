@@ -29,6 +29,22 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     height: 3rem;
 }
 
+/* -------------- Bootstrap Overrides -------------- */
+.nav-pills > li > a {
+    color: #E54158;
+}
+
+.nav-pills > li > a:hover,
+.nav-pills > li > a:focus {
+    color: rgb(172, 22, 42);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: white;
+  background-color: #E54158;
+}
+
 /* -------------- Debugging Classes -------------- */
 .bg1 {
     background-color: crimson;
