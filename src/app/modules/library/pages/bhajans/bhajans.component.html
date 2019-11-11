@@ -2,30 +2,38 @@
     <div class="col-auto">
 
         <h2 class="text-center">Bhajans</h2><br>
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">Bhajan</th>
-                    <th scope="col">Lyrics & Translation</th>
-                    <th scope="col">Audio</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let bhajan of bhajans">
-                    <td>{{ bhajan.name }}</td>
-                    <td class="text-center">
-                        <a [href]="bhajan.document" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(bhajan.document) }" target="_blank">
-                            <i class="fa fa-file-text" aria-hidden="true"></i>
-                        </a>
-                    </td>
-                    <td class="text-center">
-                        <a [href]="bhajan.audio" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(bhajan.audio) }" target="_blank">
-                            <i class="fa fa-file-audio-o" aria-hidden="true"></i>
-                        </a>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-responsive">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Bhajan</th>
+                        <th scope="col">Lyrics & Translation</th>
+                        <th scope="col">Audio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let bhajan of bhajans">
+                        <td>{{ bhajan.name }}</td>
+                        <!-- <td class="text-center">
+                            <a [href]="bhajan.document" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(bhajan.document) }" target="_blank">
+                                <i class="fa fa-file-text" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                        <td class="text-center">
+                            <a [href]="bhajan.audio" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(bhajan.audio) }" target="_blank">
+                                <i class="fa fa-file-audio-o" aria-hidden="true"></i>
+                            </a>
+                        </td> -->
+                        <td class="text-center">
+                            <table-resource [link]="bhajan.document" symbol="text"></table-resource>
+                        </td>
+                        <td class="text-center">
+                            <table-resource [link]="bhajan.audio" symbol="audio"></table-resource>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     </div>
 </div>

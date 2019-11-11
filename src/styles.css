@@ -3,6 +3,10 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+th {
+    min-width: 5rem;
+}
+
 .anchor {
     cursor: pointer;
     color: inherit;
@@ -10,6 +14,13 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .anchor:hover {
     color: #E54158;
+}
+
+.anchor:focus {
+    padding: 0.5rem .75rem;
+    border: 2px dashed #343A40;
+    color: #E54158;
+    outline: none;
 }
 
 .anchor-icon {
@@ -34,15 +45,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     color: #E54158;
 }
 
-.nav-pills > li > a:hover,
-.nav-pills > li > a:focus {
+.nav-pills > li > a:hover {
     color: rgb(172, 22, 42);
+}
+
+.nav-pills > li > a:focus:not(.active) {
+    outline: none;
+    border: 2px dashed #E54158;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: white;
   background-color: #E54158;
+  outline: none;
 }
 
 /* -------------- Debugging Classes -------------- */

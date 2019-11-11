@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
+import { SharedModule } from 'app/shared';
 
 import { LibraryRoutingModule } from './library-routing.module';
 
@@ -16,9 +17,16 @@ import { ArticlesComponent } from './pages/articles/articles.component';
 
 
 @NgModule({
-  declarations: [ LibraryHomeComponent, LinksComponent, PrayersComponent, BhajansComponent, SanskaaraComponent, ArticlesComponent ],
+  declarations: [
+    LibraryHomeComponent,
+    ArticlesComponent,
+    PrayersComponent,
+    BhajansComponent,
+    SanskaaraComponent,
+    LinksComponent
+  ],
   imports: [
-    CommonModule,
+    SharedModule,
     LibraryRoutingModule
   ],
   providers: [ LibraryService ]

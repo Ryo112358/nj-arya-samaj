@@ -1,5 +1,7 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoadingBarRouterModule } from '@ngx-loading-bar/router';
 
 /* -------------------------- Custom Modules -------------------------- */
@@ -19,9 +21,17 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
 
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, ExecutiveBodyComponent, FuturePlansComponent, HumanitarianWorkComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    ExecutiveBodyComponent,
+    FuturePlansComponent,
+    HumanitarianWorkComponent
+  ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
+    HttpClientModule,
     CoreModule,
     SharedModule,
     AppRoutingModule,
