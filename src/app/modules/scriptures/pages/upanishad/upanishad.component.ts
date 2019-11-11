@@ -1,8 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { environment } from 'environments/environment';
-
-import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-upanishad',
@@ -14,23 +12,20 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class UpanishadComponent implements OnInit, OnDestroy {
 
+  private $route: Subscription;
+
   upanishad: any[];
 
-  private $jsonObs: Subscription;
-  private json: string = 'upanishad.json';
-
-  constructor(private jsonLoaderService: JsonLoaderService) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    const jsonPath = environment.scripturesDataPath + this.json;
-
-    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.upanishad = data["scripture"];
+    this.$route = this.route.data.subscribe(data => {
+      this.upanishad = data["resolvedData"];
     });
   }
 
   ngOnDestroy() {
-    this.$jsonObs.unsubscribe();
+    this.$route.unsubscribe();
   }
 
   disableResourceIcon(path: string): boolean {

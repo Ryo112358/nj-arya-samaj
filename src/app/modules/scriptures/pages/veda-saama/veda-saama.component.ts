@@ -1,8 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
-import { environment } from 'environments/environment';
-
-import { JsonLoaderService } from 'app/core/services';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-veda-saama',
@@ -14,23 +12,20 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class VedaSaamaComponent implements OnInit, OnDestroy {
 
+  private $route: Subscription;
+
   saama: any[];
 
-  private $jsonObs: Subscription;
-  private json: string = 'veda-saama.json';
-
-  constructor(private jsonLoaderService: JsonLoaderService) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    const jsonPath = environment.scripturesDataPath + this.json;
-
-    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.saama = data["scripture"];
+    this.$route = this.route.data.subscribe(data => {
+      this.saama = data["resolvedData"];
     });
   }
 
   ngOnDestroy() {
-    this.$jsonObs.unsubscribe();
+    this.$route.unsubscribe();
   }
 
   disableResourceIcon(path: string): boolean {

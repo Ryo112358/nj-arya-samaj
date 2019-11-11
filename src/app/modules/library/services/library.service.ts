@@ -7,7 +7,7 @@ import { environment } from 'environments/environment';
 @Injectable()
 export class LibraryService {
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   public getArticles(): Observable<Object> {
     return this.http.get<Object>(environment.libraryJSON).pipe(

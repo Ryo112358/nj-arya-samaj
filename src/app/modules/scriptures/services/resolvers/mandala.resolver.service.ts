@@ -6,7 +6,7 @@ import { environment } from 'environments/environment';
 import { JsonLoaderService } from 'app/core/services';
 
 @Injectable()
-export class MandalaResolve implements Resolve<any> {
+export class MandalaResolver implements Resolve<any> {
 
   private json: string = 'veda-rig.json';
 

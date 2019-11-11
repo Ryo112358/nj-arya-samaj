@@ -9,29 +9,57 @@ import { VedaAtharvaComponent } from './pages/veda-atharva/veda-atharva.componen
 import { VedaRigComponent } from './pages/veda-rig/veda-rig.component';
 import { MandalaComponent } from './pages/veda-rig/mandala/mandala.component';
 
-import { MandalaResolve } from './pages/veda-rig/mandala/mandala.resolve.service';
+/* -------------------------- Resolvers -------------------------- */
+import { MandalaResolver } from './services/resolvers';
+import { BhagavadGeetaaResolver } from './services/resolvers';
+import { UpanishadResolver } from './services/resolvers';
+import { AtharvaVedaResolver } from './services/resolvers';
+import { SaamaVedaResolver } from './services/resolvers';
+import { YajurVedaResolver } from './services/resolvers';
 
 const routes: Routes = [
-    { path: 'bhagavad-geetaa', component: BhagavadGeetaaComponent },
-    { path: 'upanishad', component: UpanishadComponent },
+    {
+        path: 'bhagavad-geetaa', component: BhagavadGeetaaComponent,
+        resolve: { resolvedData: BhagavadGeetaaResolver }
+    },
+    {
+        path: 'upanishad', component: UpanishadComponent,
+        resolve: { resolvedData: UpanishadResolver }
+    },
+    {
+        path: 'veda-atharva', component: VedaAtharvaComponent,
+        resolve: { resolvedData: AtharvaVedaResolver }
+    },
     { path: 'veda-rig', component: VedaRigComponent,
         children: [
             {
                 path: 'mandala/:mandalaId',
                 component: MandalaComponent,
-                resolve: { mandala: MandalaResolve}
+                resolve: { mandala: MandalaResolver }
             },
             { path: '', redirectTo: 'mandala/1', pathMatch: 'full' }
         ]
     },
-    { path: 'veda-yajur', component: VedaYajurComponent },
-    { path: 'veda-saama', component: VedaSaamaComponent },
-    { path: 'veda-atharva', component: VedaAtharvaComponent }
+    {
+        path: 'veda-saama', component: VedaSaamaComponent,
+        resolve: { resolvedData: SaamaVedaResolver }
+    },
+    {
+        path: 'veda-yajur', component: VedaYajurComponent,
+        resolve: { resolvedData: YajurVedaResolver }
+    }
 ];
 
 @NgModule({
     imports: [RouterModule.forChild(routes)],
     exports: [RouterModule],
-    providers: [MandalaResolve]
+    providers: [
+        MandalaResolver,
+        BhagavadGeetaaResolver,
+        UpanishadResolver,
+        AtharvaVedaResolver,
+        SaamaVedaResolver,
+        YajurVedaResolver
+    ]
 })
 export class ScripturesRoutingModule { }

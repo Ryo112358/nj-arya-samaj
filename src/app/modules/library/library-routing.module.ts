@@ -7,6 +7,7 @@ import { PrayersComponent } from './pages/prayers/prayers.component';
 import { BhajansComponent } from './pages/bhajans/bhajans.component';
 import { SanskaaraComponent } from './pages/sanskaara/sanskaara.component';
 
+/* -------------------------- Resolvers -------------------------- */
 import { ArticlesResolver } from './services/resolvers';
 import { PrayersResolver } from './services/resolvers';
 import { BhajansResolver } from './services/resolvers';

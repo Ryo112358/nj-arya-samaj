@@ -1,8 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { environment } from 'environments/environment';
-
-import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-bhagavad-geetaa',
@@ -14,23 +12,20 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class BhagavadGeetaaComponent implements OnInit, OnDestroy {
 
+  private $route: Subscription;
+
   geetaa: any[];
 
-  private $jsonObs: Subscription;
-  private json: string = 'geetaa.json';
-
-  constructor(private jsonLoaderService: JsonLoaderService) {}
+  constructor(private route: ActivatedRoute) {}
 
   ngOnInit() {
-    const jsonPath = environment.scripturesDataPath + this.json;
-
-    this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-      this.geetaa = data["scripture"];
+    this.$route = this.route.data.subscribe(data => {
+      this.geetaa = data["resolvedData"];
     });
   }
 
   ngOnDestroy() {
-    this.$jsonObs.unsubscribe();
+    this.$route.unsubscribe();
   }
 
   disableResourceIcon(path: string): boolean {

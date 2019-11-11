@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 
 import { ScripturesRoutingModule } from './scriptures-routing.module';
 
+import { ScripturesService } from './services/scriptures.service';
+
 import { BhagavadGeetaaComponent } from './pages/bhagavad-geetaa/bhagavad-geetaa.component';
 import { UpanishadComponent } from './pages/upanishad/upanishad.component';
 import { VedaRigComponent } from './pages/veda-rig/veda-rig.component';
@@ -18,6 +20,7 @@ import { MandalaComponent } from './pages/veda-rig/mandala/mandala.component';
   imports: [
     CommonModule,
     ScripturesRoutingModule
-  ]
+  ],
+  providers: [ ScripturesService ]
 })
 export class ScripturesModule { }
