@@ -15,21 +15,6 @@
                 <tbody>
                     <tr *ngFor="let article of articles">
                         <td>{{ article.name }}</td>
-                        <!-- <td class="text-center">
-                            <a [href]="article.english" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(article.english) }" target="_blank" [tabindex]="disableResourceIcon(article.english) ? -1 : 0">
-                                <i class="fa fa-file-text" aria-hidden="true"></i>
-                            </a>
-                        </td>
-                        <td class="text-center">
-                            <a [href]="article.hindi" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(article.hindi) }" target="_blank" [tabindex]="disableResourceIcon(article.hindi) ? -1 : 0">
-                                <i class="fa fa-language" aria-hidden="true"></i>
-                            </a>
-                        </td>
-                        <td class="text-center">
-                            <a [href]="article.original" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(article.original) }" target="_blank" [tabindex]="disableResourceIcon(article.original) ? -1 : 0">
-                                <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                            </a>
-                        </td> -->
                         <td class="text-center">
                             <table-resource [link]="article.english" symbol="text"></table-resource>
                         </td>

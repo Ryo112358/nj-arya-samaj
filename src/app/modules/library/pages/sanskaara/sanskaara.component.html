@@ -16,16 +16,6 @@
                         <tr *ngFor="let sanskaara of sanskaaras">
                             <td>{{ sanskaara.name }}</td>
                             <td>{{ sanskaara.description }}</td>
-                            <!-- <td class="text-center">
-                                <a [href]="sanskaara.document" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(sanskaara.document) }" target="_blank">
-                                    <i class="fa fa-file-text" aria-hidden="true"></i>
-                                </a>
-                            </td>
-                            <td class="text-center">
-                                <a [href]="sanskaara.audio" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(sanskaara.audio) }" target="_blank">
-                                    <i class="fa fa-file-audio-o" aria-hidden="true"></i>
-                                </a>
-                            </td> -->
                             <td class="text-center">
                                 <table-resource [link]="sanskaara.document" symbol="text"></table-resource>
                             </td>
