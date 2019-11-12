@@ -1,7 +1,7 @@
 <div class="row">
-    <div class="col">
+    <div class="col col-lg-4">
         <h3>Regular Service</h3>
-        <p>Service is held every Sunday 9.00 AM to 11.30 AM. Prayer Service includes Meditation (Sandhya) followed by Hawan & Satsang.</p>
+        <p>Service is held every Sunday morning from 9:00 - 11:30 AM. Prayer Service includes Meditation (Sandhya) followed by Hawan & Satsang.</p>
         <p>We are a 100% volunteer operated organization and do not charge money for Sanskars and Prayer Services.</p>
         <br><br>
         <h3>Special Requests</h3>
@@ -9,12 +9,15 @@
         <br><br>
     </div>
 
-    <div class="w-100 d-md-none"></div>
+    <div class="w-100 d-lg-none"></div>
 
-    <div class="col">
+    <div class="col col-lg-8">
+
         <h3>Upcoming Events</h3>
+
         <table class="table table-striped table-hover">
-            <caption>List of upcoming events at Arya Samaj NJ for the year 2020</caption>
+            <caption>Events hosted by the NJ Arya Samaj</caption>
+            
             <thead>
                 <tr>
                     <th scope="col">Date</th>
@@ -22,13 +25,17 @@
                     <th scope="col">Time</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr *ngFor="let event of events">
+
+            <tbody *ngFor="let eventGroup of eventGroups">
+                <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
+                <tr *ngFor="let event of eventGroup.events">
                     <td>{{ event.date }}</td>
                     <td>{{ event.name }}</td>
                     <td>{{ event.time }}</td>
                 </tr>
             </tbody>
+            
         </table>
+
     </div>
 </div>
