@@ -1,9 +1,6 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-// import { environment } from 'environments/environment';
-
-import { JsonLoaderService } from 'app/core/services';
 
 @Component({
   selector: 'app-home',
@@ -12,31 +9,29 @@ import { JsonLoaderService } from 'app/core/services';
 })
 export class HomeComponent implements OnInit, OnDestroy {
 
-  events: any[];
-
   private $route: Subscription;
-  // private $jsonObs: Subscription;
-  // private json: string = 'mandir-events.json';
+
+  eventGroups: any[];
 
   constructor(
-    private _jsonLoaderService: JsonLoaderService,
     private route: ActivatedRoute
   ) {}
 
   ngOnInit() {
     
     this.$route = this.route.data.subscribe(data => {
-      this.events = data["resolvedData"];
+      // this.eventGroups = data["resolvedData"];
+      this.eventGroups = data["resolvedData"].filter(this.displayEventGroup);
+      console.log(this.eventGroups);
     });
-    // const jsonPath = environment.siteDataPath + this.json;
+  }
 
-    // this.$jsonObs = this.jsonLoaderService.getJSON(jsonPath).subscribe(data => {
-    //   this.events = data["events"];
-    // });
+  displayEventGroup(element, index, array): boolean {
+    // Check if "display" value for group in JSON is true/false
+    return element["display"];
   }
 
   ngOnDestroy() {
-    // this.$jsonObs.unsubscribe();
     this.$route.unsubscribe();
   }
 

@@ -1,0 +1,12 @@
+caption {
+    text-indent: 6px;
+}
+
+thead {
+    border-bottom: 3px solid #343A40;
+}
+
+th[scope="rowgroup"] {
+    border: solid #343A40;
+    border-width: 3px 0 2px;
+}
