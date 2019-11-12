@@ -41,17 +41,20 @@ th {
 }
 
 /* -------------- Bootstrap Overrides -------------- */
-.nav-pills > li > a {
+
+.nav-pills .nav-link {
+    /* max-width: 2.5rem; */
     color: #E54158;
 }
 
-.nav-pills > li > a:hover {
+.nav-pills .nav-link:hover {
     color: rgb(172, 22, 42);
 }
 
-.nav-pills > li > a:focus:not(.active) {
+.nav-pills .nav-link:focus:not(.active) {
     outline: none;
-    border: 2px dashed #E54158;
+    /* border: 2px dashed #E54158; */
+    box-shadow: inset 0px 0px 0px 2px #E54158;
 }
 
 .nav-pills .nav-link.active,
