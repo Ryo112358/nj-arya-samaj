@@ -7,29 +7,9 @@
             <tbody>
                 <!-- Executives -->
                 <tr class="text-center"><th scope="rowgroup" colspan="2">Executive Committee</th></tr>
-                <tr>
-                    <th scope="row">President</th>
-                    <td>{{ executiveBody.president }}</td>
-                </tr>
-                <tr>
-                    <th scope="row">Vice President</th>
-                    <td>{{ executiveBody.vicePresident }}</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">General Secretary</th>
-                    <td>{{ executiveBody.secretary }}</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">Treasurer</th>
-                    <td>{{ executiveBody.treasurer }}</td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <th scope="row">Public Relations Officer</th>
-                    <td>{{ executiveBody.publicRelationsOfficer }}</td>
-                    <td></td>
+                <tr *ngFor="let executive of executiveBody.executives">
+                    <th scope="row">{{ executive.position }}</th>
+                    <td>{{ executive.name }}</td>
                 </tr>
 
                 <!-- Trustees -->
@@ -42,12 +22,6 @@
                 <tr class="text-center"><th scope="rowgroup" colspan="2">Purohits</th></tr>
                 <tr *ngFor="let purohit of executiveBody.purohits">
                     <td colspan="2">{{ purohit }}</td>
-                </tr>
-
-                <!-- Members -->
-                <tr class="text-center"><th scope="rowgroup" colspan="2">Members</th></tr>
-                <tr *ngFor="let member of executiveBody.members">
-                    <td colspan="2">{{ member }}</td>
                 </tr>
             </tbody>
         </table>

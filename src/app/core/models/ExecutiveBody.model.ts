@@ -1,19 +1,21 @@
 import { Deserializable } from './deserializable.model';
 
+import { Executive } from './Executive.model';
+
 export class ExecutiveBody implements Deserializable {
 
-    president: String;
-    vicePresident: String;
-    secretary: String;
-    treasurer: String;
-    publicRelationsOfficer: String;
+    public executives: Executive[];
+    public trustees: String[];
+    public purohits: String[];
 
-    trustees: String[];
-    purohits: String[];
-    members: String[];
-    
     deserialize(input: any): this {
-        return Object.assign(this, input);
+        // Assign input to our object BEFORE deserialize our executives to prevent already deserialized execs from being overwritten
+        Object.assign(this, input);
+
+        // Iterate over all executives for our ExecBody and map them to a proper `Executive` model
+        this.executives = input.executives.map(executive => new Executive().deserialize(executive));
+
+        return this;
     }
-    
+
 }
