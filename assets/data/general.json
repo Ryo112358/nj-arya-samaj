@@ -1,11 +1,36 @@
 {
     "aboutUs": {
         "executiveBody": {
-            "president": "Parbatie Etwaroo",
-            "vicePresident": "Jadubir Suchit",
-            "secretary": "Pt. Sanjay Mittal",
-            "treasurer": "Ojaswini Suchit",
-            "publicRelationsOfficer": "Harrychan Ramu",
+            "executives": [
+                {
+                    "position": "President",
+                    "name": "Parbatie Etwaroo"
+                },
+                {
+                    "position": "Vice President",
+                    "name": "Jadubir Suchit"
+                },
+                {
+                    "position": "Secretary",
+                    "name": "Pt. Sanjay Mittal"
+                },
+                {
+                    "position": "Treasurer",
+                    "name": "Ojaswini Suchit"
+                },
+                {
+                    "position": "Public Relations Officer",
+                    "name": "Harrychan Ramu"
+                },
+                {
+                    "position": "Member",
+                    "name": "Bomatie Suchit"
+                },
+                {
+                    "position": "Member",
+                    "name": "Manwattie Bedessie"
+                }
+            ],
             "trustees": [
                 "Jadubir Suchit (Chairman)",
                 "Parbatie Etwaroo",
@@ -14,10 +39,6 @@
             "purohits": [
                 "Pt. Siddhaartha Raamsaran",
                 "Pt. Sanjay Mittal"
-            ],
-            "members": [
-                "Bomatie Suchit",
-                "Manwattie Bedessie"
             ]
         }
     },
