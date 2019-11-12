@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { SharedModule } from 'app/shared';
 
 import { ScripturesRoutingModule } from './scriptures-routing.module';
 
@@ -16,9 +16,17 @@ import { MandalaComponent } from './pages/veda-rig/mandala/mandala.component';
 
 
 @NgModule({
-  declarations: [BhagavadGeetaaComponent, UpanishadComponent, VedaRigComponent, VedaYajurComponent, VedaSaamaComponent, VedaAtharvaComponent, MandalaComponent],
+  declarations: [
+    BhagavadGeetaaComponent,
+    UpanishadComponent,
+    VedaRigComponent,
+    VedaYajurComponent,
+    VedaSaamaComponent,
+    VedaAtharvaComponent,
+    MandalaComponent
+  ],
   imports: [
-    CommonModule,
+    SharedModule,
     ScripturesRoutingModule
   ],
   providers: [ ScripturesService ]

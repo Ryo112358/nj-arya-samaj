@@ -29,7 +29,7 @@
                                 <i class="fa fa-file-text" aria-hidden="true"></i>
                             </a>
                         </td>
-                        <td class="align-middle">
+                        <!-- <td class="align-middle">
                             <a [href]="sukta.document" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(sukta.document) }" target="_blank">
                                 <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                             </a>
@@ -38,6 +38,12 @@
                             <a [href]="sukta.audio" class="anchor anchor-icon" [ngClass]="{'anchor-disabled': disableResourceIcon(sukta.audio) }" target="_blank">
                                 <i class="fa fa-file-audio-o" aria-hidden="true"></i>
                             </a>
+                        </td> -->
+                        <td class="align-middle">
+                            <table-resource [link]="sukta.document" symbol="pdf"></table-resource>
+                        </td>
+                        <td class="align-middle">
+                            <table-resource [link]="sukta.audio" symbol="audio"></table-resource>
                         </td>
                     </tr>
                 </tbody>
