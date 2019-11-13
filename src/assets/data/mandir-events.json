@@ -1,4 +1,5 @@
 {
+    "pipeDateFormat": "EEEE, MMM d",
     "eventGroups": [
         {
             "timePeriod": "2020",
@@ -6,75 +7,63 @@
             "events": [
                 {
                     "name": "Makar Sankrantee",
-                    "date": "January 19th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "01-19-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Dayaanand Dashamee, Mahaashivaraatree",
-                    "date": "February 23rd",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "02-23-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Holi",
-                    "date": "March 9th",
-                    "time": "6:30 - 9:00 PM",
-                    "year": 2020
+                    "date": "03-09-2020",
+                    "time": "6:30 - 9:00 PM"
                 },
                 {
                     "name": "New Year",
-                    "date": "March 29th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "03-29-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Raam Navamee",
-                    "date": "April 5th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "04-05-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Hanumaan Jayantee",
-                    "date": "April 12th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "04-12-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Baishaakhee",
-                    "date": "April 19th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "04-19-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Guru Poornimaa",
-                    "date": "July 5th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "07-05-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Rakshaa Bandhan",
-                    "date": "August 2nd",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "08-02-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Krishna Janmaashtamee",
-                    "date": "August 16th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "08-16-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Dashaharaa",
-                    "date": "October 25th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2020
+                    "date": "10-25-2020",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Diwali",
-                    "date": "November 14th",
-                    "time": "6:00 - 9:30 PM",
-                    "year": 2020
+                    "date": "11-14-2020",
+                    "time": "6:00 - 9:30 PM"
                 }
             ]
         },
@@ -84,33 +73,28 @@
             "events": [
                 {
                     "name": "Guru Poornima",
-                    "date": "July 21st",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2019
+                    "date": "07-21-2019",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Rakshaa Bandhan",
-                    "date": "August 18th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2019
+                    "date": "08-18-2019",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Janmaashtami",
-                    "date": "August 25th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2019
+                    "date": "08-25-2019",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Dashaharaa",
-                    "date": "October 13th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2019
+                    "date": "10-13-2019",
+                    "time": "9:00 - 11:30 AM"
                 },
                 {
                     "name": "Diwali",
-                    "date": "October 27th",
-                    "time": "9:00 - 11:30 AM",
-                    "year": 2019
+                    "date": "10-27-2019",
+                    "time": "9:00 - 11:30 AM"
                 }
             ]
         }

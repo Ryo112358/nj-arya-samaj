@@ -15,7 +15,7 @@ export class GeneralService {
 
   public getUpcomingEvents(): Observable<Object> {
     return this.http.get<Object>(environment.eventsJSON).pipe(
-      map(data => data["eventGroups"])
+      map(data => data)
     );
   }
 

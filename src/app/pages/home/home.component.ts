@@ -11,6 +11,7 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   private $route: Subscription;
 
+  dateFormat: string;
   eventGroups: any[];
 
   constructor(
@@ -20,9 +21,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   ngOnInit() {
     
     this.$route = this.route.data.subscribe(data => {
-      // this.eventGroups = data["resolvedData"];
-      this.eventGroups = data["resolvedData"].filter(this.displayEventGroup);
-      // console.log(this.eventGroups);
+      this.dateFormat = data["resolvedData"]["pipeDateFormat"];
+      this.eventGroups = data["resolvedData"]["eventGroups"].filter(this.displayEventGroup);
     });
   }
 

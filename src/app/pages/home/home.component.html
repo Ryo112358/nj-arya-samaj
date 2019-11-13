@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col col-lg-4">
+    <div class="col col-lg-5">
         <h3>Regular Service</h3>
         <p>Service is held every Sunday morning from 9:00 - 11:30 AM. Prayer Service includes Meditation (Sandhya) followed by Hawan & Satsang.</p>
         <p>We are a 100% volunteer operated organization and do not charge money for Sanskars and Prayer Services.</p>
@@ -11,7 +11,7 @@
 
     <div class="w-100 d-lg-none"></div>
 
-    <div class="col col-lg-8">
+    <div class="col col-lg-7">
 
         <h3>Upcoming Events</h3>
 
@@ -29,7 +29,7 @@
             <tbody *ngFor="let eventGroup of eventGroups">
                 <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
                 <tr *ngFor="let event of eventGroup.events">
-                    <td>{{ event.date }}</td>
+                    <td>{{ event.date | date:dateFormat }}</td>
                     <td>{{ event.name }}</td>
                     <td>{{ event.time }}</td>
                 </tr>
