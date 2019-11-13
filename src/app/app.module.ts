@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { BrowserModule } from '@angular/platform-browser';
 
 /* -------------------------- Custom Modules -------------------------- */
 import { CoreModule } from './core/core.module';
@@ -36,8 +36,8 @@ import { PageNotFoundComponent } from './pages';
     PageNotFoundComponent
   ],
   imports: [
+    BrowserModule,
     CoreModule,
-    HttpClientModule,
     SharedModule,
     AppRoutingModule
   ],
