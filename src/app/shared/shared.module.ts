@@ -1,23 +1,32 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { RouterModule } from '@angular/router';
 
-import { TableResourceComponent } from './components/table-resource/table-resource.component';
+import { TableResourceComponent } from './components';
+
+import { FutureDateFilterPipe } from './pipes';
+import { PastDateFilterPipe } from './pipes/past-date-filter.pipe';
 
 @NgModule({
   declarations: [
-    TableResourceComponent
+    TableResourceComponent,
+    FutureDateFilterPipe,
+    PastDateFilterPipe
   ],
   imports: [
     CommonModule,
-    FormsModule,
-    RouterModule
+    FormsModule
   ],
   exports: [
     CommonModule,
     FormsModule,
-    TableResourceComponent
+    TableResourceComponent,
+    FutureDateFilterPipe,
+    PastDateFilterPipe
+  ],
+  providers: [
+    FutureDateFilterPipe,
+    PastDateFilterPipe
   ]
 })
 export class SharedModule { }

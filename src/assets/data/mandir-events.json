@@ -2,6 +2,37 @@
     "pipeDateFormat": "EEEE, MMM d",
     "eventGroups": [
         {
+            "timePeriod": "2019",
+            "display": true,
+            "events": [
+                {
+                    "name": "Guru Poornima",
+                    "date": "07-21-2019",
+                    "time": "9:00 - 11:30 AM"
+                },
+                {
+                    "name": "Rakshaa Bandhan",
+                    "date": "08-18-2019",
+                    "time": "9:00 - 11:30 AM"
+                },
+                {
+                    "name": "Janmaashtami",
+                    "date": "08-25-2019",
+                    "time": "9:00 - 11:30 AM"
+                },
+                {
+                    "name": "Dashaharaa",
+                    "date": "10-13-2019",
+                    "time": "9:00 - 11:30 AM"
+                },
+                {
+                    "name": "Diwali",
+                    "date": "10-27-2019",
+                    "time": "9:00 - 11:30 AM"
+                }
+            ]
+        },
+        {
             "timePeriod": "2020",
             "display": true,
             "events": [
@@ -68,35 +99,9 @@
             ]
         },
         {
-            "timePeriod": "2019",
-            "display": true,
-            "events": [
-                {
-                    "name": "Guru Poornima",
-                    "date": "07-21-2019",
-                    "time": "9:00 - 11:30 AM"
-                },
-                {
-                    "name": "Rakshaa Bandhan",
-                    "date": "08-18-2019",
-                    "time": "9:00 - 11:30 AM"
-                },
-                {
-                    "name": "Janmaashtami",
-                    "date": "08-25-2019",
-                    "time": "9:00 - 11:30 AM"
-                },
-                {
-                    "name": "Dashaharaa",
-                    "date": "10-13-2019",
-                    "time": "9:00 - 11:30 AM"
-                },
-                {
-                    "name": "Diwali",
-                    "date": "10-27-2019",
-                    "time": "9:00 - 11:30 AM"
-                }
-            ]
+            "timePeriod": "2021",
+            "display": false,
+            "events": []
         }
     ]
 }

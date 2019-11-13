@@ -7,16 +7,37 @@
         <h3>Special Requests</h3>
         <p>Special services can be arranged on request. Purohits available for Sanskars and other occassions.</p>
         <br><br>
+
+        <div class="d-none d-lg-block">
+
+            <h3>Past Events</h3>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Event</th>
+                    </tr>
+                </thead>
+                <tbody *ngFor="let eventGroup of pastGroups">
+                    <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
+                    <tr *ngFor="let event of eventGroup.events.reverse()">
+                        <td>{{ event.date | date:'MMMM d' }}</td>
+                        <td>{{ event.name }}</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
     </div>
 
     <div class="w-100 d-lg-none"></div>
 
     <div class="col col-lg-7">
-
         <h3>Upcoming Events</h3>
 
         <table class="table table-striped table-hover">
-            <caption>Events hosted by the NJ Arya Samaj</caption>
+            <caption>All events hosted by the NJ Arya Samaj</caption>
             
             <thead>
                 <tr>
@@ -26,7 +47,7 @@
                 </tr>
             </thead>
 
-            <tbody *ngFor="let eventGroup of eventGroups">
+            <tbody *ngFor="let eventGroup of upcomingGroups">
                 <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
                 <tr *ngFor="let event of eventGroup.events">
                     <td>{{ event.date | date:dateFormat }}</td>
@@ -35,6 +56,29 @@
                 </tr>
             </tbody>
             
+        </table>
+    </div>
+
+    <div class="w-100 d-lg-none"></div>
+
+    <div class="col d-block d-lg-none">
+
+        <h3>Past Events</h3>
+        <table class="table table-striped table-hover">
+            <caption>All events hosted by the NJ Arya Samaj</caption>
+            <thead>
+                <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Event</th>
+                </tr>
+            </thead>
+            <tbody *ngFor="let eventGroup of pastGroups">
+                <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
+                <tr *ngFor="let event of eventGroup.events.reverse()">
+                    <td>{{ event.date | date:'MMMM d' }}</td>
+                    <td>{{ event.name }}</td>
+                </tr>
+            </tbody>
         </table>
 
     </div>
