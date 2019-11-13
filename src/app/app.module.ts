@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 /* -------------------------- Custom Modules -------------------------- */
 import { CoreModule } from './core/core.module';
@@ -36,6 +37,7 @@ import { PageNotFoundComponent } from './pages';
   ],
   imports: [
     CoreModule,
+    HttpClientModule,
     SharedModule,
     AppRoutingModule
   ],
