@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { PageNotFoundComponent } from './shared';
+import { PageNotFoundComponent } from './pages';
 
 import { HomeComponent } from './pages/home/home.component';
 import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitarian-work.component';

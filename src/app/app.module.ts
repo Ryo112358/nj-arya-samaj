@@ -12,21 +12,32 @@ import { AppRoutingModule } from './app-routing.module';
 /* -------------------------- Root Component -------------------------- */
 import { AppComponent } from './app.component';
 
+
+/* -------------------------- Layout -------------------------- */
+import { NavigationBarComponent, FooterComponent, SubFooterComponent } from './pages/layout';
+import { DonateViaPaypalComponent } from './pages/layout';
+
 /* -------------------------- Pages -------------------------- */
-import { HomeComponent } from './pages/home/home.component';
-import { ExecutiveBodyComponent } from './pages/executive-body/executive-body.component';
-import { FuturePlansComponent } from './pages/future-plans/future-plans.component';
-import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitarian-work.component';
+import { HomeComponent } from './pages';
+import { ExecutiveBodyComponent } from './pages';
+import { FuturePlansComponent } from './pages';
+import { HumanitarianWorkComponent } from './pages';
+import { PageNotFoundComponent } from './pages';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavigationBarComponent,
+    FooterComponent,
+    SubFooterComponent,
+    DonateViaPaypalComponent,
     HomeComponent,
     ExecutiveBodyComponent,
     FuturePlansComponent,
-    HumanitarianWorkComponent
+    HumanitarianWorkComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
