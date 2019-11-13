@@ -13,7 +13,7 @@ export class GeneralService {
 
   constructor(private http: HttpClient) { }
 
-  public getUpcomingEvents(): Observable<Object> {
+  public getEvents(): Observable<Object> {
     return this.http.get<Object>(environment.eventsJSON).pipe(
       map(data => data)
     );

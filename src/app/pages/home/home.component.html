@@ -62,7 +62,6 @@
     <div class="w-100 d-lg-none"></div>
 
     <div class="col d-block d-lg-none">
-
         <h3>Past Events</h3>
         <table class="table table-striped table-hover">
             <caption>All events hosted by the NJ Arya Samaj</caption>
@@ -70,6 +69,7 @@
                 <tr>
                     <th scope="col">Date</th>
                     <th scope="col">Event</th>
+                    <th scope="col">Time</th>
                 </tr>
             </thead>
             <tbody *ngFor="let eventGroup of pastGroups">
@@ -77,9 +77,10 @@
                 <tr *ngFor="let event of eventGroup.events.reverse()">
                     <td>{{ event.date | date:'MMMM d' }}</td>
                     <td>{{ event.name }}</td>
+                    <td>{{ event.time }}</td>
                 </tr>
             </tbody>
         </table>
-
     </div>
+    
 </div>
