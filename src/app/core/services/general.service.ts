@@ -13,6 +13,12 @@ export class GeneralService {
 
   constructor(private http: HttpClient) { }
 
+  public getEventsData(): Observable<Object> {
+    return this.http.get<Object>(environment.eventsJSON).pipe(
+      map(data => data)
+    );
+  }
+
   public getEventGroups(): Observable<Object> {
     return this.http.get<Object>(environment.eventsJSON).pipe(
       map(data => data["eventGroups"])
