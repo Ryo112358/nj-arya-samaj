@@ -8,7 +8,7 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
 import { FuturePlansComponent } from './pages/future-plans/future-plans.component';
 import { ExecutiveBodyComponent } from './pages/executive-body/executive-body.component';
 
-import { HomePageResolver } from 'app/core/services/resolvers';
+import { AllEventsDataResolver } from 'app/core/services/resolvers';
 import { AboutPageResolver } from 'app/core/services/resolvers';
 import { HumanitarianWorkPageResolver } from 'app/core/services/resolvers';
 
@@ -17,7 +17,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
     path: 'home', component: HomeComponent,
-    resolve: { resolvedData: HomePageResolver }
+    resolve: { eventsJSON: AllEventsDataResolver }
   },
   {
     path: 'executive-body', component: ExecutiveBodyComponent,
@@ -36,8 +36,8 @@ const routes: Routes = [
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  providers: [ 
-    HomePageResolver,
+  providers: [
+    AllEventsDataResolver,
     AboutPageResolver,
     HumanitarianWorkPageResolver
   ]

@@ -4,6 +4,9 @@
 
 export const environment = {
   production: false,
+  /* ------------------------------------------------ */
+  version: 'helpful hippo',
+  /* --------------- File Paths --------------------- */
   siteDataPath: 'assets/data/',
   libraryDataPath: 'assets/data/library/',
   scripturesDataPath: 'assets/data/scriptures/',

@@ -13,9 +13,21 @@ export class GeneralService {
 
   constructor(private http: HttpClient) { }
 
-  public getUpcomingEvents(): Observable<Object> {
+  public getEventsData(): Observable<Object> {
     return this.http.get<Object>(environment.eventsJSON).pipe(
       map(data => data)
+    );
+  }
+
+  public getEventGroups(): Observable<Object> {
+    return this.http.get<Object>(environment.eventsJSON).pipe(
+      map(data => data["eventGroups"])
+    );
+  }
+
+  public getDateFormat(): Observable<Object> {
+    return this.http.get<Object>(environment.eventsJSON).pipe(
+      map(data => data["pipeDateFormat"])
     );
   }
 
