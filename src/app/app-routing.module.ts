@@ -8,7 +8,7 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
 import { FuturePlansComponent } from './pages/future-plans/future-plans.component';
 import { ExecutiveBodyComponent } from './pages/executive-body/executive-body.component';
 
-import { UpcomingEventsResolver, PastEventsResolver, DateFormatResolver } from 'app/core/services/resolvers';
+import { AllEventsDataResolver } from 'app/core/services/resolvers';
 import { AboutPageResolver } from 'app/core/services/resolvers';
 import { HumanitarianWorkPageResolver } from 'app/core/services/resolvers';
 
@@ -17,11 +17,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   {
     path: 'home', component: HomeComponent,
-    resolve: {
-      upcomingEventGroups: UpcomingEventsResolver,
-      pastEventGroups: PastEventsResolver,
-      dateFormat: DateFormatResolver
-    }
+    resolve: { eventsJSON: AllEventsDataResolver }
   },
   {
     path: 'executive-body', component: ExecutiveBodyComponent,
@@ -41,9 +37,7 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
   providers: [
-    DateFormatResolver,
-    UpcomingEventsResolver,
-    PastEventsResolver,
+    AllEventsDataResolver,
     AboutPageResolver,
     HumanitarianWorkPageResolver
   ]

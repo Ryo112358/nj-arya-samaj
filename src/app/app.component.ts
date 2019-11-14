@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { environment } from 'environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -9,8 +9,6 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
   title = 'nj-arya-samaj';
 
-  // version: string = "whirlpool";
-
   prefShowBanner: boolean;
 
   constructor()  {
@@ -18,7 +16,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    // console.log("Version:", this.version);
+    // console.log("Version:", environment.version);
   }
 
   toggleBannerHandler() {
