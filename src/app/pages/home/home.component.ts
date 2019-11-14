@@ -45,4 +45,8 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.$route.unsubscribe();
   }
 
+  parseAsDate(date: String) {
+    return date.replace(/-/g, "/");
+  }
+
 }
