@@ -27,9 +27,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     // this.dateFormat = 'EEEE, MMM d';
     
     this.$route = this.route.data.subscribe(data => {
+      this.pastGroups = data["pastEventGroups"];
       this.dateFormat = data["dateFormat"];
       this.upcomingGroups = data["upcomingEventGroups"];
-      this.pastGroups = data["pastEventGroups"];
+
+      console.log("Date Format:", this.dateFormat);
+      console.log("Past Events:", this.pastGroups);
+      console.log("Future Events:", this.upcomingGroups);
     });
   }
 
