@@ -2,8 +2,6 @@ import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
-// import { clone } from 'app/shared/utility';
-
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -15,7 +13,6 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   dateFormat: string;
 
-  allGroups: any[];
   upcomingGroups: any[];
   pastGroups: any[];
 
@@ -32,21 +29,11 @@ export class HomeComponent implements OnInit, OnDestroy {
       this.pastGroups = data["pastEventGroups"];
       this.dateFormat = data["dateFormat"];
       this.upcomingGroups = data["upcomingEventGroups"];
-
-      this.allGroups = data["eventsData"]["eventGroups"];
-
-      console.log("Date Format:", this.dateFormat);
-      console.log("Past Events:", this.pastGroups);
-      console.log("Future Events:", this.upcomingGroups);
     });
   }
 
   ngOnDestroy() {
     this.$route.unsubscribe();
-  }
-
-  parseAsDate(date: String) {
-    return date.replace(/-/g, "/");
   }
 
 }

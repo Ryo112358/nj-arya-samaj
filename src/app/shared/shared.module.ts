@@ -6,12 +6,14 @@ import { TableResourceComponent } from './components';
 
 import { FutureDateFilterPipe } from './pipes';
 import { PastDateFilterPipe } from './pipes/past-date-filter.pipe';
+import { DateToSafariFormatPipe } from './pipes/date-to-safari-format.pipe';
 
 @NgModule({
   declarations: [
     TableResourceComponent,
     FutureDateFilterPipe,
-    PastDateFilterPipe
+    PastDateFilterPipe,
+    DateToSafariFormatPipe
   ],
   imports: [
     CommonModule,
@@ -22,11 +24,13 @@ import { PastDateFilterPipe } from './pipes/past-date-filter.pipe';
     FormsModule,
     TableResourceComponent,
     FutureDateFilterPipe,
-    PastDateFilterPipe
+    PastDateFilterPipe,
+    DateToSafariFormatPipe
   ],
   providers: [
     FutureDateFilterPipe,
-    PastDateFilterPipe
+    PastDateFilterPipe,
+    DateToSafariFormatPipe
   ]
 })
 export class SharedModule { }

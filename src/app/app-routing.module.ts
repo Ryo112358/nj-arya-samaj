@@ -8,7 +8,7 @@ import { HumanitarianWorkComponent } from './pages/humanitarian-work/humanitaria
 import { FuturePlansComponent } from './pages/future-plans/future-plans.component';
 import { ExecutiveBodyComponent } from './pages/executive-body/executive-body.component';
 
-import { UpcomingEventsResolver, PastEventsResolver, DateFormatResolver, EventsDataResolver } from 'app/core/services/resolvers';
+import { UpcomingEventsResolver, PastEventsResolver, DateFormatResolver } from 'app/core/services/resolvers';
 import { AboutPageResolver } from 'app/core/services/resolvers';
 import { HumanitarianWorkPageResolver } from 'app/core/services/resolvers';
 
@@ -20,8 +20,7 @@ const routes: Routes = [
     resolve: {
       upcomingEventGroups: UpcomingEventsResolver,
       pastEventGroups: PastEventsResolver,
-      dateFormat: DateFormatResolver,
-      eventsData: EventsDataResolver
+      dateFormat: DateFormatResolver
     }
   },
   {
@@ -42,7 +41,6 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
   providers: [
-    EventsDataResolver,
     DateFormatResolver,
     UpcomingEventsResolver,
     PastEventsResolver,
