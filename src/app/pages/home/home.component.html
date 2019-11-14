@@ -21,7 +21,7 @@
                 <tbody *ngFor="let eventGroup of pastGroups">
                     <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
                     <tr *ngFor="let event of eventGroup.events.reverse()">
-                        <td>{{ event.date | date:'MMMM d' }}</td>
+                        <td>{{ event.date }}</td>
                         <td>{{ event.name }}</td>
                     </tr>
                 </tbody>
@@ -50,7 +50,7 @@
             <tbody *ngFor="let eventGroup of upcomingGroups">
                 <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
                 <tr *ngFor="let event of eventGroup.events">
-                    <td>{{ event.date | date:dateFormat }}</td>
+                    <td>{{ event.date }}</td>
                     <td>{{ event.name }}</td>
                     <td>{{ event.time }}</td>
                 </tr>
@@ -75,7 +75,7 @@
             <tbody *ngFor="let eventGroup of pastGroups">
                 <tr class="text-center"><th scope="rowgroup" colspan="3">{{ eventGroup.timePeriod }}</th></tr>
                 <tr *ngFor="let event of eventGroup.events.reverse()">
-                    <td>{{ event.date | date:'MMMM d' }}</td>
+                    <td>{{ event.date }}</td>
                     <td>{{ event.name }}</td>
                     <td>{{ event.time }}</td>
                 </tr>
