@@ -15,10 +15,10 @@ export class PastEventsResolver implements Resolve<any>  {
 
   resolve(): Promise<any> | boolean {
 
-    return this.generalService.getEvents().toPromise().then(data => {
+    return this.generalService.getEventGroups().toPromise().then((data: Array<any>) => {
       if(data) {
 
-        let eventGroups = data["eventGroups"].filter(this.displayEventGroup);
+        let eventGroups = data.filter(this.displayEventGroup);
         
         return this.findPastEventGroups(eventGroups);
       }

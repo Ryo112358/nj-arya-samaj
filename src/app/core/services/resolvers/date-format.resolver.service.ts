@@ -12,9 +12,9 @@ export class DateFormatResolver implements Resolve<any>  {
 
   resolve(): Promise<any> | boolean {
 
-    return this.generalService.getEvents().toPromise().then(data => {
+    return this.generalService.getDateFormat().toPromise().then(data => {
       if(data) {        
-        return data["pipeDateFormat"];
+        return data;
       }
       else { return false; }
     });
