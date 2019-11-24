@@ -18,6 +18,8 @@ import { ExecutiveBodyComponent } from './pages';
 import { FuturePlansComponent } from './pages';
 import { HumanitarianWorkComponent } from './pages';
 import { PageNotFoundComponent } from './pages';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 
@@ -37,7 +39,8 @@ import { PageNotFoundComponent } from './pages';
   imports: [
     CoreModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]

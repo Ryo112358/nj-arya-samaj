@@ -4,12 +4,12 @@
     "description": "New Jersey Arya Samaj Mandir Inc.",
     "icons": [
         {
-            "src": "/images/icon_192.png",
+            "src": "/assets/icons/icon_192.png",
             "type": "image/png",
             "sizes": "192x192"
         },
         {
-            "src": "/images/icon_512.png",
+            "src": "/assets/icons/icon_512.png",
             "type": "image/png",
             "sizes": "512x512"
         }
