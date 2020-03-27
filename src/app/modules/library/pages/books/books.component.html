@@ -1,0 +1,33 @@
+<div class="row justify-content-center">
+    <div class="col-auto">
+
+        <h2 class="text-center">Books on Vaidik Philosophy</h2><br>
+        <div class="table-responsive-md">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Title</th>
+                        <th scope="col" class="text-center">English</th>
+                        <th scope="col" class="text-center">Hindi</th>
+                        <th scope="col" class="text-center">Publication</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let book of books">
+                        <td>{{ book.name }}</td>
+                        <td class="text-center">
+                            <table-resource [link]="book.english" symbol="text"></table-resource>
+                        </td>
+                        <td class="text-center">
+                            <table-resource [link]="book.hindi" symbol="hindi"></table-resource>
+                        </td>
+                        <td class="text-center">
+                            <table-resource [link]="book.original" symbol="pdf"></table-resource>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>

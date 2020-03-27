@@ -1,0 +1,23 @@
+{
+    "scripture": [
+        {
+            "title": "Section",
+            "mantras": 18,
+            "document": "./path/to/doc.pdf",
+            "audio": "./path/to/audio.mp3",
+            "summary": [
+                ""
+            ]
+        },
+        {
+            "title": "Section",
+            "mantras": 34,
+            "document": "./path/to/doc.pdf",
+            "audio": "./path/to/audio.mp3",
+            "summary": [
+                "",
+                ""
+            ]
+        }
+    ]
+}

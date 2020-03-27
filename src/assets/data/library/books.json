@@ -1,5 +1,5 @@
 {
-    "articles": [
+    "books": [
       {
        "name": "Human Ego resulted in Idol Worship",
        "english": "",
@@ -126,59 +126,5 @@
        "hindi": "",
        "original": ""
      }
-    ],
-    "links": [
-      {
-        "name": "Ayurvedum",
-        "href": "https://www.ayurvedum.com/"
-      },
-      {
-        "name": "Vaidik Books",
-        "href": "http://elibrary.thearyasamaj.org/"
-      },
-      {
-        "name": "Vedic Maths",
-        "href": "http://vedicmaths.org/resources/books/free"
-      },
-      {
-        "name": "Arya Samaj Magazines",
-        "href": "http://www.thearyasamaj.org/magazines"
-      },
-      {
-        "name": "Satyarth Prakash Nyas",
-        "href": "http://satyarthprakashnyas.org/index.php/satyarth-saurabh/"
-      },
-      {
-        "name": "Paropkarini Patrika",
-        "href": "http://www.paropkarinisabha.com/paropkarini-patrika"
-      },
-      {
-        "name": "Arya Pratinidhi Sabha America",
-        "href": "http://aryasamaj.com/?page_id=257"
-      },
-      {
-        "name": "Hindi Literature Downloads",
-        "href": "https://epustakalay.com"
-      },
-      {
-        "name": "Sanskrit Dictionary",
-        "href": "http://sanskritdictionary.com"
-      },
-      {
-        "name": "Devanagari Editor",
-        "href": "https://www.lexilogos.com/keyboard/sanskrit_devanagari.htm"
-      },
-      {
-        "name": "Free Books and Media Download",
-        "href": "https://archive.org/"
-      },
-      {
-        "name": "Arya Samaj Houston",
-        "href": "http://www.aryasamajhouston.org/resources"
-      },
-      {
-        "name": "Arya Samaj Downloads",
-        "href": "http://www.thearyasamaj.org/download"
-      }
     ]
   }

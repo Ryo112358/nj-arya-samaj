@@ -16,6 +16,8 @@ export class HomeComponent implements OnInit, OnDestroy {
   upcomingGroups: any[];
   pastGroups: any[];
 
+  announcements: String[];
+
   constructor(
     private route: ActivatedRoute
   ) {}
@@ -25,10 +27,13 @@ export class HomeComponent implements OnInit, OnDestroy {
     // this.dateFormat = 'EEEE, MMM d';
     
     this.$route = this.route.data.subscribe(data => {
+      this.announcements = data["eventsJSON"]["announcements"];
+
       this.dateFormat = data["eventsJSON"]["pipeDateFormat"];
       this.pastGroups = data["eventsJSON"]["pastEventGroups"];
       this.upcomingGroups = data["eventsJSON"]["upcomingEventGroups"];
     });
+    
   }
 
   ngOnDestroy() {

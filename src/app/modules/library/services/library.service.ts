@@ -38,5 +38,11 @@ export class LibraryService {
       map(data => data["links"])
     );
   }
+
+  public getBooks(): Observable<Object> {
+    return this.http.get<Object>(environment.booksJSON).pipe(
+      map(data => data["books"])
+    );
+  }
   
 }

@@ -26,7 +26,7 @@ Options -Multiviews
 <IfModule mod_expires.c>
 
     ExpiresActive on
-    ExpiresDefault                                      "access plus 1 month"
+    ExpiresDefault                                      "access plus 0 seconds"
 
   # CSS
 
@@ -67,7 +67,7 @@ Options -Multiviews
 
   # Manifest files
 
-    ExpiresByType application/manifest+json             "access plus 1 week"
+    ExpiresByType application/manifest+json             "access plus 0 seconds"
     ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
     ExpiresByType text/cache-manifest                   "access plus 0 seconds"
 
@@ -79,17 +79,17 @@ Options -Multiviews
 
   # Media files
 
-    ExpiresByType application/pdf                       "access plus 1 month"
-    ExpiresByType audio/ogg                             "access plus 1 month"
-    ExpiresByType image/bmp                             "access plus 1 month"
-    ExpiresByType image/gif                             "access plus 1 month"
-    ExpiresByType image/jpeg                            "access plus 1 month"
-    ExpiresByType image/png                             "access plus 1 month"
-    ExpiresByType image/svg+xml                         "access plus 1 month"
-    ExpiresByType image/webp                            "access plus 1 month"
-    ExpiresByType video/mp4                             "access plus 1 month"
-    ExpiresByType video/ogg                             "access plus 1 month"
-    ExpiresByType video/webm                            "access plus 1 month"
+    ExpiresByType application/pdf                       "access plus 2 hours"
+    ExpiresByType audio/ogg                             "access plus 1 day"
+    ExpiresByType image/bmp                             "access plus 1 day"
+    ExpiresByType image/gif                             "access plus 1 day"
+    ExpiresByType image/jpeg                            "access plus 1 day"
+    ExpiresByType image/png                             "access plus 1 day"
+    ExpiresByType image/svg+xml                         "access plus 1 day"
+    ExpiresByType image/webp                            "access plus 1 day"
+    ExpiresByType video/mp4                             "access plus 1 day"
+    ExpiresByType video/ogg                             "access plus 1 day"
+    ExpiresByType video/webm                            "access plus 1 day"
 
 
   # WebAssembly

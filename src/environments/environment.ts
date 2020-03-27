@@ -15,6 +15,7 @@ export const environment = {
   eventsJSON: 'assets/data/mandir-events.json',
   /* ------------------------------------------------ */
   libraryJSON: 'assets/data/library/library.json',
+  booksJSON: 'assets/data/library/books.json',
   prayersJSON: 'assets/data/library/prayers.json',
   bhajansJSON: 'assets/data/library/bhajans.json',
   sanskaarasJSON: 'assets/data/library/sanskaaras.json',

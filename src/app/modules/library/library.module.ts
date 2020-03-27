@@ -13,6 +13,7 @@ import { PrayersComponent } from './pages/prayers/prayers.component';
 import { BhajansComponent } from './pages/bhajans/bhajans.component';
 import { SanskaaraComponent } from './pages/sanskaara/sanskaara.component';
 import { ArticlesComponent } from './pages/articles/articles.component';
+import { BooksComponent } from './pages/books/books.component';
 
 
 
@@ -20,6 +21,7 @@ import { ArticlesComponent } from './pages/articles/articles.component';
   declarations: [
     LibraryHomeComponent,
     ArticlesComponent,
+    BooksComponent,
     PrayersComponent,
     BhajansComponent,
     SanskaaraComponent,
