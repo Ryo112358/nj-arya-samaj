@@ -1,163 +1,163 @@
 {
   "prayers": [
     {
-      "name": "Morning Prayers",
-      "description": "Early morning prayers",
-      "document": "assets/docs/MorningPrayers.pdf",
+      "name": "Devanaagaree Transliteration Guide",
+      "description": "Guide to various symbols used while romanizing various Sanskrit and Hindi texts",
+      "document": "docs/Transliteration.pdf",
       "audios": []
     },
     {
       "name": "Hawan and Sandhya Booklet",
       "description": "Daily prayers including Hawan and Sandhya",
-      "document": "assets/docs/hawansandhya.pdf",
+      "document": "docs/hawansandhya.pdf",
       "audios": []
     },
     {
-      "name": "Devanaagaree Transliteration Guide",
-      "description": "Guide to various symbols used while romanizing various Sanskrit and Hindi texts",
-      "document": "assets/docs/Transliteration.pdf",
+      "name": "Morning Prayers",
+      "description": "Early morning prayers",
+      "document": "docs/MorningPrayers.pdf",
       "audios": []
-    },
-    {
-      "name": "Shaanti Karana",
-      "description": "Prayers for Peace and methods of achieving it",
-      "document": "assets/docs/Shaantikaran.pdf",
-      "audios": [
-        {
-          "label": "Shaanti Rig Veda",
-          "path": "assets/audio/ShaantiRigved.mp3"
-        },
-        {
-          "label": "Shaanti Yajur Veda",
-          "path": "assets/audio/ShivSankalp.mp3"
-        },
-        {
-          "label": "Shaanti Saam Veda",
-          "path": "assets/audio/ShaantiSaamved.mp3"
-        },
-        {
-          "label": "Shaanti Atharva Veda",
-          "path": "assets/audio/abhayam.mp3"
-        }
-      ]
     },
     {
       "name": "Sandhyaa",
       "description": "Sandhya Meditation Procedure",
-      "document": "assets/docs/Sandhyopasna.pdf",
+      "document": "docs/Sandhyopasna.pdf",
       "audios": [
         {
           "label": "Sandhyaa",
-          "path": "assets/audio/Sandhyopasna.mp3"
+          "path": "audio/Sandhyopasna.mp3"
         }
       ]
     },
     {
       "name": "Eeshwara Stuti",
-      "description": "Prayers for Invoking God",
-      "document": "assets/docs/IshwarStuti.pdf",
+      "description": "Prayers for being in communion God",
+      "document": "docs/IshwarStuti.pdf",
       "audios": [
         {
           "label": "Eeshwara Stuti",
-          "path": "assets/audio/IshwarStuti.mp3"
+          "path": "audio/IshwarStuti.mp3"
         }
       ]
     },
     {
       "name": "Swasti Vaachana",
       "description": "Prayers for Happiness and Prosperity",
-      "document": "assets/docs/SwastiVaachan.pdf",
+      "document": "docs/SwastiVaachan.pdf",
       "audios": [
         {
           "label": "Swasti Vaachana",
-          "path": "assets/audio/SwastiVaachan.mp3"
+          "path": "audio/SwastiVaachan.mp3"
         }
       ]
     },
     {
       "name": "Swasti Vaachana Abbreviated",
       "description": "Prayers for Happiness and Prosperity",
-      "document": "assets/docs/SwastiVaachanShort.pdf",
+      "document": "docs/SwastiVaachanShort.pdf",
       "audios": []
     },
     {
+      "name": "Shaanti Karana",
+      "description": "Prayers for Peace and methods of achieving it",
+      "document": "docs/Shaantikaran.pdf",
+      "audios": [
+        {
+          "label": "Shaanti Rig Veda",
+          "path": "audio/ShaantiRigved.mp3"
+        },
+        {
+          "label": "Shaanti Yajur Veda",
+          "path": "audio/ShivSankalp.mp3"
+        },
+        {
+          "label": "Shaanti Saam Veda",
+          "path": "audio/ShaantiSaamved.mp3"
+        },
+        {
+          "label": "Shaanti Atharva Veda",
+          "path": "audio/abhayam.mp3"
+        }
+      ]
+    },
+	{
       "name": "Shiva Sankalpa Strotam with English transliteration and translation",
       "description": "Shiva Sankalpa Strotam Yajurveda Chapter 34",
-      "document": "assets/docs/ShivSankalpEng.pdf",
+      "document": "docs/ShivSankalpEng.pdf",
       "audios": [
         {
           "label": "Shiva Sankalpa Intro in English",
-          "path": "assets/audio/ShivSankalpIntroEnglish.mp3"
+          "path": "audio/ShivSankalpIntroEnglish.mp3"
         }
       ]
     },
     {
       "name": "Shiva Sankalpa Strotam with Hindi translation",
       "description": "Shiva Sankalpa Strotam Yajurveda Chapter 34",
-      "document": "assets/docs/ShivSankalpHindi.pdf",
+      "document": "docs/ShivSankalpHindi.pdf",
       "audios": [
         {
           "label": "Shiva Sankalpa Strotam",
-          "path": "assets/audio/ShivSankalp.mp3"
+          "path": "audio/ShivSankalp.mp3"
         }
       ]
     },
     {
       "name": "Abhayadaana Mantra",
       "description": "Prayers for Fearlessness and methods of achieving it",
-      "document": "assets/docs/abhayam.pdf",
+      "document": "docs/abhayam.pdf",
       "audios": [
         {
           "label": "Abhayadaana Intro English",
-          "path": "assets/audio/abhayamIntroEnglish.mp3"
+          "path": "audio/abhayamIntroEnglish.mp3"
         },
         {
           "label": "Abhayadaana Mantra",
-          "path": "assets/audio/abhayam.mp3"
+          "path": "audio/abhayam.mp3"
         }
       ]
     },
     {
       "name": "Brahma Strotam",
       "description": "Brahma Strotam from Mahaa Nirvaan Tantra",
-      "document": "assets/docs/BrahmStrotam.pdf",
+      "document": "docs/BrahmStrotam.pdf",
       "audios": [
         {
           "label": "Brahma Strotam",
-          "path": "assets/audio/BrahmStrotam.mp3"
+          "path": "audio/BrahmStrotam.mp3"
         }
       ]
     },
     {
       "name": "Poojaneey Prabhu",
       "description": "Yajn Praarthanaa Bhajan",
-      "document": "assets/docs/PoojaneeyPrabhu.pdf",
+      "document": "docs/PoojaneeyPrabhu.pdf",
       "audios": [
         {
           "label": "Poojaneey Prabhu",
-          "path": "assets/audio/PoojaneeyPrabhu.mp3"
+          "path": "audio/PoojaneeyPrabhu.mp3"
         }
       ]
     },
     {
       "name": "Shaanti Paatha",
       "description": "Shaanti Paatha",
-      "document": "assets/docs/Shaanti.pdf",
+      "document": "docs/Shaanti.pdf",
       "audios": [
         {
           "label": "Shaanti Paatha",
-          "path": "assets/audio/Shaanti.mp3"
+          "path": "audio/Shaanti.mp3"
         }
       ]
     },
     {
       "name": "Aartee Om Jai Jagadeesh Hare",
       "description": "Modified Aartee",
-      "document": "assets/docs/OmJaiJagadeesh.pdf",
+      "document": "docs/OmJaiJagadeesh.pdf",
       "audios": [
         {
           "label": "Om Jai Jagadeesh Hare",
-          "path": "assets/audio/OmJaiJagadeesh.mp3"
+          "path": "audio/OmJaiJagadeesh.mp3"
         }
       ]
     }

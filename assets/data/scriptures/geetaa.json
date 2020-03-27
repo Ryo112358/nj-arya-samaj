@@ -1,10 +1,20 @@
 {
     "scripture": [
         {
+            "chapter": "",
+            "title": "Introduction",
+            "mantras": "",
+            "document": "docs/Geetaa00.pdf",
+            "audio": "",
+            "summary": [
+                ""
+            ]
+        },
+        {
             "chapter": 1,
             "title": "Arjuna Vishaada Yoga",
             "mantras": 47,
-            "document": "assets/docs/Geetaa01.pdf",
+            "document": "docs/Geetaa01.pdf",
             "audio": "",
             "summary": [
                 "Arjun's dilemma in the battle for righteousness. In the opening chapter king Dhritraashtra requests Sanjaya, the one blessed with divine vision, to describe the current state of the battle ground. Sanjaya after describing in detail the position of various warrior kings gathered there, shifts focus on Krishna and Arjun. Arjun requests his charioteer Krishna to take the chariot in the middle of the battle ground so that he may see all of the warriors fighting against him. However, seeing his relatives and friends on the opposing side, Arjun is overtaken by grief. He expresses his inability to kill people near and dear to him, even when they are supporting the vicious side. Showing complete loss of interest in fighting he quietly sits in the back portion of the chariot."
@@ -14,7 +24,7 @@
             "chapter": 2,
             "title": "Sankhya Yoga",
             "mantras": 72,
-            "document": "assets/docs/Geetaa02.pdf",
+            "document": "docs/Geetaa02.pdf",
             "audio": "",
             "summary": [
                 "Renunciation of attachments. Krishna starts to coach Arjuna about immortality of soul, importance of duty and futility of attachments. Krishna advises against any attachments, be it towards an individual, towards material pleasures or even towards the fruits of one's own actions. He talks about becoming an even keeled unwavering person."
@@ -24,7 +34,7 @@
             "chapter": 3,
             "title": "Karma Yoga",
             "mantras": 43,
-            "document": "assets/docs/Geetaa03.pdf",
+            "document": "docs/Geetaa03.pdf",
             "audio": "",
             "summary": [
                 "Performing duties without any attachment. In this chapter Krishna talks about the subtle differences and interlinks between the path of knowledge and the path of actions. He talks about performing actions with a feeling of yajna i.e. sacrifice for a greater good. He advices Arjuna to shed all attachments to the fruits of his actions. A way to achieve this would be performing all actions for the greater of the society as a whole. Also, whatever he gets as the fruits of his labor should be shared with others. He talks about keeping the senses in check with rule based control. Particularly, he advises staying away from the emotions of desire and anger, as they are humanity's biggest enemies. He also advices diligently performing duties based on one's own basic nature."
@@ -34,7 +44,7 @@
             "chapter": 4,
             "title": "Jnaan Yoga and Karma Yoga",
             "mantras": 42,
-            "document": "",
+            "document": "docs/Geetaa04.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -44,7 +54,7 @@
             "chapter": 5,
             "title": "Karma Yoga",
             "mantras": 29,
-            "document": "",
+            "document": "docs/Geetaa05.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -54,7 +64,7 @@
             "chapter": 6,
             "title": "Dhyaan Yoga",
             "mantras": 47,
-            "document": "",
+            "document": "docs/Geetaa06.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -64,7 +74,7 @@
             "chapter": 7,
             "title": "Jnaan Vijnaan Yoga",
             "mantras": 30,
-            "document": "",
+            "document": "docs/Geetaa07.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -74,7 +84,7 @@
             "chapter": 8,
             "title": "Akshara Brahma Yoga",
             "mantras": 28,
-            "document": "",
+            "document": "docs/Geetaa08.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -84,7 +94,7 @@
             "chapter": 9,
             "title": "Raaja Vidyaa Yoga",
             "mantras": 34,
-            "document": "",
+            "document": "docs/Geetaa09.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -94,7 +104,7 @@
             "chapter": 10,
             "title": "Vobhooti Yoga",
             "mantras": 42,
-            "document": "",
+            "document": "docs/Geetaa10.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -104,7 +114,7 @@
             "chapter": 11,
             "title": "Vishva Roopa Darshana",
             "mantras": 55,
-            "document": "",
+            "document": "docs/Geetaa11.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -114,7 +124,7 @@
             "chapter": 12,
             "title": "Bhakti Yoga",
             "mantras": 20,
-            "document": "",
+            "document": "docs/Geetaa12.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -124,7 +134,7 @@
             "chapter": 13,
             "title": "Kshetra Kshetrajna Vibhaaga",
             "mantras": 34,
-            "document": "",
+            "document": "docs/Geetaa13.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -134,7 +144,7 @@
             "chapter": 14,
             "title": "Traya Guna Vibhaaga",
             "mantras": 27,
-            "document": "",
+            "document": "docs/Geetaa14.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -144,7 +154,7 @@
             "chapter": 15,
             "title": "Purushottama",
             "mantras": 20,
-            "document": "",
+            "document": "docs/Geetaa15.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -154,7 +164,7 @@
             "chapter": 16,
             "title": "Daivaasura Sampad Vibhaaga",
             "mantras": 24,
-            "document": "",
+            "document": "docs/Geetaa16.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -164,7 +174,7 @@
             "chapter": 17,
             "title": "Shraddhaa Traya Vibhaaga",
             "mantras": 28,
-            "document": "",
+            "document": "docs/Geetaa17.pdf",
             "audio": "",
             "summary": [
                 ""
@@ -174,7 +184,7 @@
             "chapter": 18,
             "title": "Moksha",
             "mantras": 78,
-            "document": "",
+            "document": "docs/Geetaa18.pdf",
             "audio": "",
             "summary": [
                 ""
