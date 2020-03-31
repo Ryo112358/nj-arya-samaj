@@ -39,12 +39,15 @@ export class AllEventsDataResolver implements Resolve<any>  {
 
   findUpcomingEventGroups(baseEventGroups) {
     const today = new Date();
+    
+    let yesterday = new Date();
+    yesterday.setDate(today.getDate() - 1);
 
     let newEventGroups = [];
 
     for(let eventGroup of clone(baseEventGroups)) {
 
-      eventGroup.events = this.filterForFutureDates.transform(eventGroup.events, today);
+      eventGroup.events = this.filterForFutureDates.transform(eventGroup.events, yesterday);
 
       if(eventGroup.events.length > 0) {
         newEventGroups.push(eventGroup);
@@ -58,11 +61,17 @@ export class AllEventsDataResolver implements Resolve<any>  {
   findPastEventGroups(baseEventGroups) {
     const today = new Date();
 
+    let tomorrow = new Date();
+    tomorrow.setDate(today.getDate() + 1);
+
+    let yesterday = new Date();
+    yesterday.setDate(today.getDate() - 1);
+
     let newEventGroups = [];
 
     for(let eventGroup of clone(baseEventGroups)) {
 
-      eventGroup.events = this.filterForPastDates.transform(eventGroup.events, today);
+      eventGroup.events = this.filterForPastDates.transform(eventGroup.events, yesterday);
 
       if(eventGroup.events.length > 0) {
         newEventGroups.push(eventGroup);

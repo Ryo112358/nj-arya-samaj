@@ -10,7 +10,7 @@ export class PastDateFilterPipe implements PipeTransform {
     let pastEvents = [];
 
     for (const event of value) {
-      if(new Date(event.date) < compareToDate) {
+      if(compareToDate > new Date(event.date)) {
         pastEvents.push(event);
       }
     }
