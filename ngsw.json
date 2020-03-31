@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1585331380314,
+  "timestamp": 1585617717524,
   "index": "https://ryo112358.github.io/nj-arya-samaj/index.html",
   "assetGroups": [
     {
@@ -16,8 +16,8 @@
         "https://ryo112358.github.io/nj-arya-samaj/common-es5.33a92cd776442e3606f4.js",
         "https://ryo112358.github.io/nj-arya-samaj/favicon.ico",
         "https://ryo112358.github.io/nj-arya-samaj/index.html",
-        "https://ryo112358.github.io/nj-arya-samaj/main-es2015.b86ff40d5b124b1c21ce.js",
-        "https://ryo112358.github.io/nj-arya-samaj/main-es5.b86ff40d5b124b1c21ce.js",
+        "https://ryo112358.github.io/nj-arya-samaj/main-es2015.6b370c26c8a599ebff4b.js",
+        "https://ryo112358.github.io/nj-arya-samaj/main-es5.6b370c26c8a599ebff4b.js",
         "https://ryo112358.github.io/nj-arya-samaj/manifest.webmanifest",
         "https://ryo112358.github.io/nj-arya-samaj/polyfills-es2015.ed7ac7da72c40ea128b2.js",
         "https://ryo112358.github.io/nj-arya-samaj/polyfills-es5.d4b61e216881b2a9a1e0.js",
@@ -464,10 +464,10 @@
     "https://ryo112358.github.io/nj-arya-samaj/common-es2015.33a92cd776442e3606f4.js": "d15441c83e79c26a29459ef0825d8c9cc80291bd",
     "https://ryo112358.github.io/nj-arya-samaj/common-es5.33a92cd776442e3606f4.js": "d08e63e51c3247efbf611301bb428bf596525c99",
     "https://ryo112358.github.io/nj-arya-samaj/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://ryo112358.github.io/nj-arya-samaj/index.html": "1a483c61ac31db8ae616184895bc9d08a9fe857b",
-    "https://ryo112358.github.io/nj-arya-samaj/main-es2015.b86ff40d5b124b1c21ce.js": "69122fa23a1d17a547a5704004d192d7a50d25e8",
-    "https://ryo112358.github.io/nj-arya-samaj/main-es5.b86ff40d5b124b1c21ce.js": "d4626184569877b29169c1d5d3d35ca6cbc0571c",
-    "https://ryo112358.github.io/nj-arya-samaj/manifest.webmanifest": "0d5be1a41380fc9a7d8020ca7922a45bd79f4fdf",
+    "https://ryo112358.github.io/nj-arya-samaj/index.html": "74b89d46a4e3e28e33c4fe9d2cad680b2a60723b",
+    "https://ryo112358.github.io/nj-arya-samaj/main-es2015.6b370c26c8a599ebff4b.js": "155264078ce0d0590fafc3cd4fef09ad7bffe0e3",
+    "https://ryo112358.github.io/nj-arya-samaj/main-es5.6b370c26c8a599ebff4b.js": "e181dea3edcc72604c0da9b4f50cc96c8d1f56f7",
+    "https://ryo112358.github.io/nj-arya-samaj/manifest.webmanifest": "d83204a2e272cd7e7830a4bd677ae4df996bcd5e",
     "https://ryo112358.github.io/nj-arya-samaj/polyfills-es2015.ed7ac7da72c40ea128b2.js": "aa7337b90a54bee56e29fe430cd4bd500b183d39",
     "https://ryo112358.github.io/nj-arya-samaj/polyfills-es5.d4b61e216881b2a9a1e0.js": "54b84847fd622e03f168b2fe6c17cf067ea4ac6c",
     "https://ryo112358.github.io/nj-arya-samaj/runtime-es2015.e5f70d11dd5e542973fd.js": "86e15037fe7f76e9938ee4afef2958f246b6cad0",
