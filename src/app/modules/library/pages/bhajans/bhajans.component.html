@@ -15,10 +15,10 @@
                     <tr *ngFor="let bhajan of bhajans">
                         <td>{{ bhajan.name }}</td>
                         <td class="text-center">
-                            <table-resource [link]="bhajan.document" symbol="text"></table-resource>
+                            <table-resource [fileInformation]="bhajan.document" symbol="text"></table-resource>
                         </td>
                         <td class="text-center">
-                            <table-resource [link]="bhajan.audio" symbol="audio"></table-resource>
+                            <table-resource [fileInformation]="bhajan.audio" symbol="audio"></table-resource>
                         </td>
                     </tr>
                 </tbody>

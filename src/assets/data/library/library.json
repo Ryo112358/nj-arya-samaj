@@ -2,8 +2,14 @@
     "articles": [
       {
        "name": "Human Ego resulted in Idol Worship",
-       "english": "",
-       "hindi": "docs/MaanavAhankarMoortipoojaa.pdf",
+       "english": {
+         "filePath" : "docs/test.pdf",
+         "last-modified-on": "2020-08-30"
+       },
+       "hindi": {
+         "filePath": "docs/MaanavAhankarMoortipoojaa.pdf",
+         "last-modified-on": ""
+       },
        "original": ""
      },
 	  {

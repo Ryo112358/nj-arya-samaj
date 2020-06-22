@@ -1,3 +1,3 @@
-<a [href]="link" [class]="anchorClasses" [tabindex]="tabIndex" target="_blank">
-    <i [class]="iconClasses" aria-hidden="true"></i>
+<a [href]="resourcePath" [class]="anchorClasses" [tabindex]="tabIndex" target="_blank">
+    <i [class]="iconClasses" [ngClass]="{ 'recently-updated-marker': recentlyUpdated }" aria-hidden="true"></i>
 </a>

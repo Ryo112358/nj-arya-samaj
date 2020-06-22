@@ -16,13 +16,13 @@
                     <tr *ngFor="let article of articles">
                         <td>{{ article.name }}</td>
                         <td class="text-center">
-                            <table-resource [link]="article.english" symbol="text"></table-resource>
+                            <table-resource [fileInformation]="article.english" symbol="text"></table-resource>
                         </td>
                         <td class="text-center">
-                            <table-resource [link]="article.hindi" symbol="hindi"></table-resource>
+                            <table-resource [fileInformation]="article.hindi" symbol="hindi"></table-resource>
                         </td>
                         <td class="text-center">
-                            <table-resource [link]="article.original" symbol="pdf"></table-resource>
+                            <table-resource [fileInformation]="article.original" symbol="pdf"></table-resource>
                         </td>
                     </tr>
                 </tbody>

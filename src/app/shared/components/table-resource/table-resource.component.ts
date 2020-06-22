@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+import { parseAsDate } from 'app/shared/utility/utility';
+
 @Component({
   selector: 'table-resource',
   templateUrl: './table-resource.component.html',
@@ -7,34 +9,76 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class TableResourceComponent implements OnInit {
 
-  @Input() link: string;
+  @Input() fileInformation;
   @Input() symbol: string;
 
-  anchorClasses: string;
-  iconClasses: string;
+  resourcePath: string;
   tabIndex: number;
+  iconClasses: string;
+  anchorClasses: string;
+  recentlyUpdated: boolean;
 
   private disabled: boolean;
 
-  constructor() { }
-
-  ngOnInit() {
-    this.setDisabled(this.link);
-    this.setAnchorClasses();
-    this.setTabIndex();
-    this.setIconClasses();
+  constructor() {
+    this.recentlyUpdated = false;
   }
 
-  setDisabled(path: string): void {
-    this.disabled = path === "";
+  ngOnInit() {
+    this.setResourcePath();
+    this.setDisabled();
+    this.setTabIndex();
+    this.setAnchorClasses();
+    this.setIconClasses();
+    this.setRecentlyUpdated();
+  }
+
+  setResourcePath() {
+
+    if(typeof this.fileInformation === "string") {
+      this.resourcePath = this.fileInformation;
+    } else {
+      this.resourcePath = this.fileInformation['filePath'];
+    }
+
+  }
+
+  setDisabled(): void {
+    this.disabled = this.resourcePath === "";
+  }
+
+  setTabIndex() {
+    this.tabIndex = this.disabled ? -1 : 0;
   }
 
   setAnchorClasses() {
     this.anchorClasses = "anchor anchor-icon" + (this.disabled ? " anchor-disabled" : "");
   }
 
-  setTabIndex() {
-    this.tabIndex = this.disabled ? -1 : 0;
+  setRecentlyUpdated() {
+
+    if(typeof this.fileInformation === "string") {
+    }
+    else {
+
+      const today = new Date();
+
+      let dateModifiedOn;
+      dateModifiedOn = new Date(this.fileInformation['last-modified-on']);
+      
+      // If today is more than 15 days after date, set true
+      let cutoffDate = new Date(dateModifiedOn);
+      cutoffDate.setDate(dateModifiedOn.getDate() + 16);  // 15 days + 1 buffer for less than comparison
+      
+      // console.log(today, cutoffDate);
+
+      if(today < cutoffDate)
+        this.recentlyUpdated = true;
+
+      return;
+    }
+
+    this.recentlyUpdated = false;
   }
 
   setIconClasses() {
