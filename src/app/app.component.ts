@@ -8,6 +8,7 @@ import { environment } from 'environments/environment';
 })
 export class AppComponent implements OnInit {
   title = 'nj-arya-samaj';
+  version = "1.6.12";
 
   prefShowBanner: boolean;
 
@@ -16,7 +17,7 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit() {
-    // console.log("Version:", environment.version);
+    // console.log("Version:", this.version);
   }
 
   toggleBannerHandler() {

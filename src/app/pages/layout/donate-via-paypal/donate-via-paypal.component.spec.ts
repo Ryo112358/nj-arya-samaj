@@ -1,4 +1,4 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 
 import { DonateViaPaypalComponent } from './donate-via-paypal.component';
 
@@ -6,7 +6,7 @@ describe('DonateViaPaypalComponent', () => {
   let component: DonateViaPaypalComponent;
   let fixture: ComponentFixture<DonateViaPaypalComponent>;
 
-  beforeEach(async(() => {
+  beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ DonateViaPaypalComponent ]
     })

@@ -2,7 +2,7 @@
   "name": "NJ Arya Samaj Mandir Inc.",
   "short_name": "NJAryaSamaj",
   "theme_color": "#343A40",
-  "background_color": "#343A40",
+  "background_color": "#1976d2",
   "display": "standalone",
   "start_url": "/index.html",
   "icons": [

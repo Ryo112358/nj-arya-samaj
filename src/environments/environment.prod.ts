@@ -1,5 +1,6 @@
 export const environment = {
   production: true,
+  /* --------------- File Paths --------------------- */
   siteDataPath: 'assets/data/',
   libraryDataPath: 'assets/data/library/',
   scripturesDataPath: 'assets/data/scriptures/',
