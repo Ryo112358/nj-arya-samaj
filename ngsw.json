@@ -1,30 +1,33 @@
 {
   "configVersion": 1,
-  "timestamp": 1592795872552,
+  "timestamp": 1610138310285,
   "index": "https://ryo112358.github.io/nj-arya-samaj/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
-        "https://ryo112358.github.io/nj-arya-samaj/6-es2015.238603a0f7fcf31e2472.js",
-        "https://ryo112358.github.io/nj-arya-samaj/6-es5.238603a0f7fcf31e2472.js",
-        "https://ryo112358.github.io/nj-arya-samaj/7-es2015.032137ed24576496d585.js",
-        "https://ryo112358.github.io/nj-arya-samaj/7-es5.032137ed24576496d585.js",
-        "https://ryo112358.github.io/nj-arya-samaj/common-es2015.981357ec384f22935158.js",
-        "https://ryo112358.github.io/nj-arya-samaj/common-es5.981357ec384f22935158.js",
+        "https://ryo112358.github.io/nj-arya-samaj/6-es2015.eb60d65d9e8ec25f5951.js",
+        "https://ryo112358.github.io/nj-arya-samaj/6-es5.eb60d65d9e8ec25f5951.js",
+        "https://ryo112358.github.io/nj-arya-samaj/7-es2015.1ff05cb54f392b2ed058.js",
+        "https://ryo112358.github.io/nj-arya-samaj/7-es5.1ff05cb54f392b2ed058.js",
+        "https://ryo112358.github.io/nj-arya-samaj/common-es2015.f4d0711597ddabb00eb6.js",
+        "https://ryo112358.github.io/nj-arya-samaj/common-es5.f4d0711597ddabb00eb6.js",
         "https://ryo112358.github.io/nj-arya-samaj/favicon.ico",
         "https://ryo112358.github.io/nj-arya-samaj/index.html",
-        "https://ryo112358.github.io/nj-arya-samaj/main-es2015.be0bd130c0dd3e2b96eb.js",
-        "https://ryo112358.github.io/nj-arya-samaj/main-es5.be0bd130c0dd3e2b96eb.js",
+        "https://ryo112358.github.io/nj-arya-samaj/main-es2015.579bbc8db9e74ae99f1a.js",
+        "https://ryo112358.github.io/nj-arya-samaj/main-es5.579bbc8db9e74ae99f1a.js",
         "https://ryo112358.github.io/nj-arya-samaj/manifest.webmanifest",
-        "https://ryo112358.github.io/nj-arya-samaj/polyfills-es2015.ed7ac7da72c40ea128b2.js",
-        "https://ryo112358.github.io/nj-arya-samaj/polyfills-es5.d4b61e216881b2a9a1e0.js",
-        "https://ryo112358.github.io/nj-arya-samaj/runtime-es2015.c0899966362f518eeeb7.js",
-        "https://ryo112358.github.io/nj-arya-samaj/runtime-es5.c0899966362f518eeeb7.js",
-        "https://ryo112358.github.io/nj-arya-samaj/scripts.ea9a7b51b5073e2a08c5.js",
-        "https://ryo112358.github.io/nj-arya-samaj/styles.cbb03bafd03a643b9927.css"
+        "https://ryo112358.github.io/nj-arya-samaj/polyfills-es2015.a6d53f35e5bcc1e41eba.js",
+        "https://ryo112358.github.io/nj-arya-samaj/polyfills-es5.08fc5fda06cd9812f616.js",
+        "https://ryo112358.github.io/nj-arya-samaj/runtime-es2015.a19621d1f19e10fa02ac.js",
+        "https://ryo112358.github.io/nj-arya-samaj/runtime-es5.a19621d1f19e10fa02ac.js",
+        "https://ryo112358.github.io/nj-arya-samaj/scripts.3cf90f8fc92130239739.js",
+        "https://ryo112358.github.io/nj-arya-samaj/styles.2b0216d03c8beb10f134.css"
       ],
       "patterns": []
     },
@@ -32,6 +35,9 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
       "urls": [
         "https://ryo112358.github.io/nj-arya-samaj/assets/audio/BrahmStrotam.mp3",
         "https://ryo112358.github.io/nj-arya-samaj/assets/audio/IshwarStuti.mp3",
@@ -248,10 +254,10 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://ryo112358.github.io/nj-arya-samaj/6-es2015.238603a0f7fcf31e2472.js": "8dc179d053449c802a9a10ad4e6e47e800d0a268",
-    "https://ryo112358.github.io/nj-arya-samaj/6-es5.238603a0f7fcf31e2472.js": "a8ab20e2f06e6f2ed2dbe0c4636c59cd2ca39820",
-    "https://ryo112358.github.io/nj-arya-samaj/7-es2015.032137ed24576496d585.js": "9f7f9a3245ddc1d206658ca4e9b2f28300d5e54e",
-    "https://ryo112358.github.io/nj-arya-samaj/7-es5.032137ed24576496d585.js": "9c4fd109406e6a4b3f32aff616974ff8c348587d",
+    "https://ryo112358.github.io/nj-arya-samaj/6-es2015.eb60d65d9e8ec25f5951.js": "fe1d2480e99d0e4b82765f95f22421e65c46f315",
+    "https://ryo112358.github.io/nj-arya-samaj/6-es5.eb60d65d9e8ec25f5951.js": "4493ad2bf08fa59161282422b1b7692dd20796a0",
+    "https://ryo112358.github.io/nj-arya-samaj/7-es2015.1ff05cb54f392b2ed058.js": "a1175721bfa4503c3c56dece8c0df6f56e3d6e60",
+    "https://ryo112358.github.io/nj-arya-samaj/7-es5.1ff05cb54f392b2ed058.js": "76961db5f3c7c1dde89916c52712b1c6e9600214",
     "https://ryo112358.github.io/nj-arya-samaj/assets/audio/BrahmStrotam.mp3": "83a039d03092ea464eb6a900150b43f0e35fbecd",
     "https://ryo112358.github.io/nj-arya-samaj/assets/audio/IshwarStuti.mp3": "9daa8f72e880504c683516f44506931f5bd8eea4",
     "https://ryo112358.github.io/nj-arya-samaj/assets/audio/JaaoonTore.mp3": "28080c86cebf5929240e24a705ccc65b05c0784b",
@@ -461,19 +467,19 @@
     "https://ryo112358.github.io/nj-arya-samaj/assets/utility/manifest.json": "b0d09df914d6fa29e6288023135710752b6b4bb9",
     "https://ryo112358.github.io/nj-arya-samaj/assets/utility/old/.htaccess": "f632ccd1d90f919570827c39154d9ac387d8497f",
     "https://ryo112358.github.io/nj-arya-samaj/assets/utility/robots.txt": "89f12b01813c91d294ab429202176fe5ba4cf4ac",
-    "https://ryo112358.github.io/nj-arya-samaj/common-es2015.981357ec384f22935158.js": "9f6e0e91b5e96bda7221c276fc6727aa17cbd91d",
-    "https://ryo112358.github.io/nj-arya-samaj/common-es5.981357ec384f22935158.js": "b5bf607fc04d1d6af1bed91b22b06fc2067462cd",
+    "https://ryo112358.github.io/nj-arya-samaj/common-es2015.f4d0711597ddabb00eb6.js": "25d213045c33b20497ddd53e16b4ba3d1ee2147f",
+    "https://ryo112358.github.io/nj-arya-samaj/common-es5.f4d0711597ddabb00eb6.js": "25a88b6fcb8d87802d5ba485b7fbdbce4bf871be",
     "https://ryo112358.github.io/nj-arya-samaj/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://ryo112358.github.io/nj-arya-samaj/index.html": "0932305982cd897c9c59902498a598aaf528711c",
-    "https://ryo112358.github.io/nj-arya-samaj/main-es2015.be0bd130c0dd3e2b96eb.js": "f8230c7fa1ea0f26d63fddf0d17a2e475c2a3944",
-    "https://ryo112358.github.io/nj-arya-samaj/main-es5.be0bd130c0dd3e2b96eb.js": "3b1b2a6e37702ae1d5a118c9b7d362997534a5d2",
+    "https://ryo112358.github.io/nj-arya-samaj/index.html": "823d4859ea56d335240d67bbc5c6d0e9666e3cee",
+    "https://ryo112358.github.io/nj-arya-samaj/main-es2015.579bbc8db9e74ae99f1a.js": "dd08490be1c5346bc581b07cdba1655a71bb6c0e",
+    "https://ryo112358.github.io/nj-arya-samaj/main-es5.579bbc8db9e74ae99f1a.js": "ab6338735a79181c4f1414197f0c91e7921c1df2",
     "https://ryo112358.github.io/nj-arya-samaj/manifest.webmanifest": "d83204a2e272cd7e7830a4bd677ae4df996bcd5e",
-    "https://ryo112358.github.io/nj-arya-samaj/polyfills-es2015.ed7ac7da72c40ea128b2.js": "aa7337b90a54bee56e29fe430cd4bd500b183d39",
-    "https://ryo112358.github.io/nj-arya-samaj/polyfills-es5.d4b61e216881b2a9a1e0.js": "54b84847fd622e03f168b2fe6c17cf067ea4ac6c",
-    "https://ryo112358.github.io/nj-arya-samaj/runtime-es2015.c0899966362f518eeeb7.js": "09a0e268d9578df31fed190570bfdf398812444b",
-    "https://ryo112358.github.io/nj-arya-samaj/runtime-es5.c0899966362f518eeeb7.js": "4f9b4d59f927b2a2bbf7c8e117e49b86d37be836",
-    "https://ryo112358.github.io/nj-arya-samaj/scripts.ea9a7b51b5073e2a08c5.js": "368d118d917c9b261beb3e1e170986d7856ad8b4",
-    "https://ryo112358.github.io/nj-arya-samaj/styles.cbb03bafd03a643b9927.css": "5d1b16101049e30908fa407b0b0d388dfb492edb"
+    "https://ryo112358.github.io/nj-arya-samaj/polyfills-es2015.a6d53f35e5bcc1e41eba.js": "8b5492f9f1d8672c6b454e51e08903b8f82f9485",
+    "https://ryo112358.github.io/nj-arya-samaj/polyfills-es5.08fc5fda06cd9812f616.js": "e22edeea4879137843f563250715b03c8b70559a",
+    "https://ryo112358.github.io/nj-arya-samaj/runtime-es2015.a19621d1f19e10fa02ac.js": "66ebb2b6959a1c53d14cda8451448600910cf174",
+    "https://ryo112358.github.io/nj-arya-samaj/runtime-es5.a19621d1f19e10fa02ac.js": "f3c7c473c088037196b8607d3ef823ce09131a70",
+    "https://ryo112358.github.io/nj-arya-samaj/scripts.3cf90f8fc92130239739.js": "fb0d19946faba080cc24cea8f0b04d36928b8b73",
+    "https://ryo112358.github.io/nj-arya-samaj/styles.2b0216d03c8beb10f134.css": "f236af50f55243a482a24965708d780b94a8ce21"
   },
   "navigationUrls": [
     {
@@ -492,5 +498,6 @@
       "positive": false,
       "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
     }
-  ]
+  ],
+  "navigationRequestStrategy": "performance"
 }
