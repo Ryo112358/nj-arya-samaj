@@ -1,6 +1,11 @@
 {
     "bhajans": [
       {
+        "name": "he vibho! aanandasindho!",
+        "document": "docs/HeVibhoAanandSindho.pdf",
+        "audio": "audio/HeVibho.mp3"
+      },
+      {
         "name": "Jaaoon Tore Charan Kamal Par Vaaree",
         "document": "docs/JaaoonTore.pdf",
         "audio": "audio/JaaoonTore.mp3"

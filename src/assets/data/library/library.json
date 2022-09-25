@@ -2,14 +2,8 @@
     "articles": [
       {
        "name": "Human Ego resulted in Idol Worship",
-       "english": {
-         "filePath" : "docs/test.pdf",
-         "last-modified-on": "2020-08-30"
-       },
-       "hindi": {
-         "filePath": "docs/MaanavAhankarMoortipoojaa.pdf",
-         "last-modified-on": ""
-       },
+       "english": "",
+       "hindi": "docs/MaanavAhankarMoortipoojaa.pdf",
        "original": ""
      },
 	  {
@@ -35,6 +29,33 @@
        "english": "docs/moortipooja.pdf",
        "hindi": "docs/moortipoojaHindi.pdf",
        "original": "docs/201806Propkari.pdf"
+     },
+      {
+       "name": "Vedic Way of Understanding Sarasvatee",
+       "english": "docs/SarasvateeVaidik.pdf",
+       "hindi": "docs/SarasvateeFeatures.pdf",
+       "original": ""
+     },
+      {
+       "name": "Vedic Way of Understanding Shiva",
+       "english": "docs/ShivaVaidik.pdf",
+       "hindi": {
+		  "filePath" : "docs/ShivFeatures.pdf",
+          "last-modified-on": "2020-08-15"
+		  },
+       "original": ""
+     },
+      {
+       "name": "Vedic Way of Understanding Brahmaa",
+       "english": "",
+       "hindi": "docs/BrahmaaFeatures.pdf",
+       "original": ""
+     },
+      {
+       "name": "Vedic Way of Understanding Ganesha",
+       "english": "",
+       "hindi": "docs/GaneshFeatures.pdf",
+       "original": ""
      },
      {
        "name": "Issues with Om Jai Jagadeesh Hare",
@@ -79,30 +100,6 @@
        "original": ""
      },
      {
-       "name": "Hanuman ka jeevan charitra Thakur Sukhram Das Chauhan",
-       "english": "docs/HanumaanEnglish.pdf",
-       "hindi": "docs/HanumaanHindi.pdf",
-       "original": ""
-     },
-     {
-       "name": "Sanskrit Songs and Shlokas Collection - Bhramana Pustika",
-       "english": "",
-       "hindi": "docs/bhramanaPustika.pdf",
-       "original": ""
-     },
-	 {
-       "name": "Poetic Meters Used in Vedas",
-       "english": "docs/Chhanda.pdf",
-       "hindi": "docs/ChhandaHindi.pdf",
-       "original": ""
-     },
-     {
-       "name": "What do Vedas Contain - Dr. Satish Prakash",
-       "english": "docs/Vedas-SatishPrakash.pdf",
-       "hindi": "",
-       "original": ""
-     },
-     {
        "name": "Chanting Rules",
        "english": "docs/ChantingRules.pdf",
        "hindi": "",
@@ -125,15 +122,13 @@
        "english": "docs/AvoidNews.pdf",
        "hindi": "",
        "original": ""
-     },
-     {
-       "name": "Sankrit Grammar (In Progress)",
-       "english": "docs/SanskritGrammar.pdf",
-       "hindi": "",
-       "original": ""
      }
     ],
     "links": [
+      {
+        "name": "Havan Material and Vedic Books",
+        "href": "https://kavyainc.com/"
+      },
       {
         "name": "Ayurvedum",
         "href": "https://www.ayurvedum.com/"

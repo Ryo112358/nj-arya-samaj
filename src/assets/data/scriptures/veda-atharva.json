@@ -1,16 +1,195 @@
 {
     "scripture": [
         {
+            "kaanda": 0,
+            "sukta": 0,
+            "mantras": 0,
+            "rishi": "",
+            "devataa": "Classification of Mantras",
+            "chhanda": "",
+            "document": {
+         				"filePath" : "docs/Atharvaveda00.000.pdf",
+         				"last-modified-on": "2022-06-16"
+       					},
+            "audio": "",
+            "summary": [
+                "Classification of Mantras"
+            ]
+        },
+        {
+            "kaanda": 1,
+            "sukta": 1,
+            "mantras": 4,
+            "rishi": "atharvaa",
+            "devataa": "vaachaspatiḥ",
+            "chhanda": "anuṣhṭup,bṛihatee",
+            "document": {
+         				"filePath" : "docs/Atharvaveda01.001.pdf",
+         				"last-modified-on": "2022-06-09"
+       					},
+            "audio": "",
+            "summary": [
+                "In this composition the sage discusses the importance of learning the science of matter and points towards the Vedas for such knowledge. A scholar who has mastered the Vedic wisdom can show the pathway of discipline to the entire society. Everyone should seek such a teacher and very humbly learn from him/her and conduct themselves accordingly."
+            ]
+        },
+        {
+            "kaanda": 2,
+            "sukta": 15,
+            "mantras": 6,
+            "rishi": "Brahmaa",
+            "devataa": "Praanah",
+            "chhanda": "Gaayatree",
+            "document": {
+         				"filePath" : "docs/Atharvaveda02.015.pdf",
+         				"last-modified-on": "2022-05-20"
+       					},
+            "audio": "",
+            "summary": [
+                "In this composition through sage Brahmaa, God has advised us to rise above the fear of the cycles of pleasures and sorrows, gain and loss, life and death and to be in harmony with everyone and everything around us; harmony evident through our benevolent thoughts and actions. God has created various cycles in this universe like the cycles of Mother Nature, the time cycle, orbits of Mother Earth and other planets etc. These cycles indicate that everything and every situation in this universe is subject to continuous change and nothing is permanent. Through this knowledge, we are advised to get rid of our attachments and fears."
+            ]
+        },
+        {
+            "kaanda": 2,
+            "sukta": 16,
+            "mantras": 5,
+            "rishi": "Brahmaa",
+            "devataa": "praaṇaapaanau, dyaavaapṛithivee, sooryaḥ, agniḥ, vishvambharaḥ",
+            "chhanda": "Gaayatree, Ushnik, Triṣhṭup",
+            "document": {
+         				"filePath" : "docs/Atharvaveda02.016.pdf",
+         				"last-modified-on": "2022-05-20"
+       					},
+            "audio": "",
+            "summary": [
+                "This composition contains prayers for life long vigor, vitality and functioning of our sensory organs."
+            ]
+        },
+        {
+            "kaanda": 2,
+            "sukta": 17,
+            "mantras": 7,
+            "rishi": "Brahmaa",
+            "devataa": "Ojaḥprabhṛiteeni",
+            "chhanda": "uṣhṇik, triṣhṭup, jagatee, atijagatee",
+            "document": {
+         				"filePath" : "docs/Atharvaveda02.017.pdf",
+         				"last-modified-on": "2022-05-20"
+       					},
+            "audio": "",
+            "summary": [
+                "God is the source of all strength, brilliance and abilities. This composition contains prayers to him to make us strong, brilliant and capable."
+            ]
+        },
+        {
+            "kaanda": 2,
+            "sukta": 18,
+            "mantras": 5,
+            "rishi": "Chaatanaḥ",
+            "devataa": "Agniḥ",
+            "chhanda": "Bṛihatee",
+            "document": {
+         				"filePath" : "docs/Atharvaveda02.018.pdf",
+         				"last-modified-on": "2022-05-20"
+       					},
+            "audio": "",
+            "summary": [
+                "In this composition through sage Chaatana, God is preaching about the vices that hinder our upliftment towards mokṣha.  The various vices that take us away from the righteous conduct are cruelty, meanness, talking incessantly, timidity and various physical and mental ailments. We are praying to the almighty to grant us capabilities so that we could keep these enemies under check."
+            ]
+        },
+        {
+            "kaanda": 3,
+            "sukta": 16,
+            "mantras": 7,
+            "rishi": "Atharvaa",
+            "devataa": "agneendraadayo mantroktaaḥ, bhagaḥ, uṣhaaḥ",
+            "chhanda": "paṅktiḥ, triṣhṭup, jagatee",
+            "document": {
+         				"filePath" : "docs/Atharvaveda03.016.pdf",
+         				"last-modified-on": "2022-05-19"
+       					},
+            "audio": "",
+            "summary": [
+                "This composition directs our attention to our morning routine and the desirable attitude as we prepare for our day. Shedding all laziness, one should wake up before dawn and after ablutions, quickly get engaged in a righteous behavior with positive mental attitude and humility. The goal of our activities should be to earn righteous wealth that can sustain and nourish us and the society as a whole as well."
+            ]
+        },
+        {
+            "kaanda": 3,
+            "sukta": 26,
+            "mantras": 6,
+            "rishi": "Atharvaa",
+            "devataa": "Various",
+            "chhanda": "triṣhṭup",
+            "document": {
+         				"filePath" : "docs/Atharvaveda03.026.pdf",
+         				"last-modified-on": "2022-06-18"
+       					},
+            "audio": "",
+            "summary": [
+                "In this composition the sage highlights the contribution of both scholars as well as the forces of nature, in nourishing, protecting and uplifting all living beings in all directions. The scholars from all varṇas apart from fulfilling their duties according to their varṇa, are also engaged in spreading their knowledge in the society. Similarly the elements of nature like the Sun, the Moon, mountains, clouds, rivers and oceans etc. keep nature's cycles working relentlessly. All of this happens in accordance with the laws created by God."
+            ]
+        },
+        {
             "kaanda": 3,
             "sukta": 27,
             "mantras": 6,
             "rishi": "Atharvaa",
-            "devataa": "Praachee, Agni, Asita, Aadityaa",
-            "chhanda": "Ashti (panchapadaa)",
-            "document": "docs/Atharvaveda03.027.pdf",
+            "devataa": "Various",
+            "chhanda": "atishakvaree, aṣhṭiḥ",
+            "document": {
+         				"filePath" : "docs/Atharvaveda03.027.pdf",
+         				"last-modified-on": "2022-05-20"
+       					},
             "audio": "",
             "summary": [
                 "This composition contains the mantras for mental circumnavigation done during meditation. We sequentially focus our attention in the eastern, southern, western, northern, lower and upper directions and find that God is not only present in all of the directions, but he is also protecting us and sending us bounties of wealth for our nourishment, happiness and prosperity."
+            ]
+        },
+        {
+            "kaanda": 3,
+            "sukta": 30,
+            "mantras": 7,
+            "rishi": "Atharvaa",
+            "devataa": "saammanasyam",
+            "chhanda": "anuṣhṭup, bṛihatee, triṣhṭup, jagatee",
+            "document": {
+         				"filePath" : "docs/Atharvaveda03.030.pdf",
+         				"last-modified-on": "2022-06-03"
+       					},
+            "audio": "",
+            "summary": [
+                "In this composition through Sage Atharvaa God orders us to maintain harmony in our homes as well as in the society. Like the spokes connect the hub of a wheel to its rim, everyone should work together for a common purpose. Everyone should diligently perform their duties to the best of their capabilities. There is no place in society for segregation based on caste etc.  People should eat together and enjoy the same nourishments. Everyone has equal rights and access to the sources of water. A family that prays and eats together can collectively weather any storm."
+            ]
+        },
+        {
+            "kaanda": 3,
+            "sukta": 31,
+            "mantras": 11,
+            "rishi": "brahmaa",
+            "devataa": "agnyaadayaḥ paapmahano mantroktaaḥ",
+            "chhanda": "anuṣhṭup, bṛihatee",
+            "document": {
+         				"filePath" : "docs/Atharvaveda03.031.pdf",
+         				"last-modified-on": "2022-06-06"
+       					},
+            "audio": "",
+            "summary": [
+                "In this composition the sage advises us to develop a virtuous disposition by practicing yoga, by donating, by remaining pure and pious and by utilizing mental strength, and to keep the tendencies of committing sin away by practicing detachment and non-interference, by utilizing our life for prosperity and by properly and discreetly utilizing the natural resources."
+            ]
+        },
+        {
+            "kaanda": 4,
+            "sukta": 2,
+            "mantras": 8,
+            "rishi": "venaḥ",
+            "devataa": "aatmaa",
+            "chhanda": "paṅtiḥ,triṣhṭup",
+            "document": {
+         				"filePath" : "docs/Atharvaveda04.002.pdf",
+         				"last-modified-on": "2022-06-07"
+       					},
+            "audio": "",
+            "summary": [
+                "This composition implores everyone to first identify God’s qualities and then worship him with unshakeable faith, instead blindly following what others say. Here God has been identified as the creator and the sustainer of this entire universe and everything that exists. He is the source of all of the energies and knowledge. He created this universe and all of the rules governing this universe, for the benefit of the souls. These rules have been unaltered since the beginning of the creation. He is responsible for maintaining the smooth motion of all of the heavenly bodies. He is the only one worthy of our prayers and no one else."
             ]
         },
         {
@@ -19,11 +198,14 @@
             "mantras": 4,
             "rishi": "Atharvaa",
             "devataa": "Garbhadrinhanam",
-            "chhanda": "Anushtup",
-            "document": "docs/Atharvaveda06.017.pdf",
+            "chhanda": "Anuṣhṭup",
+            "document": {
+         				"filePath" : "docs/Atharvaveda06.017.pdf",
+         				"last-modified-on": "2022-05-21"
+       					},
             "audio": "",
             "summary": [
-                "This composition contains prayers for protection of the fetus and the normal delivery of the child. As Mother Earth holds and nourishes all beings, plants and mountains in its womb, so should a woman hold and nourish her fetus."
+                "This composition contains prayers for protection of the fetus and the normal delivery of the child. As Mother Earth bears and nourishes all beings, plants and mountains in its womb, so should a woman bear and nourish her fetus with the abundant resources provided by Mother Nature."
             ]
         }
     ]
