@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1664070827417,
+  "timestamp": 1664075226799,
   "index": "https://ryo112358.github.io/nj-arya-samaj/index.html",
   "assetGroups": [
     {
@@ -11,15 +11,15 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://ryo112358.github.io/nj-arya-samaj/169.3a77f075b8d13ef2.js",
-        "https://ryo112358.github.io/nj-arya-samaj/519.efd97e2d7bac195f.js",
+        "https://ryo112358.github.io/nj-arya-samaj/169.1490a04e6932e4a0.js",
+        "https://ryo112358.github.io/nj-arya-samaj/519.7384de36b065ff0b.js",
         "https://ryo112358.github.io/nj-arya-samaj/common.b81226ccd5057656.js",
         "https://ryo112358.github.io/nj-arya-samaj/favicon.ico",
         "https://ryo112358.github.io/nj-arya-samaj/index.html",
-        "https://ryo112358.github.io/nj-arya-samaj/main.f6f156201123726d.js",
+        "https://ryo112358.github.io/nj-arya-samaj/main.4b8323aa8f66afac.js",
         "https://ryo112358.github.io/nj-arya-samaj/manifest.webmanifest",
         "https://ryo112358.github.io/nj-arya-samaj/polyfills.144218c06d91ffa3.js",
-        "https://ryo112358.github.io/nj-arya-samaj/runtime.cb1e61937368dafe.js",
+        "https://ryo112358.github.io/nj-arya-samaj/runtime.d2937c094e78aff8.js",
         "https://ryo112358.github.io/nj-arya-samaj/scripts.3512fe59ea26edcd.js",
         "https://ryo112358.github.io/nj-arya-samaj/styles.087f451068bc9864.css"
       ],
@@ -290,8 +290,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://ryo112358.github.io/nj-arya-samaj/169.3a77f075b8d13ef2.js": "6dcfbd34698e36959af432d20cde106029827078",
-    "https://ryo112358.github.io/nj-arya-samaj/519.efd97e2d7bac195f.js": "adedf2f6bab69938768bf18a8e7f19a5f766b074",
+    "https://ryo112358.github.io/nj-arya-samaj/169.1490a04e6932e4a0.js": "6025cb3435049229fe291f217d4b64bff3948bb5",
+    "https://ryo112358.github.io/nj-arya-samaj/519.7384de36b065ff0b.js": "7ed7ebc04a05c37e866fbacc607b2e6803ffbacf",
     "https://ryo112358.github.io/nj-arya-samaj/assets/audio/Atharvaveda01.001.mp3": "25cfe4b2d37ff07461c188307d6e425689b97e97",
     "https://ryo112358.github.io/nj-arya-samaj/assets/audio/BrahmStrotam.mp3": "2916da5030512b1e0ee40f15c8fb9860fd93760d",
     "https://ryo112358.github.io/nj-arya-samaj/assets/audio/HeVibho.mp3": "d883ecbb705347031912704a9b92dfa31062fc42",
@@ -545,11 +545,11 @@
     "https://ryo112358.github.io/nj-arya-samaj/assets/utility/robots.txt": "89f12b01813c91d294ab429202176fe5ba4cf4ac",
     "https://ryo112358.github.io/nj-arya-samaj/common.b81226ccd5057656.js": "6e9e8c776a8961b49f92d10ab5e3a31ac55b2e24",
     "https://ryo112358.github.io/nj-arya-samaj/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://ryo112358.github.io/nj-arya-samaj/index.html": "a56892bbf94df835b66803ecc1c2615718979c0d",
-    "https://ryo112358.github.io/nj-arya-samaj/main.f6f156201123726d.js": "c4807832cf72af9b4c31a548347b382ef18a991a",
+    "https://ryo112358.github.io/nj-arya-samaj/index.html": "c88560f52c32ef8a35ef0f30918f42db920b772f",
+    "https://ryo112358.github.io/nj-arya-samaj/main.4b8323aa8f66afac.js": "c25a0cda9c09e394fdbba13b47b55a93bdb3f9eb",
     "https://ryo112358.github.io/nj-arya-samaj/manifest.webmanifest": "dd2f8037817f7a329336db813491ae045a5d6c3b",
     "https://ryo112358.github.io/nj-arya-samaj/polyfills.144218c06d91ffa3.js": "546c5acb07c1bbd55fd03b8722c0540a50e33924",
-    "https://ryo112358.github.io/nj-arya-samaj/runtime.cb1e61937368dafe.js": "27db77aad7cbf7d3124b6beb13fc5b9494346978",
+    "https://ryo112358.github.io/nj-arya-samaj/runtime.d2937c094e78aff8.js": "1b9c3206e8f34b32d0d8e75b3c07c8907ce9f2d0",
     "https://ryo112358.github.io/nj-arya-samaj/scripts.3512fe59ea26edcd.js": "d96e76b6fdcd0ebdbd6468b50f3d6806b2a5835d",
     "https://ryo112358.github.io/nj-arya-samaj/styles.087f451068bc9864.css": "238c7c875299c221e38c2b696dfeffc673b2bffd"
   },
