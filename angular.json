@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "https://njaryasamaj.org/",
             "outputPath": "dist/nj-arya-samaj",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -73,7 +74,7 @@
               "ngswConfigPath": "ngsw-config.json"
             }
           },
-          "defaultConfiguration": ""
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -125,7 +126,9 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {}
+          "options": {
+            "baseHref": "https://ryo112358.github.io/nj-arya-samaj/"
+          }
         }
       }
     }
