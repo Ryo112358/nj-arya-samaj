@@ -2,8 +2,20 @@
     "mandalas": [
         {
             "id": 1,
-            "overview": "Mandala 1 Rig Veda | 169 Suktas | 1976 Mantras",
+            "overview": "Rig Veda Mandala 1 | 24 Anuvaakas | 169 Suktas | 1976 Mantras",
             "suktas": [
+                {
+                    "sukta": 0,
+                    "mantras": 0,
+                    "rishi": "Classification",
+                    "devataa": "",
+                    "chhanda": "",
+                    "document": "docs/Rigveda00.000.pdf",
+                    "audio": "",
+                    "summary": [
+                        "Two methods of classification of the mantras from the Rigveda."
+                    ]
+                },
                 {
                     "sukta": 1,
                     "mantras": 9,
@@ -17,52 +29,64 @@
                     ]
                 },
                 {
-                    "sukta": 2,
-                    "mantras": 9,
-                    "rishi": "Madhuchchhanda",
-                    "devataa": "Vayu",
-                    "chhanda": "Nichridgaayatree",
-                    "document": "docs/Rigveda01.002.pdf",
-                    "audio": "audio/Rigveda01.002.mp3",
+                    "sukta": 89,
+                    "mantras": 10,
+                    "rishi": "Rahooganaputro Gotama",
+                    "devataa": "Vishvedevaa",
+                    "chhanda": "bṛihatee, triṣhṭup, jagatee",
+                    "document": "docs/Rigveda01.089.pdf",
+                    "audio": "",
                     "summary": [
-                        "Coming soon"
+                        "This composition highlights the benefits of the company of the Vedic scholars and provides three directives. First directive is for the scholars that they should utilize their knowledge for the common good of the entire society. They should protect everyone from bad tendencies by guiding them towards the righteous path. Second directive is for the masses advising everyone to diligently seek the company of Vedic scholars. And the third tells everyone to act in accordance with the direction provided by the Vedic scholars."
                     ]
                 },
                 {
-                    "sukta": 3,
-                    "mantras": 12,
-                    "rishi": "Madhuchchhanda",
-                    "devataa": "Ashvinau",
-                    "chhanda": "Nichridgaayatree",
-                    "document": "docs/Rigveda01.003.pdf",
+                    "sukta": 99,
+                    "mantras": 1,
+                    "rishi": "mareechiputraḥ kashyapaḥ",
+                    "devataa": "jaatavedaa agniḥ",
+                    "chhanda": "trishtup",
+                    "document": "docs/Rigveda01.099.pdf",
                     "audio": "",
                     "summary": [
-                        "Coming soon"
+                        "This composition declares that God navigates us out of the ocean of miseries"
+                    ]
+                },
+                {
+                    "sukta": 187,
+                    "mantras": 11,
+                    "rishi": "Agastya",
+                    "devataa": "Oshadhayah",
+                    "chhanda": "gaayatree, uṣhṇik, anuṣhṭup",
+                    "document": "docs/Rigveda01.187.pdf",
+                    "audio": "",
+                    "summary": [
+                        "This composition describes the importance of pure and nourishing food. Good food acts as medicine and keeps us free from sickness. Everyone should appropriately consume dairy products like milk, yogurt and butter and other locally produced fruits, vegetables, grains etc. Food should be delicious and appetizing, however, one should not overindulge. One should first share food with others before consuming it. Eating alone should be avoided as much as possible."
                     ]
                 }
             ]
         },
         {
             "id": 2,
-            "overview": "Mandala 2 Rig Veda | 43 Suktas | 429 Mantras",
+            "overview": "Rig Veda Mandala 2 | 4 Anuvaakas | 43 Suktas | 429 Mantras",
             "suktas": [
                 {
-                    "sukta": 1,
-                    "mantras": 16,
-                    "rishi": "Aangirasah, Shaunahotro, Bhaargavo, Gritsamada",
-                    "devataa": "Agni",
-                    "chhanda": "Various",
-                    "document": "docs/Rigveda02.001.pdf",
+                    "sukta": 12,
+                    "mantras": 15,
+                    "rishi": "Gritsamada",
+                    "devataa": "Indra",
+                    "chhanda": "Triṣhṭup",
+                    "document": "docs/Rigveda02.012.pdf",
                     "audio": "",
                     "summary": [
-                        "Coming soon"
+                        "This composition is imploring humanity to be scholars and to know God. God is the manifest cause and the sustainer of the universe. God is the stabilizer of the celestial bodies and natural phenomena. He, the supreme justice, revered by all, is the tormentor of the sinners and the protector of the righteous. God can be realized by following the principles of brahmacharya. May everyone acquire a virtuous disposition and realize God."
                     ]
                 }
             ]
         },
         {
             "id": 3,
-            "overview": "Mandala 3 Rig Veda | 62 Suktas | 617 Mantras",
+            "overview": "Rig Veda Mandala 3 | 5 Anuvaakas | 62 Suktas | 617 Mantras",
             "suktas": [
                 {
                     "sukta": 1,
@@ -80,7 +104,7 @@
         },
         {
             "id": 4,
-            "overview": "Mandala 4 Rig Veda | 58 Suktas | 589 Mantras",
+            "overview": "Rig Veda Mandala 4 | 5 Anuvaakas | 58 Suktas | 589 Mantras",
             "suktas": [
                 {
                     "sukta": 1,
@@ -98,7 +122,7 @@
         },
         {
             "id": 5,
-            "overview": "Mandala 5 Rig Veda | 87 Suktas | 727 Mantras",
+            "overview": "Rig Veda Mandala 5 | 6 Anuvaakas | 87 Suktas | 727 Mantras",
             "suktas": [
                 {
                     "sukta": 51,
@@ -113,22 +137,22 @@
                     ]
                 },
                 {
-                    "sukta": 78,
-                    "mantras": 9,
-                    "rishi": "Saptavadhriraatreya",
-                    "devataa": "Ashvinau",
-                    "chhanda": "Various",
-                    "document": "docs/Rigveda05.078.pdf",
+                    "sukta": 70,
+                    "mantras": 4,
+                    "rishi": "Uruchakriraatreya",
+                    "devataa": "Mitraavaruṇau",
+                    "chhanda": "Gaayatree",
+                    "document": "docs/Rigveda05.070.pdf",
                     "audio": "",
                     "summary": [
-                        "Coming soon"
+                        "In this composition the sage advises about the qualities and duties of the king and his officials, participation of masses in the law and order and self dependency for everyone."
                     ]
                 }
             ]
         },
         {
             "id": 6,
-            "overview": "Mandala 6 Rig Veda | 75 Suktas | 765 Mantras",
+            "overview": "Rig Veda Mandala 6 | 6 Anuvaakas | 75 Suktas | 765 Mantras",
             "suktas": [
                 {
                     "sukta": 1,
@@ -146,20 +170,8 @@
         },
         {
             "id": 7,
-            "overview": "Mandala 7 Rig Veda | 104 Suktas | 841 Mantras",
+            "overview": "Rig Veda Mandala 7 | 6 Anuvaakas | 104 Suktas | 841 Mantras",
             "suktas": [
-                {
-                    "sukta": 35,
-                    "mantras": 15,
-                    "rishi": "Vashishtha",
-                    "devataa": "Vishvedevaa",
-                    "chhanda": "Various",
-                    "document": "docs/Rigveda07.035.pdf",
-                    "audio": "",
-                    "summary": [
-                        "Coming soon"
-                    ]
-                },
                 {
                     "sukta": 41,
                     "mantras": 15,
@@ -177,18 +189,30 @@
                     "mantras": 3,
                     "rishi": "Vashishtha",
                     "devataa": "Vaastoshpati",
-                    "chhanda": "Nichrittrishtup, Viraattrishtup",
+                    "chhanda": "Trishtup",
                     "document": "docs/Rigveda07.054.pdf",
                     "audio": "",
                     "summary": [
                         "Vaastu sukta touches on the subject of qualities of an ideal home and kind of behavior a householder is supposed to engage in while residing there. The word vaastoshpati can have two meanings in this context. Vaastoshpati can be referred to as God himself, thereby this composition becomes a prayer to God for granting us a good home and for helping us in engaging in righteous behavior while residing there. In the second meaning vaastoshpati can mean the householder residing in the house, thereby making this composition a directive for choosing a good home and engaging in righteous behavior."
+                    ]
+                },
+                {
+                    "sukta": 102,
+                    "mantras": 3,
+                    "rishi": "Vashishtha",
+                    "devataa": "Parjanya",
+                    "chhanda": "Gaayatree",
+                    "document": "docs/Rigveda07.102.pdf",
+                    "audio": "",
+                    "summary": [
+                        "In this composition the sage advises us to sing the glory of the God and perform yajna on a regular basis."
                     ]
                 }
             ]
         },
         {
             "id": 8,
-            "overview": "Mandala 8 Rig Veda | 103 Suktas | 1726 Mantras",
+            "overview": "Rig Veda Mandala 8 | 10 Anuvaakas | 103 Suktas | 1716 Mantras",
             "suktas": [
                 {
                     "sukta": 1,
@@ -206,7 +230,7 @@
         },
         {
             "id": 9,
-            "overview": "Mandala 9 Rig Veda | 114 Suktas | 1097 Mantras",
+            "overview": "Rig Veda Mandala 9 | 7 Anuvaakas | 114 Suktas | 1108 Mantras",
             "suktas": [
                 {
                     "sukta": 1,
@@ -224,66 +248,45 @@
         },
         {
             "id": 10,
-            "overview": "Mandala 10 Rig Veda | 191 Suktas | 1754 Mantras",
+            "overview": "Rig Veda Mandala 10 | 12 Anuvaakas | 191 Suktas | 1754 Mantras",
             "suktas": [
-                {
-                    "sukta": 63,
-                    "mantras": 17,
-                    "rishi": "Gayah Plaatah",
-                    "devataa": "Vishvedevaa, Pathyaa Svasti",
-                    "chhanda": "Various",
-                    "document": "docs/Rigveda10.063.pdf",
-                    "audio": "",
-                    "summary": [
-                        "Coming soon"
-                    ]
-                },
-                {
-                    "sukta": 90,
-                    "mantras": 16,
-                    "rishi": "Naaraayana",
-                    "devataa": "Purusha",
-                    "chhanda": "Various",
-                    "document": "docs/Rigveda10.090.pdf",
-                    "audio": "",
-                    "summary": [
-                        "Purush Sukta"
-                    ]
-                },
                 {
                     "sukta": 121,
                     "mantras": 10,
                     "rishi": "Praajaapatyo hiranyagarbhah",
                     "devataa": "kah",
-                    "chhanda": "Various",
+                    "chhanda": "Trishtup",
                     "document": "docs/Rigveda10.121.pdf",
-                    "audio": "",
+                    "audio": "audio/Rigveda10.121.mp3",
                     "summary": [
                         "Haranyagarbhah Sukta. This composition implores everyone to first identify God's qualities and then worship him with unshakeable faith, instead of a blind faith. Here God has been identified as the creator and sustainer of this entire universe and everything there is. He is the source of all energies and knowledge. He is responsible for maintaining the smooth motion of all heavenly bodies. He is the only one worthy of our prayers and no one else."
                     ]
                 },
                 {
-                    "sukta": 129,
-                    "mantras": 7,
-                    "rishi": "Prajaapati Parameshthee",
-                    "devataa": "Bhaavavrittam",
-                    "chhanda": "Various",
-                    "document": "docs/Rigveda10.129.pdf",
+                    "sukta": 151,
+                    "mantras": 5,
+                    "rishi": "kaamaayanee shraddhaa",
+                    "devataa": "shraddhaa",
+                    "chhanda": "anuṣhṭup",
+                    "document": {
+         				         "filePath" : "docs/Rigveda10.151.pdf",
+         				         "last-modified-on": "2022-06-20"
+       					        },
                     "audio": "",
                     "summary": [
-                        "Coming soon"
+                        "In the “Shradhaa sookta” the sage is highlighting the benefits of having a steadfast faith in the Vedic wisdom. Nothing is impossible for a person with faith and a strong resolve. Positive changes can be attained in the society only with faith and devotion. A human should consistently and with faith perform actions as detailed in the Vedas."
                     ]
                 },
                 {
                     "sukta": 158,
-                    "mantras": 3,
+                    "mantras": 5,
                     "rishi": "Sauryashchakshuh",
-                    "devataa": "Sooryaah",
-                    "chhanda": "Various",
+                    "devataa": "Sooryah",
+                    "chhanda": "Gaayatree",
                     "document": "docs/Rigveda10.158.pdf",
                     "audio": "",
                     "summary": [
-                        "This composition contains prayers for our protection to the governing divinities of all three realms, especially for the protection of the sight in our eyes."
+                        "This composition contains prayers to the governing divinities of all three realms for our protection, especially for the protection of the sight in our eyes. We should be able to distinguish between different objects. However, we should be free from any kind of discriminatory tendencies."
                     ]
                 },
                 {
@@ -291,11 +294,11 @@
                     "mantras": 3,
                     "rishi": "Garbhakartaa Prajaapatyo Vishnurvaa",
                     "devataa": "Lingoktaah",
-                    "chhanda": "Various",
+                    "chhanda": "Anuṣhṭup",
                     "document": "docs/Rigveda10.184.pdf",
                     "audio": "",
                     "summary": [
-                        "Garbha sukta contains prayers for protection and strengthening of the fetus."
+                        "Garbha sukta contains prayers for protection and health of the fetus."
                     ]
                 },
                 {
@@ -303,7 +306,7 @@
                     "mantras": 3,
                     "rishi": "Aghamarshana",
                     "devataa": "Bhaavavrittam",
-                    "chhanda": "Various",
+                    "chhanda": "Anuṣhṭup",
                     "document": "docs/Rigveda10.190.pdf",
                     "audio": "",
                     "summary": [
@@ -312,14 +315,14 @@
                 },
                 {
                     "sukta": 191,
-                    "mantras": 3,
+                    "mantras": 4,
                     "rishi": "Samvanana",
                     "devataa": "Agni, Sanjnaanam",
-                    "chhanda": "Various",
+                    "chhanda": "Anuṣhṭup, Triṣhṭup",
                     "document": "docs/Rigveda10.191.pdf",
                     "audio": "",
                     "summary": [
-                        "Coming soon"
+                        "This composition contains prayers and directives for harmony between various elements, living beings, human race, citizens and team members. Every human has been directed to rise above selfish motives and prioritize the fulfillment of his/her duties towards the group, nation, humanity and the world as a whole before his/her self interest."
                     ]
                 }
             ]

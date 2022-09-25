@@ -1,6 +1,18 @@
 {
     "scripture": [
         {
+            "chapter": 31,
+            "mantras": "22",
+            "rishi": "Naaraayaṇa",
+            "devataa": "puruṣhaḥ, eeshaanaḥ, sraṣhṭeshvaraḥ, aadityaḥ, sooryaḥ and vishvedevaaḥ",
+            "chhanda": "anuṣhṭup and triṣhṭup",
+            "document": "docs/Yajurveda31.pdf",
+            "audio": "",
+            "summary": [
+                "In this chapter sage Naaraayaṇa describes God’s vastness. Evaluating the entire creation, he identifies God as the creator of this universe. The characteristics of this universe are as per the guidelines established by God. Everywhere in this universe, presence of God is felt. In the later part, sage Uttara Naaraayaṇa is praying to god to grant knowledge and wisdom to everyone. He also reiterates that the knowing god is the only pathway that lead to salvation; there is no other way besides this."
+            ]
+        },
+        {
             "chapter": 34,
             "mantras": "",
             "rishi": "",
@@ -10,6 +22,18 @@
             "audio": "",
             "summary": [
                 "Coming soon"
+            ]
+        },
+        {
+            "chapter": 36,
+            "mantras": "24",
+            "rishi": "dadhyaṅṅaatharvaṇa, lopaamudraa, medhaatithi, sindhudveepa, vaamadeva, vishvaamitra",
+            "devataa": "aapa, agni, bṛihaspati, indra, ishvara, liṅgoktaa, mitraadayo liṅgoktaa, pṛithivee, savitaa, soma, soorya, vaatadaya",
+            "chhanda": "anuṣhṭup, atishakvaree, bṛihatee, gaayatree, jagatee, paṅktiḥ, shakvaree, triṣhṭup, uṣhṇik",
+            "document": "docs/Yajurveda36.pdf",
+            "audio": "",
+            "summary": [
+                "In the thirty-sixth chapter, the Sages advise us to imbibe the Vedic wisdom, emulate it in our conduct, remove our flaws and increase our mental strength. The Sages discuss some basic qualities of God and after offering obeisance to the Almighty, they offer prayers for guiding our intellects on to the righteous path. The Sages also offer prayers and advice for everyone’s prosperity, bliss, peace, harmony, fearlessness, health and longevity."
             ]
         },
         {
@@ -29,7 +53,7 @@
             "mantras": 17,
             "rishi": "Deerghatamaa",
             "devataa": "Aatmaa, Brahma",
-            "chhanda": "Anushtup, Trishtup, Svaraadjagatee, Svaraadushnik",
+            "chhanda": "Anuṣhṭup, Triṣhṭup, Svaraaḍjagatee, Svaraaḍuṣhnik",
             "document": "docs/Yajurveda40.pdf",
             "audio": "",
             "summary": [
