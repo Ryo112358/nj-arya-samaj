@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'pastDateFilter'
+    name: 'pastDateFilter',
+    standalone: false
 })
 export class PastDateFilterPipe implements PipeTransform {
 

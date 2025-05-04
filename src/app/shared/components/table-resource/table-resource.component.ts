@@ -3,9 +3,10 @@ import { Component, OnInit, Input } from '@angular/core';
 import { parseAsDate } from 'app/shared/utility/utility';
 
 @Component({
-  selector: 'table-resource',
-  templateUrl: './table-resource.component.html',
-  styleUrls: ['./table-resource.component.scss']
+    selector: 'table-resource',
+    templateUrl: './table-resource.component.html',
+    styleUrls: ['./table-resource.component.scss'],
+    standalone: false
 })
 export class TableResourceComponent implements OnInit {
 

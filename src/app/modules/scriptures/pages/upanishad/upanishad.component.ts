@@ -3,12 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-upanishad',
-  templateUrl: './upanishad.component.html',
-  styleUrls: [
-    '../../scriptures.mod.scss',
-    './upanishad.component.scss'
-  ]
+    selector: 'app-upanishad',
+    templateUrl: './upanishad.component.html',
+    styleUrls: [
+        '../../scriptures.mod.scss',
+        './upanishad.component.scss'
+    ],
+    standalone: false
 })
 export class UpanishadComponent implements OnInit, OnDestroy {
 

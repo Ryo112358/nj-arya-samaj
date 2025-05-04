@@ -3,12 +3,13 @@ import { Subscription } from 'rxjs';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-veda-saama',
-  templateUrl: './veda-saama.component.html',
-  styleUrls: [
-    '../../scriptures.mod.scss',
-    './veda-saama.component.scss'
-  ]
+    selector: 'app-veda-saama',
+    templateUrl: './veda-saama.component.html',
+    styleUrls: [
+        '../../scriptures.mod.scss',
+        './veda-saama.component.scss'
+    ],
+    standalone: false
 })
 export class VedaSaamaComponent implements OnInit, OnDestroy {
 

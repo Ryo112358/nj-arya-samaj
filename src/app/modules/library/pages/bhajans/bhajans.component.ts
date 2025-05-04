@@ -3,9 +3,10 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-bhajans',
-  templateUrl: './bhajans.component.html',
-  styleUrls: ['./bhajans.component.scss']
+    selector: 'app-bhajans',
+    templateUrl: './bhajans.component.html',
+    styleUrls: ['./bhajans.component.scss'],
+    standalone: false
 })
 export class BhajansComponent implements OnInit, OnDestroy {
   

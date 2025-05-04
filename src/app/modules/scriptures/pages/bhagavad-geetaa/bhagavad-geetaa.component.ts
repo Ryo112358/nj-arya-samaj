@@ -3,12 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-bhagavad-geetaa',
-  templateUrl: './bhagavad-geetaa.component.html',
-  styleUrls: [
-    '../../scriptures.mod.scss',
-    './bhagavad-geetaa.component.scss'
-  ]
+    selector: 'app-bhagavad-geetaa',
+    templateUrl: './bhagavad-geetaa.component.html',
+    styleUrls: [
+        '../../scriptures.mod.scss',
+        './bhagavad-geetaa.component.scss'
+    ],
+    standalone: false
 })
 export class BhagavadGeetaaComponent implements OnInit, OnDestroy {
 

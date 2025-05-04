@@ -3,9 +3,10 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-sanskaara',
-  templateUrl: './sanskaara.component.html',
-  styleUrls: ['./sanskaara.component.scss']
+    selector: 'app-sanskaara',
+    templateUrl: './sanskaara.component.html',
+    styleUrls: ['./sanskaara.component.scss'],
+    standalone: false
 })
 export class SanskaaraComponent implements OnInit, OnDestroy {
   

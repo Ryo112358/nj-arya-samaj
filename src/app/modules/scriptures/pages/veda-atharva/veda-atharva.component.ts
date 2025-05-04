@@ -3,12 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-veda-atharva',
-  templateUrl: './veda-atharva.component.html',
-  styleUrls: [
-    '../../scriptures.mod.scss',
-    './veda-atharva.component.scss'
-  ]
+    selector: 'app-veda-atharva',
+    templateUrl: './veda-atharva.component.html',
+    styleUrls: [
+        '../../scriptures.mod.scss',
+        './veda-atharva.component.scss'
+    ],
+    standalone: false
 })
 export class VedaAtharvaComponent implements OnInit, OnDestroy {
 

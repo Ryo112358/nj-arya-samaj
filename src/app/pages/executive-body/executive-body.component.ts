@@ -5,9 +5,10 @@ import { Subscription } from 'rxjs';
 import { ExecutiveBody } from 'app/core/models';
 
 @Component({
-  selector: 'app-executive-body',
-  templateUrl: './executive-body.component.html',
-  styleUrls: ['./executive-body.component.scss']
+    selector: 'app-executive-body',
+    templateUrl: './executive-body.component.html',
+    styleUrls: ['./executive-body.component.scss'],
+    standalone: false
 })
 export class ExecutiveBodyComponent implements OnInit, OnDestroy {
 

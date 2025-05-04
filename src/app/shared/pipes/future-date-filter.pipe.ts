@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'futureDateFilter'
+    name: 'futureDateFilter',
+    standalone: false
 })
 export class FutureDateFilterPipe implements PipeTransform {
 

@@ -1,7 +1,8 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'dateToSafariFormat'
+    name: 'dateToSafariFormat',
+    standalone: false
 })
 export class DateToSafariFormatPipe implements PipeTransform {
 

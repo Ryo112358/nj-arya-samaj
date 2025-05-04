@@ -7,12 +7,13 @@ import { JsonLoaderService } from 'app/core/services';
 // import rigJSON from '../../../../../../assets/data/scriptures/veda-rig.json';
 
 @Component({
-  selector: 'mandala',
-  templateUrl: './mandala.component.html',
-  styleUrls: [
-    '../../../scriptures.mod.scss',
-    './mandala.component.scss'
-  ]
+    selector: 'mandala',
+    templateUrl: './mandala.component.html',
+    styleUrls: [
+        '../../../scriptures.mod.scss',
+        './mandala.component.scss'
+    ],
+    standalone: false
 })
 export class MandalaComponent implements OnInit, OnDestroy {
 

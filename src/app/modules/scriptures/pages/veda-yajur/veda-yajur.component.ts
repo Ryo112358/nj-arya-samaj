@@ -3,12 +3,13 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-veda-yajur',
-  templateUrl: './veda-yajur.component.html',
-  styleUrls: [
-    '../../scriptures.mod.scss',
-    './veda-yajur.component.scss'
-  ]
+    selector: 'app-veda-yajur',
+    templateUrl: './veda-yajur.component.html',
+    styleUrls: [
+        '../../scriptures.mod.scss',
+        './veda-yajur.component.scss'
+    ],
+    standalone: false
 })
 export class VedaYajurComponent implements OnInit, OnDestroy {
 

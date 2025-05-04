@@ -3,13 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
 ```cmd
-ng update @angular/core@19 @angular/cli@19 @angular/pwa@19
+ng update @angular/core@20 @angular/cli@20 @angular/pwa@20
 ```
-
-NOTE: Don't think Angular Material is used anywhere. Remove eventually...
-    "@angular/cdk": "^15.2.9",
-    "@angular/material": "^15.2.9",
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
 
 ## Development server
 

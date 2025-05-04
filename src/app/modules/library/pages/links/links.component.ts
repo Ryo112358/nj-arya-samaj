@@ -3,9 +3,10 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-links',
-  templateUrl: './links.component.html',
-  styleUrls: ['./links.component.scss']
+    selector: 'app-links',
+    templateUrl: './links.component.html',
+    styleUrls: ['./links.component.scss'],
+    standalone: false
 })
 export class LinksComponent implements OnInit, OnDestroy {
   

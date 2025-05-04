@@ -3,9 +3,10 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 
 @Component({
-  selector: 'app-prayers',
-  templateUrl: './prayers.component.html',
-  styleUrls: ['./prayers.component.scss']
+    selector: 'app-prayers',
+    templateUrl: './prayers.component.html',
+    styleUrls: ['./prayers.component.scss'],
+    standalone: false
 })
 export class PrayersComponent implements OnInit, OnDestroy {
   

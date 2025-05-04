@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-donate-via-paypal',
-  templateUrl: './donate-via-paypal.component.html',
-  styleUrls: ['./donate-via-paypal.component.scss']
+    selector: 'app-donate-via-paypal',
+    templateUrl: './donate-via-paypal.component.html',
+    styleUrls: ['./donate-via-paypal.component.scss'],
+    standalone: false
 })
 export class DonateViaPaypalComponent implements OnInit {
 
