@@ -6,8 +6,8 @@ import { ActivatedRoute } from '@angular/router';
   selector: 'app-veda-saama',
   templateUrl: './veda-saama.component.html',
   styleUrls: [
-    '../../scriptures-module.shared.css',
-    './veda-saama.component.css'
+    '../../scriptures.mod.scss',
+    './veda-saama.component.scss'
   ]
 })
 export class VedaSaamaComponent implements OnInit, OnDestroy {

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-donate-via-paypal',
   templateUrl: './donate-via-paypal.component.html',
-  styleUrls: ['./donate-via-paypal.component.css']
+  styleUrls: ['./donate-via-paypal.component.scss']
 })
 export class DonateViaPaypalComponent implements OnInit {
 

@@ -8,7 +8,7 @@ import { JsonLoaderService } from 'app/core/services';
 @Component({
   selector: 'app-humanitarian-work',
   templateUrl: './humanitarian-work.component.html',
-  styleUrls: ['./humanitarian-work.component.css']
+  styleUrls: ['./humanitarian-work.component.scss']
 })
 export class HumanitarianWorkComponent implements OnInit, OnDestroy {
 

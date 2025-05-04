@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-sanskaara',
   templateUrl: './sanskaara.component.html',
-  styleUrls: ['./sanskaara.component.css']
+  styleUrls: ['./sanskaara.component.scss']
 })
 export class SanskaaraComponent implements OnInit, OnDestroy {
   

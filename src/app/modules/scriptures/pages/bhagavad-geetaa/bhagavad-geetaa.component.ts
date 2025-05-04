@@ -6,8 +6,8 @@ import { Subscription } from 'rxjs';
   selector: 'app-bhagavad-geetaa',
   templateUrl: './bhagavad-geetaa.component.html',
   styleUrls: [
-    '../../scriptures-module.shared.css',
-    './bhagavad-geetaa.component.css'
+    '../../scriptures.mod.scss',
+    './bhagavad-geetaa.component.scss'
   ]
 })
 export class BhagavadGeetaaComponent implements OnInit, OnDestroy {

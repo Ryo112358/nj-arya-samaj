@@ -6,8 +6,8 @@ import { Subscription } from 'rxjs';
   selector: 'app-veda-atharva',
   templateUrl: './veda-atharva.component.html',
   styleUrls: [
-    '../../scriptures-module.shared.css',
-    './veda-atharva.component.css'
+    '../../scriptures.mod.scss',
+    './veda-atharva.component.scss'
   ]
 })
 export class VedaAtharvaComponent implements OnInit, OnDestroy {

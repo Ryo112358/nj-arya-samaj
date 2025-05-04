@@ -5,7 +5,11 @@
   "projects": {
     "nj-arya-samaj": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -13,12 +17,12 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/",
             "outputPath": "dist/nj-arya-samaj",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "aot": false,
             "assets": [
               "src/favicon.ico",
@@ -43,6 +47,9 @@
             "namedChunks": true
           },
           "configurations": {
+            "development": {
+              "optimization": false
+            },
             "production": {
               "baseHref": "https://njaryasamaj.org/",
               "fileReplacements": [
@@ -79,14 +86,15 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "options": {
-            "browserTarget": "nj-arya-samaj:build"
-          },
           "configurations": {
+            "development": {
+              "browserTarget": "nj-arya-samaj:build:development"
+            },
             "production": {
               "browserTarget": "nj-arya-samaj:build:production"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

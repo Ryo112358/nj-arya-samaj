@@ -5,8 +5,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-veda-rig',
   templateUrl: './veda-rig.component.html',
   styleUrls: [
-    '../../scriptures-module.shared.css',
-    './veda-rig.component.css'
+    '../../scriptures.mod.scss',
+    './veda-rig.component.scss'
   ]
 })
 export class VedaRigComponent implements OnInit {

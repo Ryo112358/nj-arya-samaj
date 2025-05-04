@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-bhajans',
   templateUrl: './bhajans.component.html',
-  styleUrls: ['./bhajans.component.css']
+  styleUrls: ['./bhajans.component.scss']
 })
 export class BhajansComponent implements OnInit, OnDestroy {
   

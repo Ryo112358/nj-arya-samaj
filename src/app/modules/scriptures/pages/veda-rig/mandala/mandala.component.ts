@@ -10,8 +10,8 @@ import { JsonLoaderService } from 'app/core/services';
   selector: 'mandala',
   templateUrl: './mandala.component.html',
   styleUrls: [
-    '../../../scriptures-module.shared.css',
-    './mandala.component.css'
+    '../../../scriptures.mod.scss',
+    './mandala.component.scss'
   ]
 })
 export class MandalaComponent implements OnInit, OnDestroy {

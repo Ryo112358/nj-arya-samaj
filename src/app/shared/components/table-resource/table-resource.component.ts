@@ -5,7 +5,7 @@ import { parseAsDate } from 'app/shared/utility/utility';
 @Component({
   selector: 'table-resource',
   templateUrl: './table-resource.component.html',
-  styleUrls: ['./table-resource.component.css']
+  styleUrls: ['./table-resource.component.scss']
 })
 export class TableResourceComponent implements OnInit {
 

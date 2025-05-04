@@ -6,8 +6,8 @@ import { Subscription } from 'rxjs';
   selector: 'app-upanishad',
   templateUrl: './upanishad.component.html',
   styleUrls: [
-    '../../scriptures-module.shared.css',
-    './upanishad.component.css'
+    '../../scriptures.mod.scss',
+    './upanishad.component.scss'
   ]
 })
 export class UpanishadComponent implements OnInit, OnDestroy {

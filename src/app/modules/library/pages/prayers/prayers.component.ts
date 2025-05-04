@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-prayers',
   templateUrl: './prayers.component.html',
-  styleUrls: ['./prayers.component.css']
+  styleUrls: ['./prayers.component.scss']
 })
 export class PrayersComponent implements OnInit, OnDestroy {
   
