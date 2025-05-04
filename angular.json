@@ -87,10 +87,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "nj-arya-samaj:build:development"
+              "buildTarget": "nj-arya-samaj:build:development"
             },
             "production": {
-              "browserTarget": "nj-arya-samaj:build:production"
+              "buildTarget": "nj-arya-samaj:build:production"
             }
           },
           "defaultConfiguration": "development"
@@ -98,7 +98,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "nj-arya-samaj:build"
+            "buildTarget": "nj-arya-samaj:build"
           }
         },
         "test": {

@@ -3,8 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
 ```cmd
-ng update @angular/core@17 @angular/cli@17 @angular/pwa@17
-ng update @angular/material@16
+ng update @angular/core@18 @angular/cli@18 @angular/pwa@18
 ```
 
 NOTE: Don't think Angular Material is used anywhere. Remove eventually...
