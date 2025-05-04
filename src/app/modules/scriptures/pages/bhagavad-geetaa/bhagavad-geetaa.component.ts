@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs';
   selector: 'app-bhagavad-geetaa',
   templateUrl: './bhagavad-geetaa.component.html',
   styleUrls: [
-    '../../scriptures.module.css',
+    '../../scriptures-module.shared.css',
     './bhagavad-geetaa.component.css'
   ]
 })

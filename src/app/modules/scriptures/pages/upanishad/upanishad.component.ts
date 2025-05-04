@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs';
   selector: 'app-upanishad',
   templateUrl: './upanishad.component.html',
   styleUrls: [
-    '../../scriptures.module.css',
+    '../../scriptures-module.shared.css',
     './upanishad.component.css'
   ]
 })

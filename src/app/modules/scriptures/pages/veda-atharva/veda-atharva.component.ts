@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs';
   selector: 'app-veda-atharva',
   templateUrl: './veda-atharva.component.html',
   styleUrls: [
-    '../../scriptures.module.css',
+    '../../scriptures-module.shared.css',
     './veda-atharva.component.css'
   ]
 })

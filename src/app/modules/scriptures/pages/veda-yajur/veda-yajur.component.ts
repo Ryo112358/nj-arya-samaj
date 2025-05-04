@@ -6,7 +6,7 @@ import { Subscription } from 'rxjs';
   selector: 'app-veda-yajur',
   templateUrl: './veda-yajur.component.html',
   styleUrls: [
-    '../../scriptures.module.css',
+    '../../scriptures-module.shared.css',
     './veda-yajur.component.css'
   ]
 })

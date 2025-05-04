@@ -10,7 +10,7 @@ import { JsonLoaderService } from 'app/core/services';
   selector: 'mandala',
   templateUrl: './mandala.component.html',
   styleUrls: [
-    '../../../scriptures.module.css',
+    '../../../scriptures-module.shared.css',
     './mandala.component.css'
   ]
 })

@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-veda-rig',
   templateUrl: './veda-rig.component.html',
   styleUrls: [
-    '../../scriptures.module.css',
+    '../../scriptures-module.shared.css',
     './veda-rig.component.css'
   ]
 })

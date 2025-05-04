@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "https://njaryasamaj.org/",
+            "baseHref": "/",
             "outputPath": "dist/nj-arya-samaj",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -44,6 +44,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://njaryasamaj.org/",
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -127,7 +128,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://ryo112358.github.io/nj-arya-samaj/"
+            "baseHref": "https://coffeelessprogrammer.github.io/nj-arya-samaj/"
           }
         }
       }
