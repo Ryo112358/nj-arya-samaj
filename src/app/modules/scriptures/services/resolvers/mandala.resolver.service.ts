@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Router, Resolve, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
+import { Router, ActivatedRouteSnapshot, RouterStateSnapshot } from '@angular/router';
 import { Observable } from 'rxjs';
 import { environment } from 'environments/environment';
 
 import { JsonLoaderService } from 'app/core/services';
 
 @Injectable()
-export class MandalaResolver implements Resolve<any> {
+export class MandalaResolver  {
 
   private json: string = 'veda-rig.json';
 

@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Resolve } from '@angular/router';
+
 
 import { GeneralService } from 'app/core/services';
 
 @Injectable()
-export class AboutPageResolver implements Resolve<any>  {
+export class AboutPageResolver   {
 
   constructor(private generalService: GeneralService) { }
 

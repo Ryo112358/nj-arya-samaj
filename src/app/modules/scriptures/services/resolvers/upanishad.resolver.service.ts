@@ -1,10 +1,10 @@
 import { Injectable } from '@angular/core';
-import { Resolve } from '@angular/router';
+
 
 import { ScripturesService } from '../scriptures.service';
 
 @Injectable()
-export class UpanishadResolver implements Resolve<any>  {
+export class UpanishadResolver   {
 
   constructor(private scripturesService: ScripturesService) { }
 

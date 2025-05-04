@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.4.
 
+```cmd
+ng update @angular/core@17 @angular/cli@17 @angular/pwa@17
+ng update @angular/material@16
+```
+
+NOTE: Don't think Angular Material is used anywhere. Remove eventually...
+    "@angular/cdk": "^15.2.9",
+    "@angular/material": "^15.2.9",
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

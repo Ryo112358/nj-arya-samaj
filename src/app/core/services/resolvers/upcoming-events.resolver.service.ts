@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { Resolve } from '@angular/router';
+
 
 import { GeneralService } from 'app/core/services';
 
 import { FutureDateFilterPipe } from 'app/shared/pipes';
 
 @Injectable()
-export class UpcomingEventsResolver implements Resolve<any>  {
+export class UpcomingEventsResolver   {
 
   constructor(
     private generalService: GeneralService,

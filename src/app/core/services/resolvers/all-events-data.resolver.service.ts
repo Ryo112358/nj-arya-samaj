@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Resolve } from '@angular/router';
+
 
 import { GeneralService } from 'app/core/services';
 
@@ -8,7 +8,7 @@ import { PastDateFilterPipe, FutureDateFilterPipe } from 'app/shared/pipes';
 import { clone } from 'app/shared/utility';
 
 @Injectable()
-export class AllEventsDataResolver implements Resolve<any>  {
+export class AllEventsDataResolver   {
 
   constructor(
     private generalService: GeneralService,
